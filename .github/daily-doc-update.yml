@@ -1,0 +1,41 @@
+name: Daily Code Analysis & Doc Update
+
+on:
+  schedule:
+    # Daily 11:00 AM IST (Which is 05:30 AM UTC)
+    - cron: '30 5 * * *'
+  workflow_dispatch: # Manual trigger for testing
+
+jobs:
+  analyze-and-update-docs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Analyze Recent Code Changes
+        id: analyze
+        run: |
+          echo "# Daily Code Analysis Report - $(date)" > temp_summary.md
+          echo "" >> temp_summary.md
+          echo "## Recent Commits & Structural Updates" >> temp_summary.md
+          git log -n 5 --pretty=format:"- **%h** - %s (%an, %ar)" >> temp_summary.md
+          echo "" >> temp_summary.md
+          echo "## Modified Files List" >> temp_summary.md
+          git diff --name-status HEAD~1 HEAD >> temp_summary.md || echo "No recent diffs found." >> temp_summary.md
+
+      - name: Update claude.md Document
+        run: |
+          cat temp_summary.md >> claude.md
+          rm temp_summary.md
+
+      - name: Commit and Push Updates to Repo
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add claude.md
+          git commit -m "docs: auto-update claude.md with daily analysis [skip ci]" || echo "No changes to commit"
+          git push
