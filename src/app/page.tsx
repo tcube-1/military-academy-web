@@ -1,9 +1,18 @@
-import Image from "next/image";
+import LandingPage from '@/components/shared/LandingPage';
+import Navbar from '@/components/shared/NavBar';
+import Ribbon from '@/components/shared/Ribbon';
+import { cn } from '@/lib/utils';
 
 export default function Home() {
   return (
-    <div className="bg-copper-400 flex flex-col flex-1 items-center justify-center  font-sans  dark:bg-ink-black-950">
-      <div>hello</div>
+    <div className="relative">
+      <Ribbon />
+      <Navbar />
+
+      <main className="bg-background">
+        <LandingPage />
+        <div>hello</div>
+      </main>
     </div>
   );
 }

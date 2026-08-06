@@ -1,87 +1,279 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* =========================================================
+   INDIAN DEFENCE BRAND PALETTE & THEME VARIABLES
+========================================================= */
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* NAVY BLUE (Primary - Navy Identity) */
+  --color-primary-50: rgb(238 242 246);
+  --color-primary-100: rgb(213 226 240);
+  --color-primary-200: rgb(175 199 225);
+  --color-primary-300: rgb(128 165 207);
+  --color-primary-400: rgb(86 130 185);
+  --color-primary-500: rgb(44 94 159);
+  --color-primary-600: rgb(27 54 93); /* #1B365D */
+  --color-primary-700: rgb(20 42 74);
+  --color-primary-800: rgb(15 30 55);
+  --color-primary-900: rgb(10 25 47); /* #0A192F */
+  --color-primary-950: rgb(5 12 24);
+
+  /* OLIVE GREEN (Secondary - Army Identity) */
+  --color-secondary-50: rgb(247 248 243);
+  --color-secondary-100: rgb(235 238 226);
+  --color-secondary-200: rgb(210 216 193);
+  --color-secondary-300: rgb(181 190 155);
+  --color-secondary-400: rgb(147 159 113);
+  --color-secondary-500: rgb(111 123 75);
+  --color-secondary-600: rgb(75 83 32); /* #4B5320 */
+  --color-secondary-700: rgb(59 83 35);
+  --color-secondary-800: rgb(45 55 24);
+  --color-secondary-900: rgb(30 35 15);
+  --color-secondary-950: rgb(18 20 8);
+
+  /* SKY BLUE (Accent 1 - Air Force Identity) */
+  --color-sky-50: rgb(239 246 255);
+  --color-sky-100: rgb(219 234 254);
+  --color-sky-200: rgb(191 219 254);
+  --color-sky-300: rgb(147 197 253);
+  --color-sky-400: rgb(96 165 250);
+  --color-sky-500: rgb(74 144 226); /* #4A90E2 */
+  --color-sky-600: rgb(37 99 235);
+  --color-sky-700: rgb(29 78 216);
+  --color-sky-800: rgb(30 64 175);
+  --color-sky-900: rgb(30 58 138);
+  --color-sky-950: rgb(23 37 84);
+
+  /* SAFFRON ORANGE (Accent 2 - National Pride) */
+  --color-saffron-50: rgb(255 247 237);
+  --color-saffron-100: rgb(255 237 213);
+  --color-saffron-200: rgb(254 215 170);
+  --color-saffron-300: rgb(253 186 116);
+  --color-saffron-400: rgb(251 146 60);
+  --color-saffron-500: rgb(255 153 51); /* #FF9933 */
+  --color-saffron-600: rgb(234 88 12);
+  --color-saffron-700: rgb(194 65 12);
+  --color-saffron-800: rgb(154 52 18);
+  --color-saffron-900: rgb(124 45 18);
+  --color-saffron-950: rgb(67 20 7);
+
+  /* METALLIC GOLD (Accent 3 - Honors & Trophies) */
+  --color-gold-50: rgb(253 250 236);
+  --color-gold-100: rgb(249 242 208);
+  --color-gold-200: rgb(241 226 153);
+  --color-gold-300: rgb(231 204 94);
+  --color-gold-400: rgb(219 181 57);
+  --color-gold-500: rgb(212 175 55); /* #D4AF37 */
+  --color-gold-600: rgb(161 125 31);
+  --color-gold-700: rgb(128 95 26);
+  --color-gold-800: rgb(104 77 24);
+  --color-gold-900: rgb(89 65 22);
+  --color-gold-950: rgb(52 35 9);
+
+  /* SHADCN & UI BASE - LIGHT MODE */
+  --background: oklch(0.99 0 0);
+  --foreground: var(--color-primary-950);
+
+  --card: oklch(1 0 0);
+  --card-foreground: var(--color-primary-950);
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--color-primary-950);
+
+  --primary: var(--color-primary-900);
+  --primary-foreground: oklch(0.99 0 0);
+  --primary-hover: var(--color-primary-700);
+
+  --secondary: var(--color-secondary-100);
+  --secondary-foreground: var(--color-secondary-900);
+  --secondary-hover: var(--color-secondary-200);
+
+  --muted: oklch(0.96 0 0);
+  --muted-foreground: oklch(0.55 0 0);
+
+  --accent: var(--color-sky-50);
+  --accent-foreground: var(--color-sky-900);
+  --accent-hover: var(--color-sky-100);
+
+  /* Added Foreground for direct use */
+  --accent-2: var(--color-saffron-500);
+  --accent-2-foreground: oklch(0.99 0 0); /* White text on Saffron */
+  --accent-2-hover: var(--color-saffron-600);
+
+  /* Added Foreground for direct use */
+  --accent-3: var(--color-gold-500);
+  --accent-3-foreground: var(--color-primary-950); /* Dark text on Gold */
+  --accent-3-hover: var(--color-gold-600);
+
+  --destructive: rgb(220 38 38);
+  --border: oklch(0.92 0 0);
+  --input: oklch(0.92 0 0);
+  --ring: var(--color-primary-900);
+
+  --success: var(--color-secondary-600);
+  --success-hover: var(--color-secondary-700);
+
+  --warning: var(--color-saffron-500);
+  --warning-hover: var(--color-saffron-600);
+
+  --danger: rgb(220 38 38);
+  --danger-hover: rgb(185 28 28);
+
+  --info: var(--color-sky-500);
+  --info-hover: var(--color-sky-600);
+
+  --radius: 0.625rem;
+
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: var(--color-primary-950);
+  --sidebar-primary: var(--color-primary-900);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: var(--color-secondary-100);
+  --sidebar-accent-foreground: var(--color-secondary-900);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: var(--color-primary-500);
 }
 
+/* SHADCN & UI BASE - DARK MODE */
+.dark {
+  --background: rgb(10 15 28); /* Deep dark military slate */
+  --foreground: oklch(0.985 0 0);
+
+  --card: rgb(15 23 42);
+  --card-foreground: oklch(0.985 0 0);
+
+  --popover: rgb(15 23 42);
+  --popover-foreground: oklch(0.985 0 0);
+
+  --primary: var(--color-primary-400);
+  --primary-foreground: rgb(10 15 28);
+  --primary-hover: var(--color-primary-300);
+
+  --secondary: var(--color-secondary-800);
+  --secondary-foreground: var(--color-secondary-100);
+  --secondary-hover: var(--color-secondary-700);
+
+  --muted: rgb(30 41 59);
+  --muted-foreground: oklch(0.7 0 0);
+
+  --accent: var(--color-sky-900);
+  --accent-foreground: var(--color-sky-100);
+  --accent-hover: var(--color-sky-800);
+
+  --accent-2: var(--color-saffron-500);
+  --accent-2-foreground: rgb(10 15 28); /* Dark text on Saffron in dark mode */
+  --accent-2-hover: var(--color-saffron-400);
+
+  --accent-3: var(--color-gold-400);
+  --accent-3-foreground: rgb(10 15 28);
+  --accent-3-hover: var(--color-gold-300);
+
+  --destructive: rgb(248 113 113);
+  --border: rgb(30 41 59);
+  --input: rgb(30 41 59);
+  --ring: var(--color-primary-500);
+
+  --success: var(--color-secondary-500);
+  --success-hover: var(--color-secondary-400);
+
+  --warning: var(--color-saffron-400);
+  --warning-hover: var(--color-saffron-300);
+
+  --danger: rgb(248 113 113);
+  --danger-hover: rgb(252 165 165);
+
+  --info: var(--color-sky-400);
+  --info-hover: var(--color-sky-300);
+
+  --sidebar: rgb(15 23 42);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: var(--color-primary-500);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: var(--color-secondary-800);
+  --sidebar-accent-foreground: var(--color-secondary-100);
+  --sidebar-border: rgb(30 41 59);
+  --sidebar-ring: var(--color-primary-500);
+}
+
+/* TAILWIND V4 THEME MAPPING */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  /* colour */
-  --color-thistle-50: rgb(245 240 241);
-  --color-thistle-100: rgb(234 225 228);
-  --color-thistle-200: rgb(214 194 200);
-  --color-thistle-300: rgb(193 164 173);
-  --color-thistle-400: rgb(172 134 146);
-  --color-thistle-500: rgb(152 103 119);
-  --color-thistle-600: rgb(121 83 95);
-  --color-thistle-700: rgb(91 62 71);
-  --color-thistle-800: rgb(61 41 47);
-  --color-thistle-900: rgb(30 21 24);
-  --color-thistle-950: rgb(21 14 17);
 
-  --color-dusty-taupe-50: rgb(245 241 239);
-  --color-dusty-taupe-100: rgb(236 227 223);
-  --color-dusty-taupe-200: rgb(217 198 191);
-  --color-dusty-taupe-300: rgb(198 170 159);
-  --color-dusty-taupe-400: rgb(179 142 128);
-  --color-dusty-taupe-500: rgb(159 114 96);
-  --color-dusty-taupe-600: rgb(128 91 77);
-  --color-dusty-taupe-700: rgb(96 68 57);
-  --color-dusty-taupe-800: rgb(64 45 38);
-  --color-dusty-taupe-900: rgb(32 23 19);
-  --color-dusty-taupe-950: rgb(22 16 13);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
 
-  --color-reddish-brown-50: rgb(248 238 237);
-  --color-reddish-brown-100: rgb(240 221 219);
-  --color-reddish-brown-200: rgb(225 187 183);
-  --color-reddish-brown-300: rgb(211 153 146);
-  --color-reddish-brown-400: rgb(196 119 110);
-  --color-reddish-brown-500: rgb(181 85 74);
-  --color-reddish-brown-600: rgb(145 68 59);
-  --color-reddish-brown-700: rgb(109 51 44);
-  --color-reddish-brown-800: rgb(72 34 30);
-  --color-reddish-brown-900: rgb(36 17 15);
-  --color-reddish-brown-950: rgb(25 12 10);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
 
-  --color-copper-50: rgb(248 243 237);
-  --color-copper-100: rgb(241 232 218);
-  --color-copper-200: rgb(226 208 182);
-  --color-copper-300: rgb(212 185 145);
-  --color-copper-400: rgb(198 162 108);
-  --color-copper-500: rgb(184 139 71);
-  --color-copper-600: rgb(147 111 57);
-  --color-copper-700: rgb(110 83 43);
-  --color-copper-800: rgb(73 55 29);
-  --color-copper-900: rgb(37 28 14);
-  --color-copper-950: rgb(26 19 10);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-hover: var(--primary-hover);
 
-  --color-ink-black-50: rgb(238 240 247);
-  --color-ink-black-100: rgb(220 225 239);
-  --color-ink-black-200: rgb(186 195 222);
-  --color-ink-black-300: rgb(151 165 206);
-  --color-ink-black-400: rgb(116 135 190);
-  --color-ink-black-500: rgb(82 105 173);
-  --color-ink-black-600: rgb(65 84 139);
-  --color-ink-black-700: rgb(49 63 104);
-  --color-ink-black-800: rgb(33 42 69);
-  --color-ink-black-900: rgb(16 21 35);
-  --color-ink-black-950: rgb(11 15 24);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary-hover: var(--secondary-hover);
 
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-hover: var(--accent-hover);
+
+  --color-accent-2: var(--accent-2);
+  --color-accent-2-foreground: var(
+    --accent-2-foreground
+  ); /* MUST HAVE FOR DIRECT TEXT USAGE */
+  --color-accent-2-hover: var(--accent-2-hover);
+
+  --color-accent-3: var(--accent-3);
+  --color-accent-3-foreground: var(
+    --accent-3-foreground
+  ); /* MUST HAVE FOR DIRECT TEXT USAGE */
+  --color-accent-3-hover: var(--accent-3-hover);
+
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-success: var(--success);
+  --color-success-hover: var(--success-hover);
+
+  --color-warning: var(--warning);
+  --color-warning-hover: var(--warning-hover);
+
+  --color-danger: var(--danger);
+  --color-danger-hover: var(--danger-hover);
+
+  --color-info: var(--info);
+  --color-info-hover: var(--info-hover);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    @apply bg-background text-foreground;
+  }
 }
