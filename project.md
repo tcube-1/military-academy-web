@@ -1,61 +1,78 @@
-```css
---color-thistle-50: rgb(245 240 241);
---color-thistle-100: rgb(234 225 228);
---color-thistle-200: rgb(214 194 200);
---color-thistle-300: rgb(193 164 173);
---color-thistle-400: rgb(172 134 146);
---color-thistle-500: rgb(152 103 119);
---color-thistle-600: rgb(121 83 95);
---color-thistle-700: rgb(91 62 71);
---color-thistle-800: rgb(61 41 47);
---color-thistle-900: rgb(30 21 24);
---color-thistle-950: rgb(21 14 17);
+// TODO: Work pending
 
---color-dusty-taupe-50: rgb(245 241 239);
---color-dusty-taupe-100: rgb(236 227 223);
---color-dusty-taupe-200: rgb(217 198 191);
---color-dusty-taupe-300: rgb(198 170 159);
---color-dusty-taupe-400: rgb(179 142 128);
---color-dusty-taupe-500: rgb(159 114 96);
---color-dusty-taupe-600: rgb(128 91 77);
---color-dusty-taupe-700: rgb(96 68 57);
---color-dusty-taupe-800: rgb(64 45 38);
---color-dusty-taupe-900: rgb(32 23 19);
---color-dusty-taupe-950: rgb(22 16 13);
+// FIXME: Broken, must fix
 
---color-reddish-brown-50: rgb(248 238 237);
---color-reddish-brown-100: rgb(240 221 219);
---color-reddish-brown-200: rgb(225 187 183);
---color-reddish-brown-300: rgb(211 153 146);
---color-reddish-brown-400: rgb(196 119 110);
---color-reddish-brown-500: rgb(181 85 74);
---color-reddish-brown-600: rgb(145 68 59);
---color-reddish-brown-700: rgb(109 51 44);
---color-reddish-brown-800: rgb(72 34 30);
---color-reddish-brown-900: rgb(36 17 15);
---color-reddish-brown-950: rgb(25 12 10);
+// BUG: Unexpected behaviour
 
---color-copper-50: rgb(248 243 237);
---color-copper-100: rgb(241 232 218);
---color-copper-200: rgb(226 208 182);
---color-copper-300: rgb(212 185 145);
---color-copper-400: rgb(198 162 108);
---color-copper-500: rgb(184 139 71);
---color-copper-600: rgb(147 111 57);
---color-copper-700: rgb(110 83 43);
---color-copper-800: rgb(73 55 29);
---color-copper-900: rgb(37 28 14);
---color-copper-950: rgb(26 19 10);
+// NOTE: Important information
 
---color-ink-black-50: rgb(238 240 247);
---color-ink-black-100: rgb(220 225 239);
---color-ink-black-200: rgb(186 195 222);
---color-ink-black-300: rgb(151 165 206);
---color-ink-black-400: rgb(116 135 190);
---color-ink-black-500: rgb(82 105 173);
---color-ink-black-600: rgb(65 84 139);
---color-ink-black-700: rgb(49 63 104);
---color-ink-black-800: rgb(33 42 69);
---color-ink-black-900: rgb(16 21 35);
---color-ink-black-950: rgb(11 15 24);
-```
+// HACK: Temporary workaround
+
+// REVIEW: Needs review
+
+// OPTIMIZE: Improve performance
+
+// REFACTOR: Clean up code
+
+// TEST: Add test cases
+
+// SECURITY: Security concern
+
+// WARNING: Be careful here
+
+// DEPRECATED: Old code
+
+// QUESTION: Need clarification
+
+// IDEA: Future feature idea
+
+// FEATURE: Planned feature
+
+// DOCS: Documentation required
+
+// CONFIG: Configuration update needed
+
+// API: Backend/API related work
+
+// DB: Database related task
+
+// UI: User Interface work
+
+// UX: User Experience improvement
+
+`#1E3A8A`
+
+`#0EA5E9`
+
+`#EAB308`
+
+`#DC2626`
+
+`#0F172A`
+
+| Purpose        | Color     | Reason                           |
+| -------------- | --------- | -------------------------------- |
+| Background     | `#0F172A` | Main dark navy                   |
+| Surface/Card   | `#16233F` | Slightly lighter than background |
+| Primary        | `#2563EB` | Softer blue than original        |
+| Primary Hover  | `#1D4ED8` | Professional hover               |
+| Secondary Blue | `#38BDF8` | Small highlights only            |
+| Gold Accent    | `#D4A017` | Less vibrant, premium gold       |
+| Red Accent     | `#C24141` | Muted professional red           |
+| White          | `#F8FAFC` | Text                             |
+| Gray           | `#94A3B8` | Secondary text                   |
+| Border         | `#23324D` | Cards/Borders                    |
+
+|`Background  : #F8FAFC`|
+|`Cards       : #FFFFFF`|
+|`Primary     : #2563EB`|
+|`Accent Gold : #D4A017`|
+|`Danger      : #C24141`|
+|`Text        : #0F172A`|
+
+|`Background  : #0F172A`|
+|`Cards       : #16233F`|
+|`Primary     : #2563EB`|
+|`Accent Gold : #D4A017`|
+|`Danger      : #C24141`|
+|`Text        : #F8FAFC`|

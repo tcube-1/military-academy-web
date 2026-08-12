@@ -1,9 +1,15 @@
-import Image from "next/image";
+import HeaderWrapper from '@/components/shared/navbar/HeaderWrapper';
+import LandingPage from '@/components/shared/hero/LandingPage';
+import { cn } from '@/lib/utils';
 
 export default function Home() {
   return (
-    <div className="bg-copper-400 flex flex-col flex-1 items-center justify-center  font-sans  dark:bg-ink-black-950">
-      <div>hello</div>
+    <div className={cn('relative')}>
+      <HeaderWrapper />
+
+      <main className="bg-background mt-1">
+        <LandingPage />
+      </main>
     </div>
   );
 }
