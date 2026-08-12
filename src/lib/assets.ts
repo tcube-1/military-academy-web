@@ -71,12 +71,16 @@ export const imageAssets = {
 };
 
 export const ribbonMessages = [
-  'Admissions Open for NDA 2026 Batch',
-  '1000+ Cadets Successfully Trained',
-  'Expert Faculty & SSB Interview Guidance',
-  'Free Career Counseling for Defence Aspirants',
-  "Join India's Premier Defence Academy",
-  'NDA | CDS | AFCAT | SSB Preparation',
+  'Admissions Open for NDA 2026 Batch – Secure Your Seat Today and Begin Your Journey Towards Serving the Nation with Confidence.',
+  'Over 1,000+ Cadets Successfully Trained with Outstanding Results in NDA, CDS, AFCAT, and SSB Selection Processes.',
+  'Learn from Experienced Defence Officers and Expert Faculty with Comprehensive Classroom Training and SSB Interview Mentorship.',
+  'Book Your Free Defence Career Counseling Session and Get Personalized Guidance to Choose the Right Entry Path into the Armed Forces.',
+  "Join India's Premier Defence Academy with World-Class Training, Modern Infrastructure, and a Proven Track Record of Success.",
+  'Complete Preparation for NDA, CDS, AFCAT, CAPF, Agniveer, and SSB Interviews Under One Trusted Defence Training Institute.',
+  'Build Leadership, Discipline, Confidence, and Physical Excellence Through Structured Defence-Oriented Training Programs.',
+  'Daily Mock Tests, Physical Fitness Sessions, Personality Development, and One-to-One Performance Analysis for Every Aspirant.',
+  "Your Dream of Wearing the Uniform Begins Here – Train with India's Most Trusted Defence Mentors and Achieve Your Goal.",
+  'Limited Seats Available for the Upcoming NDA 2026 Foundation & Target Batch – Register Now Before Admissions Close.',
 ];
 
 export const contactInfo = [
@@ -173,12 +177,11 @@ export const polygon = {
     '[clip-path:polygon(0%_0%,calc(100%-24px)_0%,100%_100%,0%_100%)]',
 
   // Navbar height 56px (h-14) kabatti 56px offset vaadam
-  'right-nav':
-    '[clip-path:polygon(0%_0%,calc(100%-48px)_0%,100%_100%,56px_100%)]',
+  'right-nav': '[clip-path:polygon(0%_0%,calc(100%-30px)_0%,100%_100%,0_100%)]',
 
   'landingPage-xl-1':
-    '[clip-path:polygon(22%_0%,100%_25%,100%_100%,0%_100%,0%_12%)]',
+    '[clip-path:polygon(35%_0%,100%_18%,100%_100%,0%_100%,0%_10%)]',
 
   'landingPage-xl-2':
-    '[clip-path:polygon(22%_0%,100%_30%,100%_100%,0%_100%,0%_16%)]',
+    '[clip-path:polygon(35%_0%,100%_20%,100%_100%,0%_100%,0%_14%)]',
 };
