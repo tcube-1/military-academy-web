@@ -1,21 +1,15 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono, Inter } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import './globals.css';
 
 import { cn } from '@/lib/utils';
-import { BreakpointIndicator } from '@/components/shared/BreakPoints';
-import AppTheme from '@/components/shared/AppTheme';
+import { BreakpointIndicator } from '@/components/shared/provider/BreakPoints';
+import AppTheme from '@/components/shared/provider/AppTheme';
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
-
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const inter = Inter({
   subsets: ['latin'],
-});
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
+  variable: '--font-inter',
+  preload: false, // Page initial render event fast ga aye process lo console warning rakunda chestadhi
 });
 
 export const metadata: Metadata = {
@@ -32,14 +26,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn(
-        'h-full',
-        'antialiased',
-        geistSans.variable,
-        geistMono.variable,
-        'font-sans',
-        inter.variable,
-      )}
+      className={cn('h-full', 'antialiased', 'font-sans', inter.variable)}
     >
       <body className="relative flex min-h-full flex-col">
         <AppTheme>{children}</AppTheme>
