@@ -84,6 +84,10 @@ export function useMarqueeEngine(
   refs: UseMarqueeEngineRefs,
   options: UseMarqueeEngineOptions = {},
 ): UseMarqueeEngineReturn {
+  // --------------------------------------------------------------------
+  // >> Fast refresh
+  // >> broswer sets to defults config after fast refresh so it helps make.
+  // --------------------------------------------------------------------
   const config: Required<UseMarqueeEngineOptions> = {
     ...DEFAULT_OPTIONS,
     ...options,
@@ -249,12 +253,6 @@ export function useMarqueeEngine(
     // just asks it to flush the corrected value.
     currentPosition.current = wrap(currentPosition.current);
     render();
-    console.log(
-      itemRefs.current.map((el) => ({
-        left: el?.offsetLeft,
-        top: el?.offsetTop,
-      })),
-    );
   }, [wrap, render, viewportRef, trackRef]);
 
   // ========================================================================
@@ -663,6 +661,7 @@ export function useMarqueeEngine(
   // something that only ever mutates refs.
   // ========================================================================
   useEffect(() => {
+    if (!pauseOnHoverRef.current) return;
     const viewport = viewportRef.current;
     if (!viewport) return;
 
@@ -689,6 +688,7 @@ export function useMarqueeEngine(
   // natively here lets the consumer opt in via `enableWheel` alone.
   // ========================================================================
   useEffect(() => {
+    if (!enableWheelRef.current) return;
     const viewport = viewportRef.current;
     if (!viewport) return;
 
@@ -697,6 +697,7 @@ export function useMarqueeEngine(
 
     return () => {
       viewport.removeEventListener('wheel', listener);
+      if (!enableWheelRef.current) return;
     };
   }, [handleWheel, viewportRef]);
 
@@ -707,6 +708,7 @@ export function useMarqueeEngine(
   // render() exactly like every other input source.
   // ========================================================================
   useEffect(() => {
+    if (!enableDragRef.current) return;
     const viewport = viewportRef.current;
     if (!viewport) return;
     const handlePointerDown = (event: PointerEvent) => {
@@ -720,6 +722,8 @@ export function useMarqueeEngine(
       // Best-effort: some browsers/input types (e.g. certain touch/pen
       // sequences) can reject capture. Drag still works via the plain
       // pointermove listener below either way, so this is not fatal.
+      // Attach pointermove only while dragging.
+      viewport.addEventListener('pointermove', handlePointerMove);
       try {
         viewport.setPointerCapture(event.pointerId);
       } catch {
@@ -747,6 +751,7 @@ export function useMarqueeEngine(
       // auto-released it before this handler ran. hasPointerCapture() is
       // the correct guard; the try/catch is a second layer in case a given
       // browser's hasPointerCapture itself disagrees with reality.
+      viewport.removeEventListener('pointermove', handlePointerMove);
       if (viewport.hasPointerCapture?.(event.pointerId)) {
         try {
           viewport.releasePointerCapture(event.pointerId);

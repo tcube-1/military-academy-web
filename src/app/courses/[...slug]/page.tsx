@@ -7,6 +7,7 @@ import IitPage from '@/components/courses/inter/IitPage';
 import NdaPage from '@/components/courses/inter/NdaPage';
 import NeetPage from '@/components/courses/inter/NeetPage';
 import intermdiate from '@/components/courses/Intermdiate';
+import Link from 'next/link';
 
 const pages = {
   intermidte: intermdiate,
@@ -23,12 +24,31 @@ const pages = {
 export default async function Page({
   params,
 }: {
-  params: Promise<{ courses: string[] }>;
+  params: Promise<{ slug: string[] }>;
 }) {
-  const { courses } = await params;
-  const slug = courses[0];
-  const Component = pages[slug.toLowerCase() as keyof typeof pages];
+  const { slug } = await params;
 
-  if (!Component) return <div> page not found</div>;
-  return <Component title={slug} />;
+  const page = slug[0];
+
+  const Component = pages[page.toLowerCase() as keyof typeof pages];
+
+  if (!Component) {
+    return (
+      <div>
+        <h1>Page not found</h1>
+
+        <p>Available Pages:</p>
+        {/* -------------------------------------------------------------------- */}
+        {/* >> Redirect to available link */}
+        {/* -------------------------------------------------------------------- */}
+        <ul>
+          {Object.keys(pages).map((key) => (
+            <li key={key}>
+              <Link href={`/courses/${key}`}>{key}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
 }

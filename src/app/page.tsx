@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <div className={cn('relative')}>
       <HeaderWrapper />
-
       <main className="bg-background mt-1">
         <LandingPage />
       </main>

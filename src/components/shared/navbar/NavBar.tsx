@@ -20,7 +20,7 @@ export default function Navbar({ children }: { children?: React.ReactNode }) {
       {/* >> logo  */}
       {/* ------------------------------------------------------------- */}
       <div className={cn('text-lg font-bold tracking-wide')}>
-        <Link href="/">Defence Academy</Link>
+        <Link href="/"> SRU college</Link>
       </div>
       {/* ------------------------------------------------------------- */}
       {/* >> middle  */}

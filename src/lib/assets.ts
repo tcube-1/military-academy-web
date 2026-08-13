@@ -174,7 +174,7 @@ export const navLinks = [
 export const polygon = {
   // Ribbon height 24px (h-6) kabatti 24px offset vaadam
   'right-slant-left-flat':
-    '[clip-path:polygon(0%_0%,calc(100%-24px)_0%,100%_100%,0%_100%)]',
+    '[clip-path:polygon(4%_0%,100%_0%,100%_100%,0%_100%)]',
 
   // Navbar height 56px (h-14) kabatti 56px offset vaadam
   'right-nav': '[clip-path:polygon(0%_0%,calc(100%-30px)_0%,100%_100%,0_100%)]',
