@@ -31,7 +31,9 @@ export function BreakpointIndicator() {
 
   useEffect(() => {
     if (!ref.current) return;
-    Draggable.create(ref.current, { bounds: window });
+    Draggable.create(ref.current, {
+      bounds: typeof window !== 'undefined' ? window : undefined,
+    });
 
     const updateSize = () => {
       setSize({

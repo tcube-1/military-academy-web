@@ -13,13 +13,16 @@ import {
 } from 'lucide-react';
 import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
+import { Draggable } from 'gsap/Draggable';
 
 import { cn } from '@/lib/utils';
 import { polygon, ribbonMessages, socialIcons } from '@/lib/assets';
 import { useMarqueeEngine } from '@/hooks/useMarqueeEngine';
-import { Draggable } from 'gsap/Draggable';
 
-gsap.registerPlugin(useGSAP);
+// Register GSAP plugins outside component lifecycle
+if (typeof window !== 'undefined') {
+  gsap.registerPlugin(useGSAP, Draggable);
+}
 
 interface SocialIcon {
   name: string;
@@ -27,7 +30,7 @@ interface SocialIcon {
   href: string;
 }
 
-function Ribbon() {
+export default function Ribbon() {
   const iconSize: number = 18;
   const viewportRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
@@ -35,7 +38,8 @@ function Ribbon() {
   const iconRef = useRef<HTMLSpanElement>(null);
   const dragIconsRef = useRef<HTMLDivElement | null>(null);
   const gripHandleRef = useRef<SVGSVGElement | null>(null);
-  const [paused, setPaused] = useState(false);
+
+  const [paused, setPaused] = useState<boolean>(false);
 
   const axis = 'x';
   const direction = 'x';
@@ -56,26 +60,30 @@ function Ribbon() {
 
   useGSAP(
     () => {
-      if (!iconRef.current) return;
+      // 1. Play/Pause Icon Animation
+      if (iconRef.current) {
+        gsap.fromTo(
+          iconRef.current,
+          {
+            scale: 0,
+            opacity: 0,
+            rotate: -90,
+          },
+          {
+            scale: 1,
+            opacity: 1,
+            rotate: 0,
+            duration: 0.25,
+            ease: 'back.out(2)',
+          },
+        );
+      }
 
-      gsap.fromTo(
-        iconRef.current,
-        {
-          scale: 0,
-          opacity: 0,
-          rotate: -90,
-        },
-        {
-          scale: 1,
-          opacity: 1,
-          rotate: 0,
-          duration: 0.25,
-          ease: 'back.out(2)',
-        },
-      );
+      // 2. Draggable Social Icons Setup
+      let draggableInstance: Draggable[] | undefined;
 
       if (dragIconsRef.current) {
-        Draggable.create(dragIconsRef.current, {
+        draggableInstance = Draggable.create(dragIconsRef.current, {
           type: 'x,y',
           trigger: gripHandleRef.current || undefined,
           bounds: typeof window !== 'undefined' ? window : undefined,
@@ -83,228 +91,230 @@ function Ribbon() {
           inertia: true,
         });
       }
+
+      // Cleanup function to prevent memory leaks on unmount
+      return () => {
+        if (draggableInstance && draggableInstance.length > 0) {
+          draggableInstance[0].kill();
+        }
+      };
     },
-    { dependencies: [paused] },
+    { dependencies: [paused], scope: dragIconsRef },
   );
 
-  const handlePause = () => {
-    if (!iconRef.current) return;
+  // const handlePause = (): void => {
+  //   if (!iconRef.current) return;
 
-    gsap.to(iconRef.current, {
-      scale: 0,
-      opacity: 0,
-      rotate: 90,
-      duration: 0.12,
-      ease: 'power2.in',
-      onComplete: () => {
-        setPaused((prev) => {
-          const next = !prev;
-
-          if (next) {
-            Imarquee.pause();
-          } else {
-            Imarquee.resume();
-          }
-
-          return next;
-        });
-      },
-    });
-  };
+  //   gsap.to(iconRef.current, {
+  //     scale: 0,
+  //     opacity: 0,
+  //     rotate: 90,
+  //     duration: 0.12,
+  //     ease: 'power2.in',
+  //     onComplete: () => {
+  //       setPaused((prev) => {
+  //         const next = !prev;
+  //         if (next) {
+  //           Imarquee.pause();
+  //         } else {
+  //           Imarquee.resume();
+  //         }
+  //         return next;
+  //       });
+  //     },
+  //   });
+  // };
 
   return (
-    /* 
-      FIX 1: Changed `bg-primary` on main tag and removed hover:bg-background.
-      This ensures that any slant polygon cuts show primary blue behind them instead of white!
-    */
-    <main
-      className={cn(
-        'bg-primary text-primary-foreground h-7 overflow-hidden shadow-md md:h-9',
-      )}
-    >
-      <section
-        className={cn('bg-primary flex h-full items-center justify-between')}
-      >
-        <div
+    <header className={cn('relative z-100 h-6 w-full')}>
+      <main className={cn('bg-background fixed h-6 w-full text-gray-950')}>
+        <section
           className={cn(
-            'relative flex h-full min-w-0 flex-1 items-center justify-between overflow-hidden',
-          )}
-        >
-          {/* _______________________ PAUSE / PLAY BUTTON _______________________ */}
-          <button
-            type="button"
-            onClick={handlePause}
-            className={cn(
-              'bg-primary hover:bg-primary-hover text-primary-foreground shadow-md',
-              'z-30 flex h-full w-7 shrink-0 items-center justify-center border-r border-white/10 transition-colors duration-200',
-            )}
-          >
-            <span ref={iconRef} className="flex items-center justify-center">
-              {paused ? <Play size={14} /> : <Pause size={14} />}
-            </span>
-          </button>
-
-          {/* 
-            FIX 2: PREVIOUS OVERLAY BUTTON 
-            Replaced w-20 with a controlled size (w-8) so it won't block center marquee text.
-          */}
-          <button
-            type="button"
-            onClick={Imarquee.prev}
-            className={cn(
-              'absolute left-7 z-20 flex h-full w-8 items-center justify-center',
-              'from-primary/80 text-primary-foreground/70 hover:text-primary-foreground border-none bg-linear-to-r to-transparent transition-all duration-200',
-            )}
-          >
-            <ChevronLeft className="size-4 shrink-0" />
-          </button>
-
-          {/* 
-            FIX 3: NEXT OVERLAY BUTTON
-            Replaced w-20 with controlled w-8 floating overlay.
-          */}
-          <button
-            type="button"
-            onClick={Imarquee.next}
-            className={cn(
-              'absolute right-0 z-20 flex h-full w-8 items-center justify-center',
-              'from-primary/80 text-primary-foreground/70 hover:text-primary-foreground border-none bg-linear-to-l to-transparent transition-all duration-200',
-            )}
-          >
-            <ChevronRight className="size-4 shrink-0" />
-          </button>
-
-          {/* _______________________ VIEWPORT _______________________ */}
-          <div
-            className={cn(
-              'flex h-full min-w-0 flex-1 items-center overflow-hidden bg-transparent',
-            )}
-            ref={viewportRef}
-          >
-            <div
-              ref={trackRef}
-              className={cn(
-                'flex shrink cursor-grab touch-none',
-                axis === direction
-                  ? 'w-max flex-row whitespace-nowrap'
-                  : 'h-max flex-col whitespace-normal',
-              )}
-            >
-              {[...ribbonMessages, ...ribbonMessages].map((message, index) => (
-                <div
-                  key={index}
-                  ref={(el) => {
-                    itemRefs.current[index] = el;
-                  }}
-                  className="flex items-center text-xs font-medium md:text-sm"
-                >
-                  <ChevronRight className="bg-destructive text-destructive-foreground mx-2 size-3 shrink-0 rounded-full p-px md:size-4" />
-                  <span>{message}</span>
-
-                  {/* FIX 4: Removed invalid `rel="stylesheet"` from Next.js Link */}
-                  <Link
-                    href={'/courses'}
-                    className={cn(
-                      'text-primary-foreground hover:text-accent mx-1 cursor-pointer font-semibold underline',
-                    )}
-                  >
-                    click here
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* 
-          FIX 5: LOCATION CONTAINER 
-          Added `bg-primary` and `text-primary-foreground` explicitly so slants won't reveal underlying white backgrounds.
-        */}
-        <div
-          className={cn(
-            'bg-primary text-primary-foreground hidden h-full max-w-3xl min-w-xl flex-1 shrink-0 items-center justify-between space-x-2.5 font-sans text-xs lg:flex',
+            // Base
+            'flex h-6',
+            // Visual
+            'bg-primary text-primary-foreground',
+            // Variants
+            '',
           )}
         >
           <div
-            className={cn('flex h-full items-center justify-center space-x-2')}
+            className={cn(
+              'relative flex h-full min-w-0 flex-1 items-center justify-between overflow-hidden',
+            )}
           >
-            <MapPin className={cn('ml-4 size-4 shrink-0 text-red-400')} />
-            <span className={cn('cursor-pointer underline md:block')}>
-              H.No. 3-4-90, Suryanagar, Karimnagar, Telangana, PIN-505001
-            </span>
-          </div>
-
-          {/* _______________________ Social Icons Desktop _______________________ */}
-          <div className={cn('relative z-50 hidden h-full min-w-xs lg:flex')}>
+            {/*_______________________ PREVIOUS OVERLAY BUTTON _______________________*/}
+            <button
+              type="button"
+              onClick={Imarquee.prev}
+              className={cn(
+                'absolute left-0 z-100 flex h-full w-6 items-center justify-center',
+                'bg-primary bg-linear-to-r to-transparent transition-all duration-200',
+                'shadow-lg shadow-black/20',
+              )}
+              aria-label="Previous Item"
+            >
+              <ChevronLeft className="size-4 shrink-0" />
+            </button>
+            {/*_______________________ NEXT OVERLAY BUTTON _______________________*/}
+            <button
+              type="button"
+              onClick={Imarquee.next}
+              className={cn(
+                'absolute right-0 z-100 flex h-full w-6 items-center justify-center',
+                'lg:right-50 lg:w-15 lg:justify-start',
+                'bg-primary bg-linear-to-l to-transparent transition-all duration-200',
+              )}
+              aria-label="Next Item"
+            >
+              <ChevronRight className="size-4 shrink-0 lg:ml-2" />
+            </button>
+            {/*_______________________  VIEWPORT _______________________*/}
             <div
               className={cn(
-                'bg-accent absolute inset-x-0 -z-10 flex h-full rotate-180 rotate-x-180',
-                polygon['right-nav'],
-              )}
-            ></div>
-            <span
-              className={cn(
-                'text-accent-foreground flex w-full items-center justify-center gap-3 px-4 text-sm',
-              )}
-            >
-              <span className="font-semibold">follow us:</span>
-              {socialIcons &&
-                socialIcons.map((social: SocialIcon) => (
-                  <a
-                    key={social.name}
-                    href={social.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="transition-transform hover:scale-110"
-                  >
-                    <Image
-                      src={social.href}
-                      alt={social.name}
-                      width={iconSize}
-                      height={iconSize}
-                      className="flex size-5 rounded-full bg-white p-px shadow-sm"
-                    />
-                  </a>
-                ))}
-            </span>
-          </div>
-        </div>
-      </section>
+                // Base
+                'flex min-w-0 items-center justify-start overflow-hidden',
 
-      {/* _______________________ Mobile Social Icons _______________________ */}
-      <div
-        ref={dragIconsRef}
-        className="fixed right-5 bottom-20 z-50 lg:hidden"
-      >
-        <div className="bg-sidebar flex flex-col items-center gap-3 rounded-2xl border p-2.5 shadow-2xl backdrop-blur-sm">
-          <GripHorizontal
-            className={cn(
-              'text-foreground size-5 cursor-grab active:cursor-grabbing',
-            )}
-            ref={gripHandleRef}
-          />
-          {socialIcons &&
-            socialIcons.map((social: SocialIcon) => (
-              <a
-                key={social.name}
-                href={social.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition-transform active:scale-95"
+                // Visual {scroll start at marginleft-5}
+                'ml-4',
+                // Variants
+                '',
+              )}
+              ref={viewportRef}
+            >
+              <div
+                ref={trackRef}
+                className={cn(
+                  'flex shrink cursor-grab touch-none',
+                  axis === direction
+                    ? 'w-max flex-row whitespace-nowrap'
+                    : 'h-max flex-col whitespace-normal',
+                )}
               >
-                <Image
-                  src={social.href}
-                  alt={social.name}
-                  width={24}
-                  height={24}
-                  className="size-7 rounded-full bg-white p-0.5 shadow"
-                />
-              </a>
-            ))}
+                {[...ribbonMessages, ...ribbonMessages].map(
+                  (message: string, index: number) => (
+                    <div
+                      key={`${message}-${index}`}
+                      ref={(el: HTMLDivElement | null) => {
+                        itemRefs.current[index] = el;
+                      }}
+                      className={cn(
+                        // Base
+                        'flex items-center text-xs font-medium',
+
+                        // Visual
+                        '',
+                        // Variants
+                        '',
+                      )}
+                    >
+                      <ChevronRight className="mx-1 size-3 shrink-0 rounded-full md:size-4" />
+                      <span>{message}</span>
+                      <Link
+                        href="/courses"
+                        className={cn(
+                          'hover:text-accent mx-1 cursor-pointer font-semibold underline',
+                        )}
+                      >
+                        click here
+                      </Link>
+                    </div>
+                  ),
+                )}
+              </div>
+            </div>
+            {/*_______________________ SCOIAL ICONS _______________________*/}
+
+            <div
+              className={cn(
+                'absolute top-0 right-0 z-100 hidden h-full max-w-75 min-w-60 lg:flex',
+              )}
+            >
+              <div
+                className={cn(
+                  'bg-accent absolute inset-x-0 -z-100 flex h-full rotate-180 rotate-x-180',
+                  polygon['right-nav'],
+                )}
+              ></div>
+              <span
+                className={cn(
+                  'text-accent-foreground mr-5 flex w-full items-center justify-end gap-2 text-sm',
+                )}
+              >
+                <span className="text-xs font-semibold">follow us:</span>
+                {socialIcons &&
+                  socialIcons.map((social: SocialIcon) => (
+                    <a
+                      key={social.name}
+                      href={social.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition-transform hover:scale-110"
+                    >
+                      <Image
+                        src={social.href}
+                        alt={social.name}
+                        width={iconSize}
+                        height={iconSize}
+                        className="flex size-4.5 rounded-full bg-white p-px shadow-sm"
+                      />
+                    </a>
+                  ))}
+              </span>
+            </div>
+
+            {/*_______________________ PAUSE / PLAY BUTTON _______________________*/}
+            {/* <button
+              type="button"
+              onClick={handlePause}
+              className={cn(
+                // Base
+                'absolute z-100 flex h-full w-8 shrink-0 items-center justify-center',
+                // Visual
+                'bg-card/20 border-border/50',
+                // Variants
+                'transition-colors duration-200',
+              )}
+              aria-label={paused ? 'Play Marquee' : 'Pause Marquee'}
+            >
+              <span ref={iconRef} className="flex items-center justify-center">
+                {paused ? <Pause size={14} /> : <Play size={14} />}
+              </span>
+            </button> */}
+          </div>
+        </section>
+
+        {/* Mobile Social Icons */}
+        <div
+          ref={dragIconsRef}
+          className="fixed right-5 bottom-20 z-100 lg:hidden"
+        >
+          <div className="flex flex-col items-center gap-3 rounded-2xl border p-2.5 shadow-2xl backdrop-blur-sm">
+            <GripHorizontal
+              className={cn('size-5 cursor-grab active:cursor-grabbing')}
+              ref={gripHandleRef}
+            />
+            {socialIcons &&
+              socialIcons.map((social: SocialIcon) => (
+                <a
+                  key={social.name}
+                  href={social.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-transform active:scale-95"
+                >
+                  <Image
+                    src={social.href}
+                    alt={social.name}
+                    width={24}
+                    height={24}
+                    className="size-7 rounded-full bg-white p-0.5 shadow"
+                  />
+                </a>
+              ))}
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </header>
   );
 }
-
-export default Ribbon;

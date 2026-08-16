@@ -425,7 +425,7 @@ export function useMarqueeEngine(
         const distance = Math.abs(elementPosition - position);
         if (distance < smallestDistance) {
           smallestDistance = distance;
-          nearestIndex = i;
+          nearestIndex = i; 
         }
       }
       return nearestIndex;

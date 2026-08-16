@@ -3,159 +3,162 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Light Mode Colors (Clean & Professional) */
-  --background: #f8fafc;
-  --foreground: #0f172a;
+  /* ==========================================
+     LIGHT MODE (Blue, Amber, Rose, Gray)
+     ========================================== */
+
+  /* Background & Text - Tailwind Gray 50 & Gray 900 */
+  --background: #f9fafb;
+  --foreground: #111827;
 
   --card: #ffffff;
-  --card-foreground: #0f172a;
+  --card-foreground: #111827;
 
   --popover: #ffffff;
-  --popover-foreground: #0f172a;
+  --popover-foreground: #111827;
 
-  /* Primary (Deep Royal Blue for Trust/Education) */
-  --primary: #1e40af;
-  --primary-hover: #1e3a8a;
+  /* Primary - Tailwind Blue 600 (Main Brand Color) */
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
   --primary-foreground: #ffffff;
 
-  /* Secondary (Soft Indigo - better than plain gray) */
-  --secondary: #e0e7ff;
-  --secondary-hover: #c7d2fe;
-  --secondary-foreground: #3730a3;
-
-  /* Tertiary (Fresh Teal for special alternative actions) */
-  --tertiary: #0d9488;
-  --tertiary-hover: #0f766e;
+  /* Tertiary - Tailwind Rose 600 (Special Actions/Badges) */
+  --tertiary: #e11d48;
+  --tertiary-hover: #be123c;
   --tertiary-foreground: #ffffff;
 
-  /* Muted (For borders, disabled states, secondary text) */
-  --muted: #f1f5f9;
-  --muted-hover: #e2e8f0;
-  --muted-foreground: #64748b;
+  --quaternary: #059669;
+  --quaternary-hover: #047857;
+  --quaternary-foreground: #ffffff;
 
-  /* Accent (Rich Amber/Gold with WHITE text for perfect contrast) */
+  /* Accent - Tailwind Amber 500 (Highlights/Stars) */
   --accent: #f59e0b;
   --accent-hover: #d97706;
   --accent-foreground: #ffffff;
 
-  /* Destructive (Clean Red) */
-  --destructive: #ef4444;
-  --destructive-hover: #dc2626;
+  /* Secondary - Tailwind Gray 100 (Soft Buttons/Cards) */
+  --secondary: #f3f4f6;
+  --secondary-hover: #e5e7eb;
+  --secondary-foreground: #111827;
+
+  /* Destructive - Tailwind Rose 600 (Errors/Deletes) */
+  --destructive: #e11d48;
+  --destructive-hover: #be123c;
   --destructive-foreground: #ffffff;
 
-  --border: #e2e8f0;
-  --input: #e2e8f0;
-  --ring: #1e40af;
+  /* Muted & Borders - Tailwind Gray Variants */
+  --muted: #f3f4f6;
+  --muted-hover: #e5e7eb;
+  --muted-foreground: #6b7280; /* Gray 500 */
+  --border: #e5e7eb; /* Gray 200 */
+  --input: #e5e7eb;
+  --ring: #2563eb; /* Blue 600 */
 
   /* Charts */
-  --chart-1: #1e40af;
-  --chart-2: #38bdf8;
-  --chart-3: #f59e0b;
-  --chart-4: #ef4444;
-  --chart-5: #8b5cf6;
+  --chart-1: #2563eb; /* Blue */
+  --chart-2: #e11d48; /* Rose */
+  --chart-3: #f59e0b; /* Amber */
+  --chart-4: #0ea5e9; /* Sky (Extra color for charts) */
+  --chart-5: #111827; /* Gray */
 
-  /* Sidebar Colors & Hovers */
+  /* Sidebar */
   --sidebar: #ffffff;
-  --sidebar-foreground: #0f172a;
-  --sidebar-primary: #1e40af;
-  --sidebar-primary-hover: #1e3a8a;
+  --sidebar-foreground: #111827;
+  --sidebar-primary: #2563eb;
+  --sidebar-primary-hover: #1d4ed8;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #e0e7ff;
-  --sidebar-accent-hover: #c7d2fe;
-  --sidebar-accent-foreground: #3730a3;
-  --sidebar-border: #e2e8f0;
-  --sidebar-ring: #1e40af;
+  --sidebar-accent: #f3f4f6;
+  --sidebar-accent-hover: #e5e7eb;
+  --sidebar-accent-foreground: #111827;
+  --sidebar-border: #e5e7eb;
+  --sidebar-ring: #2563eb;
 
-  /* Typography & Layout Rules */
+  /* Typography & Shadows */
   --font-sans: Inter, ui-sans-serif, sans-serif, system-ui;
   --font-serif: Noto Serif, ui-serif, serif;
   --font-mono: Martian Mono, ui-monospace, monospace;
-  --radius: 1rem;
-  --shadow-x: 1px;
-  --shadow-y: 1px;
-  --shadow-blur: 25.5px;
-  --shadow-spread: 1px;
-  --shadow-opacity: 0.1;
-  --shadow-color: #000000;
-  --shadow-2xs: 1px 1px 25.5px 1px hsl(0 0% 0% / 0.05);
-  --shadow-xs: 1px 1px 25.5px 1px hsl(0 0% 0% / 0.05);
-  --shadow-sm:
-    1px 1px 25.5px 1px hsl(0 0% 0% / 0.1), 1px 1px 2px 0px hsl(0 0% 0% / 0.1);
-  --shadow:
-    1px 1px 25.5px 1px hsl(0 0% 0% / 0.1), 1px 1px 2px 0px hsl(0 0% 0% / 0.1);
-  --shadow-md:
-    1px 1px 25.5px 1px hsl(0 0% 0% / 0.1), 1px 2px 4px 0px hsl(0 0% 0% / 0.1);
-  --shadow-lg:
-    1px 1px 25.5px 1px hsl(0 0% 0% / 0.1), 1px 4px 6px 0px hsl(0 0% 0% / 0.1);
-  --shadow-xl:
-    1px 1px 25.5px 1px hsl(0 0% 0% / 0.1), 1px 8px 10px 0px hsl(0 0% 0% / 0.1);
-  --shadow-2xl: 1px 1px 25.5px 1px hsl(0 0% 0% / 0.25);
+
+  --radius: 0.75rem;
   --tracking-normal: 0rem;
-  --spacing: 0.25rem;
+
+  --shadow-2xs: 0 1px 2px 0 rgb(17 24 39 / 0.05);
+  --shadow-xs:
+    0 1px 3px 0 rgb(17 24 39 / 0.1), 0 1px 2px -1px rgb(17 24 39 / 0.1);
+  --shadow-sm:
+    0 4px 6px -1px rgb(17 24 39 / 0.1), 0 2px 4px -2px rgb(17 24 39 / 0.1);
+  --shadow:
+    0 10px 15px -3px rgb(17 24 39 / 0.1), 0 4px 6px -4px rgb(17 24 39 / 0.1);
+  --shadow-md:
+    0 20px 25px -5px rgb(17 24 39 / 0.1), 0 8px 10px -6px rgb(17 24 39 / 0.1);
+  --shadow-lg: 0 25px 50px -12px rgb(17 24 39 / 0.25);
 }
 
 .dark {
-  /* Dark Mode Colors (Deep, Premium Dark Slate) */
-  --background: #020817;
-  --foreground: #f8fafc;
+  /* ==========================================
+     DARK MODE (Blue, Amber, Rose, Gray)
+     ========================================== */
 
-  --card: #0f172a;
-  --card-foreground: #f8fafc;
+  /* Background & Text - Tailwind Gray 950 & Gray 50 */
+  --background: #030712;
+  --foreground: #f9fafb;
 
-  --popover: #0f172a;
-  --popover-foreground: #f8fafc;
+  --card: #111827; /* Gray 900 */
+  --card-foreground: #f9fafb;
 
-  /* Primary (Vibrant Blue for visibility in dark mode) */
+  --popover: #111827;
+  --popover-foreground: #f9fafb;
+
+  /* Primary - Tailwind Blue 500 */
   --primary: #3b82f6;
   --primary-hover: #60a5fa;
   --primary-foreground: #ffffff;
 
-  /* Secondary (Deep Indigo) */
-  --secondary: #312e81;
-  --secondary-hover: #4338ca;
-  --secondary-foreground: #e0e7ff;
+  /* Tertiary - Tailwind Rose 500 */
+  --tertiary: #f43f5e;
+  --tertiary-hover: #fb7185;
+  --tertiary-foreground: #ffffff;
 
-  /* Tertiary (Bright Teal for dark mode contrast) */
-  --tertiary: #14b8a6;
-  --tertiary-hover: #2dd4bf;
-  --tertiary-foreground: #020817;
+  --quaternary: #10b981;
+  --quaternary-hover: #34d399;
+  --quaternary-foreground: #ffffff;
 
-  /* Muted */
-  --muted: #1e293b;
-  --muted-hover: #334155;
-  --muted-foreground: #94a3b8;
-
-  /* Accent (Gold - Dark text for contrast on bright gold in dark mode) */
-  --accent: #f59e0b;
+  /* Accent - Tailwind Amber 400 */
+  --accent: #fbbf24;
   --accent-hover: #fcd34d;
-  --accent-foreground: #020817;
+  --accent-foreground: #451a03; /* Dark brown for contrast */
 
-  /* Destructive */
-  --destructive: #ef4444;
-  --destructive-hover: #f87171;
+  /* Secondary - Tailwind Gray 800 */
+  --secondary: #1f2937;
+  --secondary-hover: #374151;
+  --secondary-foreground: #f9fafb;
+
+  /* Destructive - Tailwind Rose 500 */
+  --destructive: #f43f5e;
+  --destructive-hover: #fb7185;
   --destructive-foreground: #ffffff;
 
-  --border: #1e293b;
-  --input: #1e293b;
-  --ring: #3b82f6;
+  /* Borders & Inputs - Tailwind Gray 800 */
+  --border: #1f2937;
+  --input: #1f2937;
+  --ring: #3b82f6; /* Blue 500 */
 
   /* Charts */
-  --chart-1: #3b82f6;
-  --chart-2: #38bdf8;
-  --chart-3: #f59e0b;
-  --chart-4: #ef4444;
-  --chart-5: #8b5cf6;
+  --chart-1: #3b82f6; /* Blue */
+  --chart-2: #f43f5e; /* Rose */
+  --chart-3: #fbbf24; /* Amber */
+  --chart-4: #38bdf8; /* Sky */
+  --chart-5: #f9fafb; /* White/Gray */
 
-  /* Sidebar Colors & Hovers (Dark) */
-  --sidebar: #0f172a;
-  --sidebar-foreground: #f8fafc;
+  /* Sidebar */
+  --sidebar: #030712;
+  --sidebar-foreground: #f9fafb;
   --sidebar-primary: #3b82f6;
   --sidebar-primary-hover: #60a5fa;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #312e81;
-  --sidebar-accent-hover: #4338ca;
-  --sidebar-accent-foreground: #e0e7ff;
-  --sidebar-border: #1e293b;
+  --sidebar-accent: #1f2937;
+  --sidebar-accent-hover: #374151;
+  --sidebar-accent-foreground: #f9fafb;
+  --sidebar-border: #1f2937;
   --sidebar-ring: #3b82f6;
 }
 
@@ -175,10 +178,13 @@
   --color-secondary-hover: var(--secondary-hover);
   --color-secondary-foreground: var(--secondary-foreground);
 
-  /* Mapping the new Tertiary variable */
   --color-tertiary: var(--tertiary);
   --color-tertiary-hover: var(--tertiary-hover);
   --color-tertiary-foreground: var(--tertiary-foreground);
+
+  --color-quaternary: var(--quaternary);
+  --color-quaternary-hover: var(--quaternary-hover);
+  --color-quaternary-foreground: var(--quaternary-foreground);
 
   --color-muted: var(--muted);
   --color-muted-hover: var(--muted-hover);
@@ -216,24 +222,27 @@
   --font-sans: var(--font-sans);
   --font-mono: var(--font-mono);
   --font-serif: var(--font-serif);
+  --font-heading: var(--font-heading);
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
   --shadow-2xs: var(--shadow-2xs);
   --shadow-xs: var(--shadow-xs);
   --shadow-sm: var(--shadow-sm);
   --shadow: var(--shadow);
   --shadow-md: var(--shadow-md);
   --shadow-lg: var(--shadow-lg);
-  --shadow-xl: var(--shadow-xl);
-  --shadow-2xl: var(--shadow-2xl);
+
   --tracking-tighter: calc(var(--tracking-normal) - 0.05em);
   --tracking-tight: calc(var(--tracking-normal) - 0.025em);
   --tracking-normal: var(--tracking-normal);
   --tracking-wide: calc(var(--tracking-normal) + 0.025em);
   --tracking-wider: calc(var(--tracking-normal) + 0.05em);
   --tracking-widest: calc(var(--tracking-normal) + 0.1em);
+
   --animate-marquee: marquee 350s linear infinite;
 }
 
