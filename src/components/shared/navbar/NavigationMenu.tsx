@@ -18,18 +18,18 @@ const NAV_LINKS = [
   { name: 'Contact', href: '/contact' },
 ];
 
-export default function Navbar({ children }: { children?: React.ReactNode }) {
+export default function NavigationMenu({ children }: { children?: React.ReactNode }) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname(); // Current URL path telusukovadaniki
 
   return (
-    <nav className={cn('fixed inset-x-4 top-8 z-50 lg:inset-x-20')}>
+    <nav className={cn('fixed inset-x-0 top-8 z-50 container mx-auto')}>
       {children}
 
       {/*_______________________ NAVBAR MAIN CONTAINER _______________________*/}
       <section
         className={cn(
-          'border-border/50 relative flex h-16 w-full items-center justify-between rounded-2xl px-6 shadow-lg shadow-black/5',
+          'border-border/50 relative flex h-12 w-full items-center justify-between px-6 shadow-lg shadow-black/5',
           'bg-background/60 backdrop-blur-md transition-all',
         )}
       >
@@ -37,7 +37,7 @@ export default function Navbar({ children }: { children?: React.ReactNode }) {
         <div className="flex h-full shrink-0 items-center">
           <Link
             href="/"
-            className="bg-primary/10 text-primary hover:bg-primary/20 flex items-center justify-center rounded-lg px-3 py-1.5 text-xl font-bold tracking-widest transition-colors"
+            className="bg-primary/10 text-primary hover:bg-primary/20 flex h-full items-center justify-center px-3 text-[clamp(1rem,1vw,3rem)] font-bold tracking-widest transition-colors"
           >
             SRU
           </Link>

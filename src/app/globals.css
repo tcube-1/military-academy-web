@@ -4,76 +4,85 @@
 
 :root {
   /* ==========================================
-     LIGHT MODE (Blue, Amber, Rose, Gray)
+     LIGHT MODE
+     Defence Academy — Navy / Gold / Slate
      ========================================== */
 
-  /* Background & Text - Tailwind Gray 50 & Gray 900 */
-  --background: #f9fafb;
-  --foreground: #111827;
+  /* Background & Text */
+  --background: #f8fafc;
+  --foreground: #0f172a;
 
   --card: #ffffff;
-  --card-foreground: #111827;
+  --card-foreground: #0f172a;
 
   --popover: #ffffff;
-  --popover-foreground: #111827;
+  --popover-foreground: #0f172a;
 
-  /* Primary - Tailwind Blue 600 (Main Brand Color) */
-  --primary: #2563eb;
-  --primary-hover: #1d4ed8;
+  /* Primary — Deep Navy */
+  --primary: #1e3a8a;
+  --primary-hover: #1e40af;
   --primary-foreground: #ffffff;
 
-  /* Tertiary - Tailwind Rose 600 (Special Actions/Badges) */
-  --tertiary: #e11d48;
-  --tertiary-hover: #be123c;
+  /* Tertiary — Deep Red / Maroon
+     Reserved for special actions */
+  --tertiary: #b91c1c;
+  --tertiary-hover: #991b1b;
   --tertiary-foreground: #ffffff;
 
-  --quaternary: #059669;
-  --quaternary-hover: #047857;
+  /* Quaternary — Military / Success Green */
+  --quaternary: #047857;
+  --quaternary-hover: #065f46;
   --quaternary-foreground: #ffffff;
 
-  /* Accent - Tailwind Amber 500 (Highlights/Stars) */
-  --accent: #f59e0b;
-  --accent-hover: #d97706;
-  --accent-foreground: #ffffff;
+  /* Accent — Premium Gold */
+  --accent: #d4a017;
+  --accent-hover: #b8860b;
+  --accent-foreground: #172033;
 
-  /* Secondary - Tailwind Gray 100 (Soft Buttons/Cards) */
-  --secondary: #f3f4f6;
-  --secondary-hover: #e5e7eb;
-  --secondary-foreground: #111827;
+  /* Secondary — Cool Slate */
+  --secondary: #e2e8f0;
+  --secondary-hover: #cbd5e1;
+  --secondary-foreground: #0f172a;
 
-  /* Destructive - Tailwind Rose 600 (Errors/Deletes) */
-  --destructive: #e11d48;
-  --destructive-hover: #be123c;
+  /* Destructive */
+  --destructive: #dc2626;
+  --destructive-hover: #b91c1c;
   --destructive-foreground: #ffffff;
 
-  /* Muted & Borders - Tailwind Gray Variants */
-  --muted: #f3f4f6;
-  --muted-hover: #e5e7eb;
-  --muted-foreground: #6b7280; /* Gray 500 */
-  --border: #e5e7eb; /* Gray 200 */
-  --input: #e5e7eb;
-  --ring: #2563eb; /* Blue 600 */
+  /* Muted & Borders */
+  --muted: #f1f5f9;
+  --muted-hover: #e2e8f0;
+  --muted-foreground: #64748b;
+
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+
+  /* Focus / Ring */
+  --ring: #1e3a8a;
 
   /* Charts */
-  --chart-1: #2563eb; /* Blue */
-  --chart-2: #e11d48; /* Rose */
-  --chart-3: #f59e0b; /* Amber */
-  --chart-4: #0ea5e9; /* Sky (Extra color for charts) */
-  --chart-5: #111827; /* Gray */
+  --chart-1: #1e3a8a;
+  --chart-2: #d4a017;
+  --chart-3: #047857;
+  --chart-4: #0f766e;
+  --chart-5: #475569;
 
   /* Sidebar */
   --sidebar: #ffffff;
-  --sidebar-foreground: #111827;
-  --sidebar-primary: #2563eb;
-  --sidebar-primary-hover: #1d4ed8;
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #f3f4f6;
-  --sidebar-accent-hover: #e5e7eb;
-  --sidebar-accent-foreground: #111827;
-  --sidebar-border: #e5e7eb;
-  --sidebar-ring: #2563eb;
+  --sidebar-foreground: #0f172a;
 
-  /* Typography & Shadows */
+  --sidebar-primary: #1e3a8a;
+  --sidebar-primary-hover: #1e40af;
+  --sidebar-primary-foreground: #ffffff;
+
+  --sidebar-accent: #f1f5f9;
+  --sidebar-accent-hover: #e2e8f0;
+  --sidebar-accent-foreground: #0f172a;
+
+  --sidebar-border: #e2e8f0;
+  --sidebar-ring: #1e3a8a;
+
+  /* Typography */
   --font-sans: Inter, ui-sans-serif, sans-serif, system-ui;
   --font-serif: Noto Serif, ui-serif, serif;
   --font-mono: Martian Mono, ui-monospace, monospace;
@@ -81,92 +90,111 @@
   --radius: 0.75rem;
   --tracking-normal: 0rem;
 
-  --shadow-2xs: 0 1px 2px 0 rgb(17 24 39 / 0.05);
+  /* Shadows */
+  --shadow-2xs: 0 1px 2px 0 rgb(15 23 42 / 0.04);
+
   --shadow-xs:
-    0 1px 3px 0 rgb(17 24 39 / 0.1), 0 1px 2px -1px rgb(17 24 39 / 0.1);
+    0 1px 3px 0 rgb(15 23 42 / 0.08), 0 1px 2px -1px rgb(15 23 42 / 0.08);
+
   --shadow-sm:
-    0 4px 6px -1px rgb(17 24 39 / 0.1), 0 2px 4px -2px rgb(17 24 39 / 0.1);
+    0 4px 6px -1px rgb(15 23 42 / 0.08), 0 2px 4px -2px rgb(15 23 42 / 0.08);
+
   --shadow:
-    0 10px 15px -3px rgb(17 24 39 / 0.1), 0 4px 6px -4px rgb(17 24 39 / 0.1);
+    0 10px 15px -3px rgb(15 23 42 / 0.1), 0 4px 6px -4px rgb(15 23 42 / 0.08);
+
   --shadow-md:
-    0 20px 25px -5px rgb(17 24 39 / 0.1), 0 8px 10px -6px rgb(17 24 39 / 0.1);
-  --shadow-lg: 0 25px 50px -12px rgb(17 24 39 / 0.25);
+    0 20px 25px -5px rgb(15 23 42 / 0.12), 0 8px 10px -6px rgb(15 23 42 / 0.08);
+
+  --shadow-lg: 0 25px 50px -12px rgb(15 23 42 / 0.22);
 }
 
 .dark {
   /* ==========================================
-     DARK MODE (Blue, Amber, Rose, Gray)
+     DARK MODE
+     Defence Academy — Navy / Gold / Slate
      ========================================== */
 
-  /* Background & Text - Tailwind Gray 950 & Gray 50 */
-  --background: #030712;
-  --foreground: #f9fafb;
+  /* Background & Text */
+  --background: #020617;
+  --foreground: #f8fafc;
 
-  --card: #111827; /* Gray 900 */
-  --card-foreground: #f9fafb;
+  --card: #0f172a;
+  --card-foreground: #f8fafc;
 
-  --popover: #111827;
-  --popover-foreground: #f9fafb;
+  --popover: #0f172a;
+  --popover-foreground: #f8fafc;
 
-  /* Primary - Tailwind Blue 500 */
+  /* Primary — Brighter Navy Blue */
   --primary: #3b82f6;
   --primary-hover: #60a5fa;
   --primary-foreground: #ffffff;
 
-  /* Tertiary - Tailwind Rose 500 */
-  --tertiary: #f43f5e;
-  --tertiary-hover: #fb7185;
+  /* Tertiary — Crimson */
+  --tertiary: #ef4444;
+  --tertiary-hover: #f87171;
   --tertiary-foreground: #ffffff;
 
+  /* Quaternary — Emerald */
   --quaternary: #10b981;
   --quaternary-hover: #34d399;
-  --quaternary-foreground: #ffffff;
+  --quaternary-foreground: #022c22;
 
-  /* Accent - Tailwind Amber 400 */
-  --accent: #fbbf24;
-  --accent-hover: #fcd34d;
-  --accent-foreground: #451a03; /* Dark brown for contrast */
+  /* Accent — Gold */
+  --accent: #f4c542;
+  --accent-hover: #f8d76a;
+  --accent-foreground: #422006;
 
-  /* Secondary - Tailwind Gray 800 */
-  --secondary: #1f2937;
-  --secondary-hover: #374151;
-  --secondary-foreground: #f9fafb;
+  /* Secondary */
+  --secondary: #1e293b;
+  --secondary-hover: #334155;
+  --secondary-foreground: #f8fafc;
 
-  /* Destructive - Tailwind Rose 500 */
-  --destructive: #f43f5e;
-  --destructive-hover: #fb7185;
+  /* Destructive */
+  --destructive: #ef4444;
+  --destructive-hover: #f87171;
   --destructive-foreground: #ffffff;
 
-  /* Borders & Inputs - Tailwind Gray 800 */
-  --border: #1f2937;
-  --input: #1f2937;
-  --ring: #3b82f6; /* Blue 500 */
+  /* Muted & Borders */
+  --muted: #0f172a;
+  --muted-hover: #1e293b;
+  --muted-foreground: #94a3b8;
+
+  --border: #1e293b;
+  --input: #1e293b;
+
+  /* Focus / Ring */
+  --ring: #3b82f6;
 
   /* Charts */
-  --chart-1: #3b82f6; /* Blue */
-  --chart-2: #f43f5e; /* Rose */
-  --chart-3: #fbbf24; /* Amber */
-  --chart-4: #38bdf8; /* Sky */
-  --chart-5: #f9fafb; /* White/Gray */
+  --chart-1: #3b82f6;
+  --chart-2: #f4c542;
+  --chart-3: #10b981;
+  --chart-4: #14b8a6;
+  --chart-5: #94a3b8;
 
   /* Sidebar */
-  --sidebar: #030712;
-  --sidebar-foreground: #f9fafb;
+  --sidebar: #020617;
+  --sidebar-foreground: #f8fafc;
+
   --sidebar-primary: #3b82f6;
   --sidebar-primary-hover: #60a5fa;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #1f2937;
-  --sidebar-accent-hover: #374151;
-  --sidebar-accent-foreground: #f9fafb;
-  --sidebar-border: #1f2937;
+
+  --sidebar-accent: #0f172a;
+  --sidebar-accent-hover: #1e293b;
+  --sidebar-accent-foreground: #f8fafc;
+
+  --sidebar-border: #1e293b;
   --sidebar-ring: #3b82f6;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
+
   --color-popover: var(--popover);
   --color-popover-foreground: var(--popover-foreground);
 
@@ -210,12 +238,15 @@
 
   --color-sidebar: var(--sidebar);
   --color-sidebar-foreground: var(--sidebar-foreground);
+
   --color-sidebar-primary: var(--sidebar-primary);
   --color-sidebar-primary-hover: var(--sidebar-primary-hover);
   --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+
   --color-sidebar-accent: var(--sidebar-accent);
   --color-sidebar-accent-hover: var(--sidebar-accent-hover);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 
@@ -250,6 +281,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
     letter-spacing: var(--tracking-normal);
@@ -260,6 +292,7 @@
   from {
     transform: translateX(0%);
   }
+
   to {
     transform: translateX(-100%);
   }

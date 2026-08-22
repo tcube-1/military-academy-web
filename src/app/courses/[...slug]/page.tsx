@@ -1,25 +1,6 @@
-import IndianAirForce from '@/components/courses/defence/IndianAirForce';
-import IndianArmy from '@/components/courses/defence/IndianArmy';
-import IndianCoastGuard from '@/components/courses/defence/IndianCoastGuard';
-import IndianNavy from '@/components/courses/defence/IndianNavy';
-import Degree from '@/components/courses/Degree';
-import IitPage from '@/components/courses/inter/IitPage';
-import NdaPage from '@/components/courses/inter/NdaPage';
-import NeetPage from '@/components/courses/inter/NeetPage';
-import intermdiate from '@/components/courses/Intermdiate';
 import Link from 'next/link';
 
-const pages = {
-  intermidte: intermdiate,
-  degree: Degree,
-  nda: NdaPage,
-  army: IndianArmy,
-  navy: IndianNavy,
-  airforce: IndianAirForce,
-  coastguard: IndianCoastGuard,
-  neet: NeetPage,
-  iit: IitPage,
-};
+const pages = {};
 
 export default async function Page({
   params,

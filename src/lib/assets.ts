@@ -1,3 +1,62 @@
+import Std1 from '../../public/stdimages/Std_1.jpg';
+import Std2 from '../../public/stdimages/Std_2.jpg';
+import Std3 from '../../public/stdimages/Std_3.jpg';
+import Std4 from '../../public/stdimages/Std_4.jpg';
+import Std5 from '../../public/stdimages/Std_5.jpg';
+import Std6 from '../../public/stdimages/Std_6.jpg';
+import Std7 from '../../public/stdimages/Std_7.jpg';
+import Std8 from '../../public/stdimages/Std_8.jpg';
+
+import type { StaticImageData } from 'next/image';
+
+export interface StudentImageItem {
+  id: string;
+  name: string;
+  image: StaticImageData;
+}
+export interface defencelogo {
+  name: string;
+  href: string;
+  link: string;
+}
+export const DefenceLogos = [
+  {
+    name: 'army',
+    href: '/logos/army_logo.png',
+    link: '',
+  },
+  {
+    name: 'navy',
+    href: '/logos/navy_logo.png',
+    link: '',
+  },
+  {
+    name: 'airforce',
+    href: '/logos/airforce_logo.png',
+    link: '',
+  },
+  {
+    name: 'WhatsApp',
+    href: '/logos/',
+    link: '',
+  },
+  {
+    name: 'YouTube',
+    href: '/logos/',
+    link: '',
+  },
+];
+export const studentImages: StudentImageItem[] = [
+  { id: 'std-1', name: 'Student 1', image: Std1 },
+  { id: 'std-2', name: 'Student 2', image: Std2 },
+  { id: 'std-3', name: 'Student 3', image: Std3 },
+  { id: 'std-4', name: 'Student 4', image: Std4 },
+  { id: 'std-5', name: 'Student 5', image: Std5 },
+  { id: 'std-6', name: 'Student 6', image: Std6 },
+  { id: 'std-7', name: 'Student 7', image: Std7 },
+  { id: 'std-8', name: 'Student 8', image: Std8 },
+];
+
 export const socialIcons = [
   {
     name: 'Facebook',
@@ -26,6 +85,20 @@ export const socialIcons = [
   },
 ];
 
+{
+  /**
+   * _______________________ students images _______________________
+   * >>comment
+   */
+}
+// src/lib/assets.ts
+
+{
+  /**
+   * _______________________ images _______________________
+   * >>comment
+   */
+}
 export interface ImageAssetItem {
   name: string;
   href: string;
