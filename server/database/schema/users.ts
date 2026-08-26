@@ -1,10 +1,12 @@
-import { pgTable, text, timestamp, uuid } from "drizzle-orm/pg-core";
+import { pgTable, text, timestamp, uuid, boolean } from "drizzle-orm/pg-core";
 
 export const users = pgTable("users", {
   id: uuid("id").primaryKey().defaultRandom(),
-  name: text("name").notNull(),
+  authUserId: text("auth_user_id").unique(), // Mapped to Auth.js provider identity
   email: text("email").notNull().unique(),
-  role: text("role").default("USER"),
+  displayName: text("display_name").notNull(),
+  status: text("status").default("ACTIVE").notNull(), // ACTIVE, INACTIVE, SUSPENDED
   createdAt: timestamp("created_at").defaultNow().notNull(),
   updatedAt: timestamp("updated_at").defaultNow().notNull(),
+  deletedAt: timestamp("deleted_at"), // Soft delete
 });

@@ -1,4 +1,18 @@
 export const PERMISSIONS = {
+  // Users
+  USERS_READ: "users.read",
+  USERS_CREATE: "users.create",
+  USERS_UPDATE: "users.update",
+  USERS_DELETE: "users.delete",
+
+  // Roles
+  ROLES_READ: "roles.read",
+  ROLES_MANAGE: "roles.manage",
+
+  // Permissions
+  PERMISSIONS_READ: "permissions.read",
+  PERMISSIONS_MANAGE: "permissions.manage",
+
   // Students
   STUDENTS_READ: "students.read",
   STUDENTS_CREATE: "students.create",
@@ -16,5 +30,4 @@ export const PERMISSIONS = {
 
 export type Permission = typeof PERMISSIONS[keyof typeof PERMISSIONS];
 
-// Centralized permission registry interface
 export const PermissionRegistry = new Set<string>(Object.values(PERMISSIONS));

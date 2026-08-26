@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { db } from "../../database/db"; // we will expose db properly
+import { db } from "../../database/db.js";
 import { sql } from "drizzle-orm";
 
 const v1Router = Router();
@@ -33,9 +33,14 @@ v1Router.get("/ready", async (req, res, next) => {
   }
 });
 
-import { authRouter } from "../../modules/auth/auth.route";
+import { authRouter } from "../../modules/auth/auth.route.js";
+import { usersRouter } from "../../modules/users/users.route.js";
+import { rolesRouter, permissionsRouter } from "../../modules/roles/roles.route.js";
 
 // Auth & Security routes will be mounted here
 v1Router.use("/auth", authRouter);
+v1Router.use("/users", usersRouter);
+v1Router.use("/roles", rolesRouter);
+v1Router.use("/permissions", permissionsRouter);
 
 export { v1Router };

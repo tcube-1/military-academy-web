@@ -1,8 +1,8 @@
 import { env } from "./env";
-import type { AuthConfig } from "@auth/core";
+import type { ExpressAuthConfig } from "@auth/express";
 
-export const authConfig: AuthConfig = {
-  providers: [], // Providers will be added in Phase 3/5
+export const authConfig: ExpressAuthConfig = {
+  providers: [],
   secret: env.AUTH_SECRET,
   trustHost: true,
 };
