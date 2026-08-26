@@ -1,14 +1,13 @@
 import type { Request, Response, NextFunction } from "express";
-import { promise } from "zod";
 
-type asyncHandler = (
+type AsyncHandlerFn = (
   req: Request,
   res: Response,
   next: NextFunction,
 ) => Promise<unknown>;
 
-const asyncHandler = (fn: asyncHandler) => {
-  return async (req: Request, res: Response, next: NextFunction) => {
-    fn(req, res, next).catch(next);
+export const asyncHandler = (fn: AsyncHandlerFn) => {
+  return (req: Request, res: Response, next: NextFunction) => {
+    Promise.resolve(fn(req, res, next)).catch(next);
   };
 };
