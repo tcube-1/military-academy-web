@@ -1,0 +1,299 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* ==========================================
+     LIGHT MODE
+     Defence Academy — Navy / Gold / Slate
+     ========================================== */
+
+  /* Background & Text */
+  --background: #f8fafc;
+  --foreground: #0f172a;
+
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+
+  /* Primary — Deep Navy */
+  --primary: #1e3a8a;
+  --primary-hover: #1e40af;
+  --primary-foreground: #ffffff;
+
+  /* Tertiary — Deep Red / Maroon
+     Reserved for special actions */
+  --tertiary: #b91c1c;
+  --tertiary-hover: #991b1b;
+  --tertiary-foreground: #ffffff;
+
+  /* Quaternary — Military / Success Green */
+  --quaternary: #047857;
+  --quaternary-hover: #065f46;
+  --quaternary-foreground: #ffffff;
+
+  /* Accent — Premium Gold */
+  --accent: #d4a017;
+  --accent-hover: #b8860b;
+  --accent-foreground: #172033;
+
+  /* Secondary — Cool Slate */
+  --secondary: #e2e8f0;
+  --secondary-hover: #cbd5e1;
+  --secondary-foreground: #0f172a;
+
+  /* Destructive */
+  --destructive: #dc2626;
+  --destructive-hover: #b91c1c;
+  --destructive-foreground: #ffffff;
+
+  /* Muted & Borders */
+  --muted: #f1f5f9;
+  --muted-hover: #e2e8f0;
+  --muted-foreground: #64748b;
+
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+
+  /* Focus / Ring */
+  --ring: #1e3a8a;
+
+  /* Charts */
+  --chart-1: #1e3a8a;
+  --chart-2: #d4a017;
+  --chart-3: #047857;
+  --chart-4: #0f766e;
+  --chart-5: #475569;
+
+  /* Sidebar */
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0f172a;
+
+  --sidebar-primary: #1e3a8a;
+  --sidebar-primary-hover: #1e40af;
+  --sidebar-primary-foreground: #ffffff;
+
+  --sidebar-accent: #f1f5f9;
+  --sidebar-accent-hover: #e2e8f0;
+  --sidebar-accent-foreground: #0f172a;
+
+  --sidebar-border: #e2e8f0;
+  --sidebar-ring: #1e3a8a;
+
+  /* Typography */
+  --font-sans: Inter, ui-sans-serif, sans-serif, system-ui;
+  --font-serif: Noto Serif, ui-serif, serif;
+  --font-mono: Martian Mono, ui-monospace, monospace;
+
+  --radius: 0.75rem;
+  --tracking-normal: 0rem;
+
+  /* Shadows */
+  --shadow-2xs: 0 1px 2px 0 rgb(15 23 42 / 0.04);
+
+  --shadow-xs:
+    0 1px 3px 0 rgb(15 23 42 / 0.08), 0 1px 2px -1px rgb(15 23 42 / 0.08);
+
+  --shadow-sm:
+    0 4px 6px -1px rgb(15 23 42 / 0.08), 0 2px 4px -2px rgb(15 23 42 / 0.08);
+
+  --shadow:
+    0 10px 15px -3px rgb(15 23 42 / 0.1), 0 4px 6px -4px rgb(15 23 42 / 0.08);
+
+  --shadow-md:
+    0 20px 25px -5px rgb(15 23 42 / 0.12), 0 8px 10px -6px rgb(15 23 42 / 0.08);
+
+  --shadow-lg: 0 25px 50px -12px rgb(15 23 42 / 0.22);
+}
+
+.dark {
+  /* ==========================================
+     DARK MODE
+     Defence Academy — Navy / Gold / Slate
+     ========================================== */
+
+  /* Background & Text */
+  --background: #020617;
+  --foreground: #f8fafc;
+
+  --card: #0f172a;
+  --card-foreground: #f8fafc;
+
+  --popover: #0f172a;
+  --popover-foreground: #f8fafc;
+
+  /* Primary — Brighter Navy Blue */
+  --primary: #3b82f6;
+  --primary-hover: #60a5fa;
+  --primary-foreground: #ffffff;
+
+  /* Tertiary — Crimson */
+  --tertiary: #ef4444;
+  --tertiary-hover: #f87171;
+  --tertiary-foreground: #ffffff;
+
+  /* Quaternary — Emerald */
+  --quaternary: #10b981;
+  --quaternary-hover: #34d399;
+  --quaternary-foreground: #022c22;
+
+  /* Accent — Gold */
+  --accent: #f4c542;
+  --accent-hover: #f8d76a;
+  --accent-foreground: #422006;
+
+  /* Secondary */
+  --secondary: #1e293b;
+  --secondary-hover: #334155;
+  --secondary-foreground: #f8fafc;
+
+  /* Destructive */
+  --destructive: #ef4444;
+  --destructive-hover: #f87171;
+  --destructive-foreground: #ffffff;
+
+  /* Muted & Borders */
+  --muted: #0f172a;
+  --muted-hover: #1e293b;
+  --muted-foreground: #94a3b8;
+
+  --border: #1e293b;
+  --input: #1e293b;
+
+  /* Focus / Ring */
+  --ring: #3b82f6;
+
+  /* Charts */
+  --chart-1: #3b82f6;
+  --chart-2: #f4c542;
+  --chart-3: #10b981;
+  --chart-4: #14b8a6;
+  --chart-5: #94a3b8;
+
+  /* Sidebar */
+  --sidebar: #020617;
+  --sidebar-foreground: #f8fafc;
+
+  --sidebar-primary: #3b82f6;
+  --sidebar-primary-hover: #60a5fa;
+  --sidebar-primary-foreground: #ffffff;
+
+  --sidebar-accent: #0f172a;
+  --sidebar-accent-hover: #1e293b;
+  --sidebar-accent-foreground: #f8fafc;
+
+  --sidebar-border: #1e293b;
+  --sidebar-ring: #3b82f6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-tertiary: var(--tertiary);
+  --color-tertiary-hover: var(--tertiary-hover);
+  --color-tertiary-foreground: var(--tertiary-foreground);
+
+  --color-quaternary: var(--quaternary);
+  --color-quaternary-hover: var(--quaternary-hover);
+  --color-quaternary-foreground: var(--quaternary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-hover: var(--muted-hover);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-hover: var(--destructive-hover);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-hover: var(--sidebar-primary-hover);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-hover: var(--sidebar-accent-hover);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-serif: var(--font-serif);
+  --font-heading: var(--font-heading);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --shadow-2xs: var(--shadow-2xs);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow: var(--shadow);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+
+  --tracking-tighter: calc(var(--tracking-normal) - 0.05em);
+  --tracking-tight: calc(var(--tracking-normal) - 0.025em);
+  --tracking-normal: var(--tracking-normal);
+  --tracking-wide: calc(var(--tracking-normal) + 0.025em);
+  --tracking-wider: calc(var(--tracking-normal) + 0.05em);
+  --tracking-widest: calc(var(--tracking-normal) + 0.1em);
+
+  --animate-marquee: marquee 350s linear infinite;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    letter-spacing: var(--tracking-normal);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}

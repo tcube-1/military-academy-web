@@ -1,0 +1,3728 @@
+[
+  {
+    "id": "adilabad-rural",
+    "name": "Adilabad Rural",
+    "districtId": "adilabad",
+    "lgdCode": "6221"
+  },
+  {
+    "id": "adilabad-urban",
+    "name": "Adilabad Urban",
+    "districtId": "adilabad",
+    "lgdCode": "4306"
+  },
+  {
+    "id": "bazarhatnoor",
+    "name": "Bazarhatnoor",
+    "districtId": "adilabad",
+    "lgdCode": "4323"
+  },
+  {
+    "id": "bela",
+    "name": "Bela",
+    "districtId": "adilabad",
+    "lgdCode": "4308"
+  },
+  {
+    "id": "bheempur",
+    "name": "Bheempur",
+    "districtId": "adilabad",
+    "lgdCode": "6223"
+  },
+  {
+    "id": "bhoraj",
+    "name": "Bhoraj",
+    "districtId": "adilabad",
+    "lgdCode": "7529"
+  },
+  {
+    "id": "boath",
+    "name": "Boath",
+    "districtId": "adilabad",
+    "lgdCode": "4324"
+  },
+  {
+    "id": "gadiguda",
+    "name": "Gadiguda",
+    "districtId": "adilabad",
+    "lgdCode": "6225"
+  },
+  {
+    "id": "gudihatnoor",
+    "name": "Gudihatnoor",
+    "districtId": "adilabad",
+    "lgdCode": "4310"
+  },
+  {
+    "id": "ichoda",
+    "name": "Ichoda",
+    "districtId": "adilabad",
+    "lgdCode": "4322"
+  },
+  {
+    "id": "inderavelly",
+    "name": "Inderavelly",
+    "districtId": "adilabad",
+    "lgdCode": "4311"
+  },
+  {
+    "id": "jainath",
+    "name": "Jainath",
+    "districtId": "adilabad",
+    "lgdCode": "4307"
+  },
+  {
+    "id": "mavala",
+    "name": "Mavala",
+    "districtId": "adilabad",
+    "lgdCode": "6222"
+  },
+  {
+    "id": "narnoor",
+    "name": "Narnoor",
+    "districtId": "adilabad",
+    "lgdCode": "4312"
+  },
+  {
+    "id": "neradigonda",
+    "name": "Neradigonda",
+    "districtId": "adilabad",
+    "lgdCode": "4325"
+  },
+  {
+    "id": "sathnala",
+    "name": "Sathnala",
+    "districtId": "adilabad",
+    "lgdCode": "7515"
+  },
+  {
+    "id": "sirikonda-adilabad",
+    "name": "Sirikonda",
+    "districtId": "adilabad",
+    "lgdCode": "6224"
+  },
+  {
+    "id": "sonala",
+    "name": "Sonala",
+    "districtId": "adilabad",
+    "lgdCode": "7516"
+  },
+  {
+    "id": "talamadugu",
+    "name": "Talamadugu",
+    "districtId": "adilabad",
+    "lgdCode": "4309"
+  },
+  {
+    "id": "tamsi",
+    "name": "Tamsi",
+    "districtId": "adilabad",
+    "lgdCode": "4305"
+  },
+  {
+    "id": "utnoor",
+    "name": "Utnoor",
+    "districtId": "adilabad",
+    "lgdCode": "4321"
+  },
+  {
+    "id": "amberpet",
+    "name": "Amberpet",
+    "districtId": "hyderabad",
+    "lgdCode": "4502"
+  },
+  {
+    "id": "ameerpet",
+    "name": "Ameerpet",
+    "districtId": "hyderabad",
+    "lgdCode": "4497"
+  },
+  {
+    "id": "asif-nagar",
+    "name": "Asif Nagar",
+    "districtId": "hyderabad",
+    "lgdCode": "4506"
+  },
+  {
+    "id": "bahadurpura",
+    "name": "Bahadurpura",
+    "districtId": "hyderabad",
+    "lgdCode": "4508"
+  },
+  {
+    "id": "bandlaguda",
+    "name": "Bandlaguda",
+    "districtId": "hyderabad",
+    "lgdCode": "4509"
+  },
+  {
+    "id": "charminar",
+    "name": "Charminar",
+    "districtId": "hyderabad",
+    "lgdCode": "4510"
+  },
+  {
+    "id": "golconda",
+    "name": "Golconda",
+    "districtId": "hyderabad",
+    "lgdCode": "4507"
+  },
+  {
+    "id": "himayatnagar",
+    "name": "Himayatnagar",
+    "districtId": "hyderabad",
+    "lgdCode": "4503"
+  },
+  {
+    "id": "khairatabad",
+    "name": "Khairatabad",
+    "districtId": "hyderabad",
+    "lgdCode": "4505"
+  },
+  {
+    "id": "marredpally",
+    "name": "Marredpally",
+    "districtId": "hyderabad",
+    "lgdCode": "4500"
+  },
+  {
+    "id": "musheerabad",
+    "name": "Musheerabad",
+    "districtId": "hyderabad",
+    "lgdCode": "4501"
+  },
+  {
+    "id": "nampally-hyderabad",
+    "name": "Nampally",
+    "districtId": "hyderabad",
+    "lgdCode": "4504"
+  },
+  {
+    "id": "saidabad",
+    "name": "Saidabad",
+    "districtId": "hyderabad",
+    "lgdCode": "4511"
+  },
+  {
+    "id": "secunderabad",
+    "name": "Secunderabad",
+    "districtId": "hyderabad",
+    "lgdCode": "4498"
+  },
+  {
+    "id": "shaikpet",
+    "name": "Shaikpet",
+    "districtId": "hyderabad",
+    "lgdCode": "4496"
+  },
+  {
+    "id": "tirumalgiri",
+    "name": "Tirumalgiri",
+    "districtId": "hyderabad",
+    "lgdCode": "4499"
+  },
+  {
+    "id": "chigurumamidi",
+    "name": "Chigurumamidi",
+    "districtId": "karimnagar",
+    "lgdCode": "4442"
+  },
+  {
+    "id": "choppadandi",
+    "name": "Choppadandi",
+    "districtId": "karimnagar",
+    "lgdCode": "4424"
+  },
+  {
+    "id": "ellandakunta",
+    "name": "Ellandakunta",
+    "districtId": "karimnagar",
+    "lgdCode": "6234"
+  },
+  {
+    "id": "gangadhara",
+    "name": "Gangadhara",
+    "districtId": "karimnagar",
+    "lgdCode": "4422"
+  },
+  {
+    "id": "ganneruvaram",
+    "name": "Ganneruvaram",
+    "districtId": "karimnagar",
+    "lgdCode": "6232"
+  },
+  {
+    "id": "huzurabad",
+    "name": "Huzurabad",
+    "districtId": "karimnagar",
+    "lgdCode": "4446"
+  },
+  {
+    "id": "jammikunta",
+    "name": "Jammikunta",
+    "districtId": "karimnagar",
+    "lgdCode": "4440"
+  },
+  {
+    "id": "karimnagar",
+    "name": "Karimnagar",
+    "districtId": "karimnagar",
+    "lgdCode": "6231"
+  },
+  {
+    "id": "karimnagar-rural",
+    "name": "Karimnagar Rural",
+    "districtId": "karimnagar",
+    "lgdCode": "4428"
+  },
+  {
+    "id": "kothapally",
+    "name": "Kothapally",
+    "districtId": "karimnagar",
+    "lgdCode": "6230"
+  },
+  {
+    "id": "manakondur",
+    "name": "Manakondur",
+    "districtId": "karimnagar",
+    "lgdCode": "4427"
+  },
+  {
+    "id": "ramadugu",
+    "name": "Ramadugu",
+    "districtId": "karimnagar",
+    "lgdCode": "4423"
+  },
+  {
+    "id": "shankarapatnam",
+    "name": "Shankarapatnam",
+    "districtId": "karimnagar",
+    "lgdCode": "4441"
+  },
+  {
+    "id": "thimmapur-lmd",
+    "name": "Thimmapur LMD",
+    "districtId": "karimnagar",
+    "lgdCode": "4438"
+  },
+  {
+    "id": "v-saidapur",
+    "name": "V.Saidapur",
+    "districtId": "karimnagar",
+    "lgdCode": "4445"
+  },
+  {
+    "id": "veenavanka",
+    "name": "Veenavanka",
+    "districtId": "karimnagar",
+    "lgdCode": "4439"
+  },
+  {
+    "id": "bonakal",
+    "name": "Bonakal",
+    "districtId": "khammam",
+    "lgdCode": "4765"
+  },
+  {
+    "id": "chinthakani",
+    "name": "Chinthakani",
+    "districtId": "khammam",
+    "lgdCode": "4760"
+  },
+  {
+    "id": "enkoor",
+    "name": "Enkoor",
+    "districtId": "khammam",
+    "lgdCode": "4753"
+  },
+  {
+    "id": "kalluru",
+    "name": "Kalluru",
+    "districtId": "khammam",
+    "lgdCode": "4763"
+  },
+  {
+    "id": "kamepalli",
+    "name": "Kamepalli",
+    "districtId": "khammam",
+    "lgdCode": "4745"
+  },
+  {
+    "id": "khammam-rural",
+    "name": "Khammam (Rural)",
+    "districtId": "khammam",
+    "lgdCode": "4756"
+  },
+  {
+    "id": "khammam-urban",
+    "name": "Khammam Urban",
+    "districtId": "khammam",
+    "lgdCode": "6326"
+  },
+  {
+    "id": "konijerla",
+    "name": "Konijerla",
+    "districtId": "khammam",
+    "lgdCode": "4761"
+  },
+  {
+    "id": "kusumanchi",
+    "name": "Kusumanchi",
+    "districtId": "khammam",
+    "lgdCode": "4755"
+  },
+  {
+    "id": "madhira",
+    "name": "Madhira",
+    "districtId": "khammam",
+    "lgdCode": "4766"
+  },
+  {
+    "id": "mudigonda",
+    "name": "Mudigonda",
+    "districtId": "khammam",
+    "lgdCode": "4758"
+  },
+  {
+    "id": "nelakondapalli",
+    "name": "Nelakondapalli",
+    "districtId": "khammam",
+    "lgdCode": "4759"
+  },
+  {
+    "id": "penuballi",
+    "name": "Penuballi",
+    "districtId": "khammam",
+    "lgdCode": "4752"
+  },
+  {
+    "id": "raghunadhapalem",
+    "name": "Raghunadhapalem",
+    "districtId": "khammam",
+    "lgdCode": "4757"
+  },
+  {
+    "id": "sathupalli",
+    "name": "Sathupalli",
+    "districtId": "khammam",
+    "lgdCode": "4751"
+  },
+  {
+    "id": "singareni",
+    "name": "Singareni",
+    "districtId": "khammam",
+    "lgdCode": "4744"
+  },
+  {
+    "id": "thallada",
+    "name": "Thallada",
+    "districtId": "khammam",
+    "lgdCode": "4762"
+  },
+  {
+    "id": "tirumalayapalem",
+    "name": "Tirumalayapalem",
+    "districtId": "khammam",
+    "lgdCode": "4754"
+  },
+  {
+    "id": "vemsoor",
+    "name": "Vemsoor",
+    "districtId": "khammam",
+    "lgdCode": "4768"
+  },
+  {
+    "id": "wyra",
+    "name": "Wyra",
+    "districtId": "khammam",
+    "lgdCode": "4764"
+  },
+  {
+    "id": "yerrupalem",
+    "name": "Yerrupalem",
+    "districtId": "khammam",
+    "lgdCode": "4767"
+  },
+  {
+    "id": "addakal",
+    "name": "Addakal",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4586"
+  },
+  {
+    "id": "balanagar-mahabubnagar",
+    "name": "Balanagar",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4557"
+  },
+  {
+    "id": "bhoothpur",
+    "name": "Bhoothpur",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4574"
+  },
+  {
+    "id": "chinnachintakunta",
+    "name": "Chinnachintakunta",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4587"
+  },
+  {
+    "id": "devarakadra",
+    "name": "Devarakadra",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4573"
+  },
+  {
+    "id": "gandeed",
+    "name": "Gandeed",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4538"
+  },
+  {
+    "id": "hanwada",
+    "name": "Hanwada",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4555"
+  },
+  {
+    "id": "jadcherla",
+    "name": "Jadcherla",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4567"
+  },
+  {
+    "id": "koilkonda",
+    "name": "Koilkonda",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4569"
+  },
+  {
+    "id": "koukuntla",
+    "name": "Koukuntla",
+    "districtId": "mahabubnagar",
+    "lgdCode": "7522"
+  },
+  {
+    "id": "mahabubnagar-rural",
+    "name": "Mahabubnagar Rural",
+    "districtId": "mahabubnagar",
+    "lgdCode": "6258"
+  },
+  {
+    "id": "mahabubnagar-urban",
+    "name": "Mahabubnagar Urban",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4568"
+  },
+  {
+    "id": "midjil",
+    "name": "Midjil",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4566"
+  },
+  {
+    "id": "mohammadabad",
+    "name": "Mohammadabad",
+    "districtId": "mahabubnagar",
+    "lgdCode": "7187"
+  },
+  {
+    "id": "moosapet",
+    "name": "Moosapet",
+    "districtId": "mahabubnagar",
+    "lgdCode": "6260"
+  },
+  {
+    "id": "nawabpet-mahabubnagar",
+    "name": "Nawabpet",
+    "districtId": "mahabubnagar",
+    "lgdCode": "4556"
+  },
+  {
+    "id": "rajapur",
+    "name": "Rajapur",
+    "districtId": "mahabubnagar",
+    "lgdCode": "6261"
+  },
+  {
+    "id": "alladurg",
+    "name": "Alladurg",
+    "districtId": "medak",
+    "lgdCode": "4470"
+  },
+  {
+    "id": "chegunta",
+    "name": "Chegunta",
+    "districtId": "medak",
+    "lgdCode": "4466"
+  },
+  {
+    "id": "chilpched",
+    "name": "Chilpched",
+    "districtId": "medak",
+    "lgdCode": "6274"
+  },
+  {
+    "id": "havelighanapur",
+    "name": "Havelighanapur",
+    "districtId": "medak",
+    "lgdCode": "6270"
+  },
+  {
+    "id": "kowdipally",
+    "name": "Kowdipally",
+    "districtId": "medak",
+    "lgdCode": "4480"
+  },
+  {
+    "id": "kulcharam",
+    "name": "Kulcharam",
+    "districtId": "medak",
+    "lgdCode": "4468"
+  },
+  {
+    "id": "manoharabad",
+    "name": "Manoharabad",
+    "districtId": "medak",
+    "lgdCode": "6273"
+  },
+  {
+    "id": "masaipet",
+    "name": "Masaipet",
+    "districtId": "medak",
+    "lgdCode": "7190"
+  },
+  {
+    "id": "medak",
+    "name": "Medak",
+    "districtId": "medak",
+    "lgdCode": "4456"
+  },
+  {
+    "id": "narsapur",
+    "name": "Narsapur",
+    "districtId": "medak",
+    "lgdCode": "4488"
+  },
+  {
+    "id": "narsingi",
+    "name": "Narsingi",
+    "districtId": "medak",
+    "lgdCode": "6272"
+  },
+  {
+    "id": "nizampet",
+    "name": "Nizampet",
+    "districtId": "medak",
+    "lgdCode": "6271"
+  },
+  {
+    "id": "papannapet",
+    "name": "Papannapet",
+    "districtId": "medak",
+    "lgdCode": "4455"
+  },
+  {
+    "id": "ramayampet",
+    "name": "Ramayampet",
+    "districtId": "medak",
+    "lgdCode": "4457"
+  },
+  {
+    "id": "regode",
+    "name": "Regode",
+    "districtId": "medak",
+    "lgdCode": "4471"
+  },
+  {
+    "id": "shankarampet-a",
+    "name": "Shankarampet (A)",
+    "districtId": "medak",
+    "lgdCode": "4454"
+  },
+  {
+    "id": "shankarampet-r",
+    "name": "Shankarampet (R)",
+    "districtId": "medak",
+    "lgdCode": "4467"
+  },
+  {
+    "id": "shivampet",
+    "name": "Shivampet",
+    "districtId": "medak",
+    "lgdCode": "4487"
+  },
+  {
+    "id": "tekmal",
+    "name": "Tekmal",
+    "districtId": "medak",
+    "lgdCode": "4469"
+  },
+  {
+    "id": "toopran",
+    "name": "Toopran",
+    "districtId": "medak",
+    "lgdCode": "4482"
+  },
+  {
+    "id": "yeldurthy",
+    "name": "Yeldurthy",
+    "districtId": "medak",
+    "lgdCode": "4481"
+  },
+  {
+    "id": "adavidevulapalli",
+    "name": "Adavidevulapalli",
+    "districtId": "nalgonda",
+    "lgdCode": "6304"
+  },
+  {
+    "id": "anumula",
+    "name": "Anumula",
+    "districtId": "nalgonda",
+    "lgdCode": "4660"
+  },
+  {
+    "id": "chandampeta",
+    "name": "Chandampeta",
+    "districtId": "nalgonda",
+    "lgdCode": "4652"
+  },
+  {
+    "id": "chandur-nalgonda",
+    "name": "Chandur",
+    "districtId": "nalgonda",
+    "lgdCode": "4655"
+  },
+  {
+    "id": "chinthapally",
+    "name": "Chinthapally",
+    "districtId": "nalgonda",
+    "lgdCode": "4650"
+  },
+  {
+    "id": "chityal-nalgonda",
+    "name": "Chityal",
+    "districtId": "nalgonda",
+    "lgdCode": "4633"
+  },
+  {
+    "id": "dameracherla",
+    "name": "Dameracherla",
+    "districtId": "nalgonda",
+    "lgdCode": "4663"
+  },
+  {
+    "id": "devarakonda",
+    "name": "Devarakonda",
+    "districtId": "nalgonda",
+    "lgdCode": "4653"
+  },
+  {
+    "id": "gattuppal",
+    "name": "Gattuppal",
+    "districtId": "nalgonda",
+    "lgdCode": "7526"
+  },
+  {
+    "id": "gudipally",
+    "name": "Gudipally",
+    "districtId": "nalgonda",
+    "lgdCode": "7527"
+  },
+  {
+    "id": "gundlapally",
+    "name": "Gundlapally",
+    "districtId": "nalgonda",
+    "lgdCode": "4651"
+  },
+  {
+    "id": "gurrampode",
+    "name": "Gurrampode",
+    "districtId": "nalgonda",
+    "lgdCode": "4657"
+  },
+  {
+    "id": "kanagal",
+    "name": "Kanagal",
+    "districtId": "nalgonda",
+    "lgdCode": "4656"
+  },
+  {
+    "id": "kattangur",
+    "name": "Kattangur",
+    "districtId": "nalgonda",
+    "lgdCode": "4635"
+  },
+  {
+    "id": "kethepally",
+    "name": "Kethepally",
+    "districtId": "nalgonda",
+    "lgdCode": "4637"
+  },
+  {
+    "id": "kondamallepally",
+    "name": "Kondamallepally",
+    "districtId": "nalgonda",
+    "lgdCode": "6307"
+  },
+  {
+    "id": "madugulapally",
+    "name": "Madugulapally",
+    "districtId": "nalgonda",
+    "lgdCode": "6305"
+  },
+  {
+    "id": "marriguda",
+    "name": "Marriguda",
+    "districtId": "nalgonda",
+    "lgdCode": "4649"
+  },
+  {
+    "id": "miryalaguda",
+    "name": "Miryalaguda",
+    "districtId": "nalgonda",
+    "lgdCode": "4664"
+  },
+  {
+    "id": "munugode",
+    "name": "Munugode",
+    "districtId": "nalgonda",
+    "lgdCode": "4647"
+  },
+  {
+    "id": "nakrekal",
+    "name": "Nakrekal",
+    "districtId": "nalgonda",
+    "lgdCode": "4636"
+  },
+  {
+    "id": "nalgonda",
+    "name": "Nalgonda",
+    "districtId": "nalgonda",
+    "lgdCode": "4646"
+  },
+  {
+    "id": "nampally-nalgonda",
+    "name": "Nampally",
+    "districtId": "nalgonda",
+    "lgdCode": "4654"
+  },
+  {
+    "id": "narketpally",
+    "name": "Narketpally",
+    "districtId": "nalgonda",
+    "lgdCode": "4634"
+  },
+  {
+    "id": "neredugommu",
+    "name": "Neredugommu",
+    "districtId": "nalgonda",
+    "lgdCode": "6308"
+  },
+  {
+    "id": "nidmanoor",
+    "name": "Nidmanoor",
+    "districtId": "nalgonda",
+    "lgdCode": "4661"
+  },
+  {
+    "id": "pedda-adesherlapally",
+    "name": "Pedda Adesherlapally",
+    "districtId": "nalgonda",
+    "lgdCode": "4658"
+  },
+  {
+    "id": "peddavoora",
+    "name": "Peddavoora",
+    "districtId": "nalgonda",
+    "lgdCode": "4659"
+  },
+  {
+    "id": "shaligouraram",
+    "name": "Shaligouraram",
+    "districtId": "nalgonda",
+    "lgdCode": "4624"
+  },
+  {
+    "id": "thipparthy",
+    "name": "Thipparthy",
+    "districtId": "nalgonda",
+    "lgdCode": "4645"
+  },
+  {
+    "id": "tirumalagiri-sagar",
+    "name": "Tirumalagiri Sagar",
+    "districtId": "nalgonda",
+    "lgdCode": "6306"
+  },
+  {
+    "id": "tripuraram",
+    "name": "Tripuraram",
+    "districtId": "nalgonda",
+    "lgdCode": "4662"
+  },
+  {
+    "id": "vemulapally",
+    "name": "Vemulapally",
+    "districtId": "nalgonda",
+    "lgdCode": "4644"
+  },
+  {
+    "id": "aloor",
+    "name": "Aloor",
+    "districtId": "nizamabad",
+    "lgdCode": "7528"
+  },
+  {
+    "id": "armoor",
+    "name": "Armoor",
+    "districtId": "nizamabad",
+    "lgdCode": "4360"
+  },
+  {
+    "id": "balkonda",
+    "name": "Balkonda",
+    "districtId": "nizamabad",
+    "lgdCode": "4361"
+  },
+  {
+    "id": "bheemgal",
+    "name": "Bheemgal",
+    "districtId": "nizamabad",
+    "lgdCode": "4364"
+  },
+  {
+    "id": "bodhan",
+    "name": "Bodhan",
+    "districtId": "nizamabad",
+    "lgdCode": "4370"
+  },
+  {
+    "id": "chandur-nizamabad",
+    "name": "Chandur",
+    "districtId": "nizamabad",
+    "lgdCode": "6669"
+  },
+  {
+    "id": "dharpally",
+    "name": "Dharpally",
+    "districtId": "nizamabad",
+    "lgdCode": "4378"
+  },
+  {
+    "id": "dichpally",
+    "name": "Dichpally",
+    "districtId": "nizamabad",
+    "lgdCode": "4377"
+  },
+  {
+    "id": "donkeshwar",
+    "name": "Donkeshwar",
+    "districtId": "nizamabad",
+    "lgdCode": "7530"
+  },
+  {
+    "id": "indalwai",
+    "name": "Indalwai",
+    "districtId": "nizamabad",
+    "lgdCode": "6236"
+  },
+  {
+    "id": "jakranpally",
+    "name": "Jakranpally",
+    "districtId": "nizamabad",
+    "lgdCode": "4366"
+  },
+  {
+    "id": "kammarpally",
+    "name": "Kammarpally",
+    "districtId": "nizamabad",
+    "lgdCode": "4363"
+  },
+  {
+    "id": "kotagiri",
+    "name": "Kotagiri",
+    "districtId": "nizamabad",
+    "lgdCode": "4371"
+  },
+  {
+    "id": "makloor",
+    "name": "Makloor",
+    "districtId": "nizamabad",
+    "lgdCode": "4367"
+  },
+  {
+    "id": "mendora",
+    "name": "Mendora",
+    "districtId": "nizamabad",
+    "lgdCode": "6237"
+  },
+  {
+    "id": "morthad",
+    "name": "Morthad",
+    "districtId": "nizamabad",
+    "lgdCode": "4362"
+  },
+  {
+    "id": "mosara",
+    "name": "Mosara",
+    "districtId": "nizamabad",
+    "lgdCode": "6668"
+  },
+  {
+    "id": "mugpal",
+    "name": "Mugpal",
+    "districtId": "nizamabad",
+    "lgdCode": "6235"
+  },
+  {
+    "id": "mupkal",
+    "name": "Mupkal",
+    "districtId": "nizamabad",
+    "lgdCode": "6238"
+  },
+  {
+    "id": "nandipet",
+    "name": "Nandipet",
+    "districtId": "nizamabad",
+    "lgdCode": "4359"
+  },
+  {
+    "id": "navipet",
+    "name": "Navipet",
+    "districtId": "nizamabad",
+    "lgdCode": "4358"
+  },
+  {
+    "id": "nizamabad-north",
+    "name": "Nizamabad North",
+    "districtId": "nizamabad",
+    "lgdCode": "4368"
+  },
+  {
+    "id": "nizamabad-rural",
+    "name": "Nizamabad Rural",
+    "districtId": "nizamabad",
+    "lgdCode": "6233"
+  },
+  {
+    "id": "nizamabad-south",
+    "name": "Nizamabad South",
+    "districtId": "nizamabad",
+    "lgdCode": "6385"
+  },
+  {
+    "id": "pothangal",
+    "name": "Pothangal",
+    "districtId": "nizamabad",
+    "lgdCode": "7534"
+  },
+  {
+    "id": "renjal",
+    "name": "Renjal",
+    "districtId": "nizamabad",
+    "lgdCode": "4357"
+  },
+  {
+    "id": "rudrur",
+    "name": "Rudrur",
+    "districtId": "nizamabad",
+    "lgdCode": "6240"
+  },
+  {
+    "id": "saloora",
+    "name": "Saloora",
+    "districtId": "nizamabad",
+    "lgdCode": "7532"
+  },
+  {
+    "id": "sirikonda-nizamabad",
+    "name": "Sirikonda",
+    "districtId": "nizamabad",
+    "lgdCode": "4379"
+  },
+  {
+    "id": "vailpoor",
+    "name": "Vailpoor",
+    "districtId": "nizamabad",
+    "lgdCode": "4365"
+  },
+  {
+    "id": "varni",
+    "name": "Varni",
+    "districtId": "nizamabad",
+    "lgdCode": "4376"
+  },
+  {
+    "id": "yedapally",
+    "name": "Yedapally",
+    "districtId": "nizamabad",
+    "lgdCode": "4369"
+  },
+  {
+    "id": "yergatla",
+    "name": "Yergatla",
+    "districtId": "nizamabad",
+    "lgdCode": "6239"
+  },
+  {
+    "id": "abdullapurmet",
+    "name": "Abdullapurmet",
+    "districtId": "ranga-reddy",
+    "lgdCode": "6319"
+  },
+  {
+    "id": "amangal",
+    "name": "Amangal",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4563"
+  },
+  {
+    "id": "balapur",
+    "name": "Balapur",
+    "districtId": "ranga-reddy",
+    "lgdCode": "6323"
+  },
+  {
+    "id": "chevella",
+    "name": "Chevella",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4529"
+  },
+  {
+    "id": "farooqnagar",
+    "name": "Farooqnagar",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4559"
+  },
+  {
+    "id": "gandipet",
+    "name": "Gandipet",
+    "districtId": "ranga-reddy",
+    "lgdCode": "6320"
+  },
+  {
+    "id": "hayathnagar",
+    "name": "Hayathnagar",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4525"
+  },
+  {
+    "id": "ibrahimpatnam-ranga-reddy",
+    "name": "Ibrahimpatnam",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4546"
+  },
+  {
+    "id": "jilled-chowdergudem",
+    "name": "Jilled Chowdergudem",
+    "districtId": "ranga-reddy",
+    "lgdCode": "6322"
+  },
+  {
+    "id": "kadthal",
+    "name": "Kadthal",
+    "districtId": "ranga-reddy",
+    "lgdCode": "6324"
+  },
+  {
+    "id": "kandukur",
+    "name": "Kandukur",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4545"
+  },
+  {
+    "id": "keshampet",
+    "name": "Keshampet",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4561"
+  },
+  {
+    "id": "kondurg",
+    "name": "Kondurg",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4558"
+  },
+  {
+    "id": "kothur",
+    "name": "Kothur",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4560"
+  },
+  {
+    "id": "madgul",
+    "name": "Madgul",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4564"
+  },
+  {
+    "id": "maheshwaram",
+    "name": "Maheshwaram",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4544"
+  },
+  {
+    "id": "manchal",
+    "name": "Manchal",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4547"
+  },
+  {
+    "id": "moinabad",
+    "name": "Moinabad",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4528"
+  },
+  {
+    "id": "nandigama",
+    "name": "Nandigama",
+    "districtId": "ranga-reddy",
+    "lgdCode": "6321"
+  },
+  {
+    "id": "rajendranagar",
+    "name": "Rajendranagar",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4527"
+  },
+  {
+    "id": "saroornagar",
+    "name": "Saroornagar",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4526"
+  },
+  {
+    "id": "serilingampally",
+    "name": "Serilingampally",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4516"
+  },
+  {
+    "id": "shabad",
+    "name": "Shabad",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4542"
+  },
+  {
+    "id": "shamshabad",
+    "name": "Shamshabad",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4543"
+  },
+  {
+    "id": "shankarpalle",
+    "name": "Shankarpalle",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4515"
+  },
+  {
+    "id": "thalakondapally",
+    "name": "Thalakondapally",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4562"
+  },
+  {
+    "id": "yacharam",
+    "name": "Yacharam",
+    "districtId": "ranga-reddy",
+    "lgdCode": "4548"
+  },
+  {
+    "id": "chennaraopet",
+    "name": "Chennaraopet",
+    "districtId": "warangal",
+    "lgdCode": "4712"
+  },
+  {
+    "id": "duggondi",
+    "name": "Duggondi",
+    "districtId": "warangal",
+    "lgdCode": "4693"
+  },
+  {
+    "id": "geesugonda",
+    "name": "Geesugonda",
+    "districtId": "warangal",
+    "lgdCode": "4707"
+  },
+  {
+    "id": "khanapur-warangal",
+    "name": "Khanapur",
+    "districtId": "warangal",
+    "lgdCode": "4709"
+  },
+  {
+    "id": "khila-warangal",
+    "name": "Khila Warangal",
+    "districtId": "warangal",
+    "lgdCode": "6246"
+  },
+  {
+    "id": "nallabelli",
+    "name": "Nallabelli",
+    "districtId": "warangal",
+    "lgdCode": "4692"
+  },
+  {
+    "id": "narsampet",
+    "name": "Narsampet",
+    "districtId": "warangal",
+    "lgdCode": "4708"
+  },
+  {
+    "id": "nekkonda",
+    "name": "Nekkonda",
+    "districtId": "warangal",
+    "lgdCode": "4713"
+  },
+  {
+    "id": "parvathagiri",
+    "name": "Parvathagiri",
+    "districtId": "warangal",
+    "lgdCode": "4714"
+  },
+  {
+    "id": "rayaparthy",
+    "name": "Rayaparthy",
+    "districtId": "warangal",
+    "lgdCode": "4703"
+  },
+  {
+    "id": "sangem",
+    "name": "Sangem",
+    "districtId": "warangal",
+    "lgdCode": "4705"
+  },
+  {
+    "id": "warangal",
+    "name": "Warangal",
+    "districtId": "warangal",
+    "lgdCode": "4706"
+  },
+  {
+    "id": "wardhannapet",
+    "name": "Wardhannapet",
+    "districtId": "warangal",
+    "lgdCode": "4704"
+  },
+  {
+    "id": "basar",
+    "name": "Basar",
+    "districtId": "nirmal",
+    "lgdCode": "6205"
+  },
+  {
+    "id": "bhainsa",
+    "name": "Bhainsa",
+    "districtId": "nirmal",
+    "lgdCode": "4339"
+  },
+  {
+    "id": "dasturabad",
+    "name": "Dasturabad",
+    "districtId": "nirmal",
+    "lgdCode": "6207"
+  },
+  {
+    "id": "dilawarpur",
+    "name": "Dilawarpur",
+    "districtId": "nirmal",
+    "lgdCode": "4343"
+  },
+  {
+    "id": "kaddam-peddur",
+    "name": "Kaddam Peddur",
+    "districtId": "nirmal",
+    "lgdCode": "4335"
+  },
+  {
+    "id": "khanapur-nirmal",
+    "name": "Khanapur",
+    "districtId": "nirmal",
+    "lgdCode": "4347"
+  },
+  {
+    "id": "kubeer",
+    "name": "Kubeer",
+    "districtId": "nirmal",
+    "lgdCode": "4338"
+  },
+  {
+    "id": "kuntala",
+    "name": "Kuntala",
+    "districtId": "nirmal",
+    "lgdCode": "4337"
+  },
+  {
+    "id": "laxmanchanda",
+    "name": "Laxmanchanda",
+    "districtId": "nirmal",
+    "lgdCode": "4345"
+  },
+  {
+    "id": "lokeswaram",
+    "name": "Lokeswaram",
+    "districtId": "nirmal",
+    "lgdCode": "4342"
+  },
+  {
+    "id": "mamada",
+    "name": "Mamada",
+    "districtId": "nirmal",
+    "lgdCode": "4346"
+  },
+  {
+    "id": "mudhole",
+    "name": "Mudhole",
+    "districtId": "nirmal",
+    "lgdCode": "4341"
+  },
+  {
+    "id": "narsapur-g",
+    "name": "Narsapur G",
+    "districtId": "nirmal",
+    "lgdCode": "6208"
+  },
+  {
+    "id": "nirmal-rural",
+    "name": "Nirmal Rural",
+    "districtId": "nirmal",
+    "lgdCode": "6210"
+  },
+  {
+    "id": "nirmal-u",
+    "name": "Nirmal U",
+    "districtId": "nirmal",
+    "lgdCode": "4344"
+  },
+  {
+    "id": "pembi",
+    "name": "Pembi",
+    "districtId": "nirmal",
+    "lgdCode": "6206"
+  },
+  {
+    "id": "sarangapur-nirmal",
+    "name": "Sarangapur",
+    "districtId": "nirmal",
+    "lgdCode": "4336"
+  },
+  {
+    "id": "soan",
+    "name": "Soan",
+    "districtId": "nirmal",
+    "lgdCode": "6209"
+  },
+  {
+    "id": "tanoor",
+    "name": "Tanoor",
+    "districtId": "nirmal",
+    "lgdCode": "4340"
+  },
+  {
+    "id": "beerpur",
+    "name": "Beerpur",
+    "districtId": "jagitial",
+    "lgdCode": "6212"
+  },
+  {
+    "id": "bheemaram-20",
+    "name": "Bheemaram (20)",
+    "districtId": "jagitial",
+    "lgdCode": "7541"
+  },
+  {
+    "id": "buggaram",
+    "name": "Buggaram",
+    "districtId": "jagitial",
+    "lgdCode": "6213"
+  },
+  {
+    "id": "dharmapuri",
+    "name": "Dharmapuri",
+    "districtId": "jagitial",
+    "lgdCode": "4397"
+  },
+  {
+    "id": "endapalli",
+    "name": "Endapalli",
+    "districtId": "jagitial",
+    "lgdCode": "7539"
+  },
+  {
+    "id": "gollapalli",
+    "name": "Gollapalli",
+    "districtId": "jagitial",
+    "lgdCode": "4412"
+  },
+  {
+    "id": "ibrahimpatnam-jagitial",
+    "name": "Ibrahimpatnam",
+    "districtId": "jagitial",
+    "lgdCode": "4393"
+  },
+  {
+    "id": "jagitial",
+    "name": "Jagitial",
+    "districtId": "jagitial",
+    "lgdCode": "4414"
+  },
+  {
+    "id": "jagitial-rural",
+    "name": "Jagitial Rural",
+    "districtId": "jagitial",
+    "lgdCode": "6211"
+  },
+  {
+    "id": "kathlapur",
+    "name": "Kathlapur",
+    "districtId": "jagitial",
+    "lgdCode": "4418"
+  },
+  {
+    "id": "kodimial",
+    "name": "Kodimial",
+    "districtId": "jagitial",
+    "lgdCode": "4420"
+  },
+  {
+    "id": "korutla",
+    "name": "Korutla",
+    "districtId": "jagitial",
+    "lgdCode": "4416"
+  },
+  {
+    "id": "mallapur",
+    "name": "Mallapur",
+    "districtId": "jagitial",
+    "lgdCode": "4394"
+  },
+  {
+    "id": "mallial",
+    "name": "Mallial",
+    "districtId": "jagitial",
+    "lgdCode": "4413"
+  },
+  {
+    "id": "medipalli",
+    "name": "Medipalli",
+    "districtId": "jagitial",
+    "lgdCode": "4415"
+  },
+  {
+    "id": "metpalli",
+    "name": "Metpalli",
+    "districtId": "jagitial",
+    "lgdCode": "4417"
+  },
+  {
+    "id": "pegadapalli",
+    "name": "Pegadapalli",
+    "districtId": "jagitial",
+    "lgdCode": "4421"
+  },
+  {
+    "id": "raikal",
+    "name": "Raikal",
+    "districtId": "jagitial",
+    "lgdCode": "4395"
+  },
+  {
+    "id": "sarangapur-jagitial",
+    "name": "Sarangapur",
+    "districtId": "jagitial",
+    "lgdCode": "4396"
+  },
+  {
+    "id": "velgatur",
+    "name": "Velgatur",
+    "districtId": "jagitial",
+    "lgdCode": "4398"
+  },
+  {
+    "id": "anthergaon",
+    "name": "Anthergaon",
+    "districtId": "peddapalli",
+    "lgdCode": "6214"
+  },
+  {
+    "id": "dharmaram",
+    "name": "Dharmaram",
+    "districtId": "peddapalli",
+    "lgdCode": "4411"
+  },
+  {
+    "id": "eligaid",
+    "name": "Eligaid",
+    "districtId": "peddapalli",
+    "lgdCode": "4410"
+  },
+  {
+    "id": "julapalli",
+    "name": "Julapalli",
+    "districtId": "peddapalli",
+    "lgdCode": "4409"
+  },
+  {
+    "id": "kamanpur",
+    "name": "Kamanpur",
+    "districtId": "peddapalli",
+    "lgdCode": "4400"
+  },
+  {
+    "id": "manthani",
+    "name": "Manthani",
+    "districtId": "peddapalli",
+    "lgdCode": "4401"
+  },
+  {
+    "id": "mutharam-manthani",
+    "name": "Mutharam (Manthani)",
+    "districtId": "peddapalli",
+    "lgdCode": "4406"
+  },
+  {
+    "id": "odela",
+    "name": "Odela",
+    "districtId": "peddapalli",
+    "lgdCode": "4426"
+  },
+  {
+    "id": "palakurthy-peddapalli",
+    "name": "Palakurthy",
+    "districtId": "peddapalli",
+    "lgdCode": "6215"
+  },
+  {
+    "id": "peddapalli",
+    "name": "Peddapalli",
+    "districtId": "peddapalli",
+    "lgdCode": "4408"
+  },
+  {
+    "id": "ramagiri",
+    "name": "Ramagiri",
+    "districtId": "peddapalli",
+    "lgdCode": "6216"
+  },
+  {
+    "id": "ramagundam",
+    "name": "Ramagundam",
+    "districtId": "peddapalli",
+    "lgdCode": "4399"
+  },
+  {
+    "id": "srirampur",
+    "name": "Srirampur",
+    "districtId": "peddapalli",
+    "lgdCode": "4407"
+  },
+  {
+    "id": "sulthanabad",
+    "name": "Sulthanabad",
+    "districtId": "peddapalli",
+    "lgdCode": "4425"
+  },
+  {
+    "id": "boinpalli",
+    "name": "Boinpalli",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "4429"
+  },
+  {
+    "id": "chandurthi",
+    "name": "Chandurthi",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "4419"
+  },
+  {
+    "id": "gambhiraopet",
+    "name": "Gambhiraopet",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "4433"
+  },
+  {
+    "id": "illanthakunta",
+    "name": "Illanthakunta",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "4436"
+  },
+  {
+    "id": "konaraopet",
+    "name": "Konaraopet",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "4431"
+  },
+  {
+    "id": "mustabad",
+    "name": "Mustabad",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "4434"
+  },
+  {
+    "id": "rudrangi",
+    "name": "Rudrangi",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "6219"
+  },
+  {
+    "id": "sircilla",
+    "name": "Sircilla",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "4435"
+  },
+  {
+    "id": "thangallapalli",
+    "name": "Thangallapalli",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "6217"
+  },
+  {
+    "id": "veernapalli",
+    "name": "Veernapalli",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "6220"
+  },
+  {
+    "id": "vemulawada",
+    "name": "Vemulawada",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "4430"
+  },
+  {
+    "id": "vemulawada-rural",
+    "name": "Vemulawada Rural",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "6218"
+  },
+  {
+    "id": "yellareddipet",
+    "name": "Yellareddipet",
+    "districtId": "rajanna-sircilla",
+    "lgdCode": "4432"
+  },
+  {
+    "id": "bellampally",
+    "name": "Bellampally",
+    "districtId": "mancherial",
+    "lgdCode": "4350"
+  },
+  {
+    "id": "bheemaram",
+    "name": "Bheemaram",
+    "districtId": "mancherial",
+    "lgdCode": "6228"
+  },
+  {
+    "id": "bheemini",
+    "name": "Bheemini",
+    "districtId": "mancherial",
+    "lgdCode": "4328"
+  },
+  {
+    "id": "chennur",
+    "name": "Chennur",
+    "districtId": "mancherial",
+    "lgdCode": "4356"
+  },
+  {
+    "id": "dandepally",
+    "name": "Dandepally",
+    "districtId": "mancherial",
+    "lgdCode": "4348"
+  },
+  {
+    "id": "hajipur",
+    "name": "Hajipur",
+    "districtId": "mancherial",
+    "lgdCode": "6227"
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "districtId": "mancherial",
+    "lgdCode": "4355"
+  },
+  {
+    "id": "jannaram",
+    "name": "Jannaram",
+    "districtId": "mancherial",
+    "lgdCode": "4334"
+  },
+  {
+    "id": "kannepally",
+    "name": "Kannepally",
+    "districtId": "mancherial",
+    "lgdCode": "6229"
+  },
+  {
+    "id": "kasipet",
+    "name": "Kasipet",
+    "districtId": "mancherial",
+    "lgdCode": "4349"
+  },
+  {
+    "id": "kotapally",
+    "name": "Kotapally",
+    "districtId": "mancherial",
+    "lgdCode": "4351"
+  },
+  {
+    "id": "luxettipet",
+    "name": "Luxettipet",
+    "districtId": "mancherial",
+    "lgdCode": "4353"
+  },
+  {
+    "id": "mancherial",
+    "name": "Mancherial",
+    "districtId": "mancherial",
+    "lgdCode": "4354"
+  },
+  {
+    "id": "mandamarri",
+    "name": "Mandamarri",
+    "districtId": "mancherial",
+    "lgdCode": "4352"
+  },
+  {
+    "id": "naspur",
+    "name": "Naspur",
+    "districtId": "mancherial",
+    "lgdCode": "6226"
+  },
+  {
+    "id": "nennel",
+    "name": "Nennel",
+    "districtId": "mancherial",
+    "lgdCode": "4331"
+  },
+  {
+    "id": "tandur-mancherial",
+    "name": "Tandur",
+    "districtId": "mancherial",
+    "lgdCode": "4332"
+  },
+  {
+    "id": "vemanpally",
+    "name": "Vemanpally",
+    "districtId": "mancherial",
+    "lgdCode": "4330"
+  },
+  {
+    "id": "banswada",
+    "name": "Banswada",
+    "districtId": "kamareddy",
+    "lgdCode": "4383"
+  },
+  {
+    "id": "bhiknoor",
+    "name": "Bhiknoor",
+    "districtId": "kamareddy",
+    "lgdCode": "4391"
+  },
+  {
+    "id": "bibipet",
+    "name": "Bibipet",
+    "districtId": "kamareddy",
+    "lgdCode": "6242"
+  },
+  {
+    "id": "bichkunda",
+    "name": "Bichkunda",
+    "districtId": "kamareddy",
+    "lgdCode": "4374"
+  },
+  {
+    "id": "birkur",
+    "name": "Birkur",
+    "districtId": "kamareddy",
+    "lgdCode": "4375"
+  },
+  {
+    "id": "domakonda",
+    "name": "Domakonda",
+    "districtId": "kamareddy",
+    "lgdCode": "4392"
+  },
+  {
+    "id": "dongli",
+    "name": "Dongli",
+    "districtId": "kamareddy",
+    "lgdCode": "7525"
+  },
+  {
+    "id": "gandhari",
+    "name": "Gandhari",
+    "districtId": "kamareddy",
+    "lgdCode": "4382"
+  },
+  {
+    "id": "jukkal",
+    "name": "Jukkal",
+    "districtId": "kamareddy",
+    "lgdCode": "4373"
+  },
+  {
+    "id": "kamareddy",
+    "name": "Kamareddy",
+    "districtId": "kamareddy",
+    "lgdCode": "4390"
+  },
+  {
+    "id": "lingampet",
+    "name": "Lingampet",
+    "districtId": "kamareddy",
+    "lgdCode": "4388"
+  },
+  {
+    "id": "machareddy",
+    "name": "Machareddy",
+    "districtId": "kamareddy",
+    "lgdCode": "4380"
+  },
+  {
+    "id": "madnoor",
+    "name": "Madnoor",
+    "districtId": "kamareddy",
+    "lgdCode": "4372"
+  },
+  {
+    "id": "mohammadnagar",
+    "name": "Mohammadnagar",
+    "districtId": "kamareddy",
+    "lgdCode": "7520"
+  },
+  {
+    "id": "nagireddypet",
+    "name": "Nagireddypet",
+    "districtId": "kamareddy",
+    "lgdCode": "4387"
+  },
+  {
+    "id": "nasurullabad",
+    "name": "Nasurullabad",
+    "districtId": "kamareddy",
+    "lgdCode": "6244"
+  },
+  {
+    "id": "nizamsagar",
+    "name": "Nizamsagar",
+    "districtId": "kamareddy",
+    "lgdCode": "4385"
+  },
+  {
+    "id": "palwancha",
+    "name": "Palwancha",
+    "districtId": "kamareddy",
+    "lgdCode": "7519"
+  },
+  {
+    "id": "pedda-kodapgal",
+    "name": "Pedda Kodapgal",
+    "districtId": "kamareddy",
+    "lgdCode": "6245"
+  },
+  {
+    "id": "pitlam",
+    "name": "Pitlam",
+    "districtId": "kamareddy",
+    "lgdCode": "4384"
+  },
+  {
+    "id": "rajampet",
+    "name": "Rajampet",
+    "districtId": "kamareddy",
+    "lgdCode": "6241"
+  },
+  {
+    "id": "ramareddy",
+    "name": "Ramareddy",
+    "districtId": "kamareddy",
+    "lgdCode": "6243"
+  },
+  {
+    "id": "sadashivanagar",
+    "name": "Sadashivanagar",
+    "districtId": "kamareddy",
+    "lgdCode": "4381"
+  },
+  {
+    "id": "tadwai",
+    "name": "Tadwai",
+    "districtId": "kamareddy",
+    "lgdCode": "4389"
+  },
+  {
+    "id": "yellareddy",
+    "name": "Yellareddy",
+    "districtId": "kamareddy",
+    "lgdCode": "4386"
+  },
+  {
+    "id": "athmakur",
+    "name": "Athmakur",
+    "districtId": "hanumakonda",
+    "lgdCode": "4694"
+  },
+  {
+    "id": "bheemadevarpalli",
+    "name": "Bheemadevarpalli",
+    "districtId": "hanumakonda",
+    "lgdCode": "4448"
+  },
+  {
+    "id": "damera",
+    "name": "Damera",
+    "districtId": "hanumakonda",
+    "lgdCode": "6375"
+  },
+  {
+    "id": "dharmasagar",
+    "name": "Dharmasagar",
+    "districtId": "hanumakonda",
+    "lgdCode": "4677"
+  },
+  {
+    "id": "elkathurthy",
+    "name": "Elkathurthy",
+    "districtId": "hanumakonda",
+    "lgdCode": "4449"
+  },
+  {
+    "id": "hanamkonda",
+    "name": "Hanamkonda",
+    "districtId": "hanumakonda",
+    "lgdCode": "4695"
+  },
+  {
+    "id": "hasanparthy",
+    "name": "Hasanparthy",
+    "districtId": "hanumakonda",
+    "lgdCode": "4678"
+  },
+  {
+    "id": "inavole",
+    "name": "Inavole",
+    "districtId": "hanumakonda",
+    "lgdCode": "6249"
+  },
+  {
+    "id": "kamalapur",
+    "name": "Kamalapur",
+    "districtId": "hanumakonda",
+    "lgdCode": "4447"
+  },
+  {
+    "id": "khazipet",
+    "name": "Khazipet",
+    "districtId": "hanumakonda",
+    "lgdCode": "6247"
+  },
+  {
+    "id": "nadikuda",
+    "name": "Nadikuda",
+    "districtId": "hanumakonda",
+    "lgdCode": "6547"
+  },
+  {
+    "id": "parkal",
+    "name": "Parkal",
+    "districtId": "hanumakonda",
+    "lgdCode": "4679"
+  },
+  {
+    "id": "shayampet",
+    "name": "Shayampet",
+    "districtId": "hanumakonda",
+    "lgdCode": "4691"
+  },
+  {
+    "id": "velair",
+    "name": "Velair",
+    "districtId": "hanumakonda",
+    "lgdCode": "6252"
+  },
+  {
+    "id": "bhupalpally",
+    "name": "Bhupalpally",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "4682"
+  },
+  {
+    "id": "chityal-jayashankar-bhupalapally",
+    "name": "Chityal",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "4681"
+  },
+  {
+    "id": "ghanpur-mulug",
+    "name": "Ghanpur (Mulug)",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "4683"
+  },
+  {
+    "id": "kataram",
+    "name": "Kataram",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "4402"
+  },
+  {
+    "id": "kothapallygori",
+    "name": "Kothapallygori",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "7531"
+  },
+  {
+    "id": "mahadevpur",
+    "name": "Mahadevpur",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "4403"
+  },
+  {
+    "id": "malharrao",
+    "name": "Malharrao",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "4405"
+  },
+  {
+    "id": "mogullapally",
+    "name": "Mogullapally",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "4680"
+  },
+  {
+    "id": "mutharam-mahadevpur",
+    "name": "Mutharam Mahadevpur",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "4404"
+  },
+  {
+    "id": "palimela",
+    "name": "Palimela",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "6250"
+  },
+  {
+    "id": "regonda",
+    "name": "Regonda",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "4690"
+  },
+  {
+    "id": "tekumatla",
+    "name": "Tekumatla",
+    "districtId": "jayashankar-bhupalapally",
+    "lgdCode": "6248"
+  },
+  {
+    "id": "bayyaram",
+    "name": "Bayyaram",
+    "districtId": "mahabubabad",
+    "lgdCode": "4742"
+  },
+  {
+    "id": "chinnagudur",
+    "name": "Chinnagudur",
+    "districtId": "mahabubabad",
+    "lgdCode": "6254"
+  },
+  {
+    "id": "danthalapalle",
+    "name": "Danthalapalle",
+    "districtId": "mahabubabad",
+    "lgdCode": "6255"
+  },
+  {
+    "id": "dornakal",
+    "name": "Dornakal",
+    "districtId": "mahabubabad",
+    "lgdCode": "4722"
+  },
+  {
+    "id": "gangaram",
+    "name": "Gangaram",
+    "districtId": "mahabubabad",
+    "lgdCode": "6253"
+  },
+  {
+    "id": "garla",
+    "name": "Garla",
+    "districtId": "mahabubabad",
+    "lgdCode": "4743"
+  },
+  {
+    "id": "gudur",
+    "name": "Gudur",
+    "districtId": "mahabubabad",
+    "lgdCode": "4711"
+  },
+  {
+    "id": "inugurthy",
+    "name": "Inugurthy",
+    "districtId": "mahabubabad",
+    "lgdCode": "7538"
+  },
+  {
+    "id": "kesamudram",
+    "name": "Kesamudram",
+    "districtId": "mahabubabad",
+    "lgdCode": "4717"
+  },
+  {
+    "id": "kothaguda",
+    "name": "Kothaguda",
+    "districtId": "mahabubabad",
+    "lgdCode": "4710"
+  },
+  {
+    "id": "kuravi",
+    "name": "Kuravi",
+    "districtId": "mahabubabad",
+    "lgdCode": "4721"
+  },
+  {
+    "id": "mahabubabad",
+    "name": "Mahabubabad",
+    "districtId": "mahabubabad",
+    "lgdCode": "4718"
+  },
+  {
+    "id": "maripeda",
+    "name": "Maripeda",
+    "districtId": "mahabubabad",
+    "lgdCode": "4720"
+  },
+  {
+    "id": "narsimhulapet",
+    "name": "Narsimhulapet",
+    "districtId": "mahabubabad",
+    "lgdCode": "4719"
+  },
+  {
+    "id": "nellikudur",
+    "name": "Nellikudur",
+    "districtId": "mahabubabad",
+    "lgdCode": "4716"
+  },
+  {
+    "id": "peddavangara",
+    "name": "Peddavangara",
+    "districtId": "mahabubabad",
+    "lgdCode": "6256"
+  },
+  {
+    "id": "seerole",
+    "name": "Seerole",
+    "districtId": "mahabubabad",
+    "lgdCode": "7518"
+  },
+  {
+    "id": "thorrur",
+    "name": "Thorrur",
+    "districtId": "mahabubabad",
+    "lgdCode": "4715"
+  },
+  {
+    "id": "bachannapet",
+    "name": "Bachannapet",
+    "districtId": "jangoan",
+    "lgdCode": "4674"
+  },
+  {
+    "id": "chilpur",
+    "name": "Chilpur",
+    "districtId": "jangoan",
+    "lgdCode": "6259"
+  },
+  {
+    "id": "devaruppula",
+    "name": "Devaruppula",
+    "districtId": "jangoan",
+    "lgdCode": "4701"
+  },
+  {
+    "id": "ghanpur-station",
+    "name": "Ghanpur (Station)",
+    "districtId": "jangoan",
+    "lgdCode": "4676"
+  },
+  {
+    "id": "jangoan",
+    "name": "Jangoan",
+    "districtId": "jangoan",
+    "lgdCode": "4699"
+  },
+  {
+    "id": "kodakandla",
+    "name": "Kodakandla",
+    "districtId": "jangoan",
+    "lgdCode": "4702"
+  },
+  {
+    "id": "lingalaghanpur",
+    "name": "Lingalaghanpur",
+    "districtId": "jangoan",
+    "lgdCode": "4700"
+  },
+  {
+    "id": "narmetta",
+    "name": "Narmetta",
+    "districtId": "jangoan",
+    "lgdCode": "4675"
+  },
+  {
+    "id": "palakurthy-jangoan",
+    "name": "Palakurthy",
+    "districtId": "jangoan",
+    "lgdCode": "4697"
+  },
+  {
+    "id": "ragunathpally",
+    "name": "Ragunathpally",
+    "districtId": "jangoan",
+    "lgdCode": "4698"
+  },
+  {
+    "id": "tharigoppula",
+    "name": "Tharigoppula",
+    "districtId": "jangoan",
+    "lgdCode": "6257"
+  },
+  {
+    "id": "zaffergadh",
+    "name": "Zaffergadh",
+    "districtId": "jangoan",
+    "lgdCode": "4696"
+  },
+  {
+    "id": "allapalli",
+    "name": "Allapalli",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "6267"
+  },
+  {
+    "id": "annapureddypalli",
+    "name": "Annapureddypalli",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "6268"
+  },
+  {
+    "id": "aswapuram",
+    "name": "Aswapuram",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4728"
+  },
+  {
+    "id": "aswaraopeta",
+    "name": "Aswaraopeta",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4749"
+  },
+  {
+    "id": "bhadrachalam",
+    "name": "Bhadrachalam",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4730"
+  },
+  {
+    "id": "burgampahad",
+    "name": "Burgampahad",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4736"
+  },
+  {
+    "id": "chandrugonda",
+    "name": "Chandrugonda",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4747"
+  },
+  {
+    "id": "cherla",
+    "name": "Cherla",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4726"
+  },
+  {
+    "id": "chunchupalli",
+    "name": "Chunchupalli",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "6376"
+  },
+  {
+    "id": "dammapeta",
+    "name": "Dammapeta",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4750"
+  },
+  {
+    "id": "dummugudem",
+    "name": "Dummugudem",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4729"
+  },
+  {
+    "id": "gundala-bhadradri-kothagudem",
+    "name": "Gundala",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4741"
+  },
+  {
+    "id": "julurpadu",
+    "name": "Julurpadu",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4746"
+  },
+  {
+    "id": "karakagudem",
+    "name": "Karakagudem",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "6269"
+  },
+  {
+    "id": "kothagudem",
+    "name": "Kothagudem",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4738"
+  },
+  {
+    "id": "laxmidevipalli",
+    "name": "Laxmidevipalli",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "6266"
+  },
+  {
+    "id": "manuguru",
+    "name": "Manuguru",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4727"
+  },
+  {
+    "id": "mulkalapally",
+    "name": "Mulkalapally",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4748"
+  },
+  {
+    "id": "palvoncha",
+    "name": "Palvoncha",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4737"
+  },
+  {
+    "id": "pinapaka",
+    "name": "Pinapaka",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4725"
+  },
+  {
+    "id": "sujathanagar",
+    "name": "Sujathanagar",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "6265"
+  },
+  {
+    "id": "tekulapalli",
+    "name": "Tekulapalli",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4739"
+  },
+  {
+    "id": "yellandu",
+    "name": "Yellandu",
+    "districtId": "bhadradri-kothagudem",
+    "lgdCode": "4740"
+  },
+  {
+    "id": "ameenpur",
+    "name": "Ameenpur",
+    "districtId": "sangareddy",
+    "lgdCode": "6276"
+  },
+  {
+    "id": "andole",
+    "name": "Andole",
+    "districtId": "sangareddy",
+    "lgdCode": "4479"
+  },
+  {
+    "id": "chowtakur",
+    "name": "Chowtakur",
+    "districtId": "sangareddy",
+    "lgdCode": "7188"
+  },
+  {
+    "id": "gummadidala",
+    "name": "Gummadidala",
+    "districtId": "sangareddy",
+    "lgdCode": "6277"
+  },
+  {
+    "id": "hathnoora",
+    "name": "Hathnoora",
+    "districtId": "sangareddy",
+    "lgdCode": "4489"
+  },
+  {
+    "id": "jharasangam",
+    "name": "Jharasangam",
+    "districtId": "sangareddy",
+    "lgdCode": "4476"
+  },
+  {
+    "id": "jinnaram",
+    "name": "Jinnaram",
+    "districtId": "sangareddy",
+    "lgdCode": "4493"
+  },
+  {
+    "id": "kalher",
+    "name": "Kalher",
+    "districtId": "sangareddy",
+    "lgdCode": "4453"
+  },
+  {
+    "id": "kandi",
+    "name": "Kandi",
+    "districtId": "sangareddy",
+    "lgdCode": "6275"
+  },
+  {
+    "id": "kangti",
+    "name": "Kangti",
+    "districtId": "sangareddy",
+    "lgdCode": "4450"
+  },
+  {
+    "id": "kohir",
+    "name": "Kohir",
+    "districtId": "sangareddy",
+    "lgdCode": "4475"
+  },
+  {
+    "id": "kondapur",
+    "name": "Kondapur",
+    "districtId": "sangareddy",
+    "lgdCode": "4491"
+  },
+  {
+    "id": "manoor",
+    "name": "Manoor",
+    "districtId": "sangareddy",
+    "lgdCode": "4451"
+  },
+  {
+    "id": "mogudampally",
+    "name": "Mogudampally",
+    "districtId": "sangareddy",
+    "lgdCode": "6278"
+  },
+  {
+    "id": "munipally",
+    "name": "Munipally",
+    "districtId": "sangareddy",
+    "lgdCode": "4477"
+  },
+  {
+    "id": "nagalgidda",
+    "name": "Nagalgidda",
+    "districtId": "sangareddy",
+    "lgdCode": "6280"
+  },
+  {
+    "id": "narayankhed",
+    "name": "Narayankhed",
+    "districtId": "sangareddy",
+    "lgdCode": "4452"
+  },
+  {
+    "id": "nizampet-28",
+    "name": "Nizampet (28)",
+    "districtId": "sangareddy",
+    "lgdCode": "7535"
+  },
+  {
+    "id": "nyalkal",
+    "name": "Nyalkal",
+    "districtId": "sangareddy",
+    "lgdCode": "4473"
+  },
+  {
+    "id": "patancheru",
+    "name": "Patancheru",
+    "districtId": "sangareddy",
+    "lgdCode": "4494"
+  },
+  {
+    "id": "pulkal",
+    "name": "Pulkal",
+    "districtId": "sangareddy",
+    "lgdCode": "4478"
+  },
+  {
+    "id": "raikode",
+    "name": "Raikode",
+    "districtId": "sangareddy",
+    "lgdCode": "4472"
+  },
+  {
+    "id": "ramchandrapuram",
+    "name": "Ramchandrapuram",
+    "districtId": "sangareddy",
+    "lgdCode": "4495"
+  },
+  {
+    "id": "sadasivpet",
+    "name": "Sadasivpet",
+    "districtId": "sangareddy",
+    "lgdCode": "4490"
+  },
+  {
+    "id": "sangareddy",
+    "name": "Sangareddy",
+    "districtId": "sangareddy",
+    "lgdCode": "4492"
+  },
+  {
+    "id": "sirgapoor",
+    "name": "Sirgapoor",
+    "districtId": "sangareddy",
+    "lgdCode": "6279"
+  },
+  {
+    "id": "vatpally",
+    "name": "Vatpally",
+    "districtId": "sangareddy",
+    "lgdCode": "6291"
+  },
+  {
+    "id": "zahirabad",
+    "name": "Zahirabad",
+    "districtId": "sangareddy",
+    "lgdCode": "4474"
+  },
+  {
+    "id": "akberpet-bhoompally",
+    "name": "Akberpet-Bhoompally",
+    "districtId": "siddipet",
+    "lgdCode": "7524"
+  },
+  {
+    "id": "akkannapet",
+    "name": "Akkannapet",
+    "districtId": "siddipet",
+    "lgdCode": "6285"
+  },
+  {
+    "id": "bejjanki",
+    "name": "Bejjanki",
+    "districtId": "siddipet",
+    "lgdCode": "4437"
+  },
+  {
+    "id": "cherial",
+    "name": "Cherial",
+    "districtId": "siddipet",
+    "lgdCode": "4672"
+  },
+  {
+    "id": "chinnakodur",
+    "name": "Chinnakodur",
+    "districtId": "siddipet",
+    "lgdCode": "4460"
+  },
+  {
+    "id": "dhoolmitta",
+    "name": "Dhoolmitta",
+    "districtId": "siddipet",
+    "lgdCode": "7189"
+  },
+  {
+    "id": "doultabad",
+    "name": "Doultabad",
+    "districtId": "siddipet",
+    "lgdCode": "4465"
+  },
+  {
+    "id": "dubbak",
+    "name": "Dubbak",
+    "districtId": "siddipet",
+    "lgdCode": "4458"
+  },
+  {
+    "id": "gajwel",
+    "name": "Gajwel",
+    "districtId": "siddipet",
+    "lgdCode": "4483"
+  },
+  {
+    "id": "husnabad",
+    "name": "Husnabad",
+    "districtId": "siddipet",
+    "lgdCode": "4444"
+  },
+  {
+    "id": "jagdevpur",
+    "name": "Jagdevpur",
+    "districtId": "siddipet",
+    "lgdCode": "4484"
+  },
+  {
+    "id": "koheda",
+    "name": "Koheda",
+    "districtId": "siddipet",
+    "lgdCode": "4443"
+  },
+  {
+    "id": "komuravelli",
+    "name": "Komuravelli",
+    "districtId": "siddipet",
+    "lgdCode": "6284"
+  },
+  {
+    "id": "kondapak",
+    "name": "Kondapak",
+    "districtId": "siddipet",
+    "lgdCode": "4462"
+  },
+  {
+    "id": "kukunoorpally",
+    "name": "Kukunoorpally",
+    "districtId": "siddipet",
+    "lgdCode": "7521"
+  },
+  {
+    "id": "maddur-siddipet",
+    "name": "Maddur",
+    "districtId": "siddipet",
+    "lgdCode": "4673"
+  },
+  {
+    "id": "markook",
+    "name": "Markook",
+    "districtId": "siddipet",
+    "lgdCode": "6282"
+  },
+  {
+    "id": "mirdoddi",
+    "name": "Mirdoddi",
+    "districtId": "siddipet",
+    "lgdCode": "4464"
+  },
+  {
+    "id": "mulug-siddipet",
+    "name": "Mulug",
+    "districtId": "siddipet",
+    "lgdCode": "4486"
+  },
+  {
+    "id": "nangnoor",
+    "name": "Nangnoor",
+    "districtId": "siddipet",
+    "lgdCode": "4461"
+  },
+  {
+    "id": "narayanaraopet",
+    "name": "Narayanaraopet",
+    "districtId": "siddipet",
+    "lgdCode": "6670"
+  },
+  {
+    "id": "raipole",
+    "name": "Raipole",
+    "districtId": "siddipet",
+    "lgdCode": "6283"
+  },
+  {
+    "id": "siddipet-rural",
+    "name": "Siddipet Rural",
+    "districtId": "siddipet",
+    "lgdCode": "6281"
+  },
+  {
+    "id": "siddipet-urban",
+    "name": "Siddipet Urban",
+    "districtId": "siddipet",
+    "lgdCode": "4459"
+  },
+  {
+    "id": "thoguta",
+    "name": "Thoguta",
+    "districtId": "siddipet",
+    "lgdCode": "4463"
+  },
+  {
+    "id": "wargal",
+    "name": "Wargal",
+    "districtId": "siddipet",
+    "lgdCode": "4485"
+  },
+  {
+    "id": "amarchintha",
+    "name": "Amarchintha",
+    "districtId": "wanaparthy",
+    "lgdCode": "6290"
+  },
+  {
+    "id": "atmakur",
+    "name": "Atmakur",
+    "districtId": "wanaparthy",
+    "lgdCode": "4592"
+  },
+  {
+    "id": "chinnambavi",
+    "name": "Chinnambavi",
+    "districtId": "wanaparthy",
+    "lgdCode": "6287"
+  },
+  {
+    "id": "ghanpur",
+    "name": "Ghanpur",
+    "districtId": "wanaparthy",
+    "lgdCode": "4585"
+  },
+  {
+    "id": "gopalpeta",
+    "name": "Gopalpeta",
+    "districtId": "wanaparthy",
+    "lgdCode": "4596"
+  },
+  {
+    "id": "kothakota",
+    "name": "Kothakota",
+    "districtId": "wanaparthy",
+    "lgdCode": "4593"
+  },
+  {
+    "id": "madanapur",
+    "name": "Madanapur",
+    "districtId": "wanaparthy",
+    "lgdCode": "6289"
+  },
+  {
+    "id": "pangal",
+    "name": "Pangal",
+    "districtId": "wanaparthy",
+    "lgdCode": "4601"
+  },
+  {
+    "id": "pebbair",
+    "name": "Pebbair",
+    "districtId": "wanaparthy",
+    "lgdCode": "4602"
+  },
+  {
+    "id": "peddamandadi",
+    "name": "Peddamandadi",
+    "districtId": "wanaparthy",
+    "lgdCode": "4594"
+  },
+  {
+    "id": "revally",
+    "name": "Revally",
+    "districtId": "wanaparthy",
+    "lgdCode": "6286"
+  },
+  {
+    "id": "srirangapur",
+    "name": "Srirangapur",
+    "districtId": "wanaparthy",
+    "lgdCode": "6288"
+  },
+  {
+    "id": "wanaparthy",
+    "name": "Wanaparthy",
+    "districtId": "wanaparthy",
+    "lgdCode": "4595"
+  },
+  {
+    "id": "weepangandla",
+    "name": "Weepangandla",
+    "districtId": "wanaparthy",
+    "lgdCode": "4608"
+  },
+  {
+    "id": "yedula",
+    "name": "Yedula",
+    "districtId": "wanaparthy",
+    "lgdCode": "7533"
+  },
+  {
+    "id": "achampet",
+    "name": "Achampet",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4579"
+  },
+  {
+    "id": "amrabad",
+    "name": "Amrabad",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4578"
+  },
+  {
+    "id": "balmoor",
+    "name": "Balmoor",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4597"
+  },
+  {
+    "id": "bijinapally",
+    "name": "Bijinapally",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4584"
+  },
+  {
+    "id": "charakonda",
+    "name": "Charakonda",
+    "districtId": "nagarkurnool",
+    "lgdCode": "6293"
+  },
+  {
+    "id": "kalwakurthy",
+    "name": "Kalwakurthy",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4576"
+  },
+  {
+    "id": "kodair",
+    "name": "Kodair",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4600"
+  },
+  {
+    "id": "kollapur",
+    "name": "Kollapur",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4609"
+  },
+  {
+    "id": "lingal",
+    "name": "Lingal",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4598"
+  },
+  {
+    "id": "nagarkurnool",
+    "name": "Nagarkurnool",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4583"
+  },
+  {
+    "id": "padara",
+    "name": "Padara",
+    "districtId": "nagarkurnool",
+    "lgdCode": "6294"
+  },
+  {
+    "id": "peddakothapally",
+    "name": "Peddakothapally",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4599"
+  },
+  {
+    "id": "pentlavelli",
+    "name": "Pentlavelli",
+    "districtId": "nagarkurnool",
+    "lgdCode": "6292"
+  },
+  {
+    "id": "tadoor",
+    "name": "Tadoor",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4582"
+  },
+  {
+    "id": "telkapally",
+    "name": "Telkapally",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4581"
+  },
+  {
+    "id": "thimmajipet",
+    "name": "Thimmajipet",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4575"
+  },
+  {
+    "id": "uppununthala",
+    "name": "Uppununthala",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4580"
+  },
+  {
+    "id": "urkonda",
+    "name": "Urkonda",
+    "districtId": "nagarkurnool",
+    "lgdCode": "6295"
+  },
+  {
+    "id": "vangoor",
+    "name": "Vangoor",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4577"
+  },
+  {
+    "id": "veldanda",
+    "name": "Veldanda",
+    "districtId": "nagarkurnool",
+    "lgdCode": "4565"
+  },
+  {
+    "id": "alampur",
+    "name": "Alampur",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "4612"
+  },
+  {
+    "id": "dharoor",
+    "name": "Dharoor",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "4591"
+  },
+  {
+    "id": "gadwal",
+    "name": "Gadwal",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "4603"
+  },
+  {
+    "id": "ghattu",
+    "name": "Ghattu",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "4605"
+  },
+  {
+    "id": "ieeja",
+    "name": "Ieeja",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "4606"
+  },
+  {
+    "id": "itikyala",
+    "name": "Itikyala",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "4607"
+  },
+  {
+    "id": "kaloor-thimmandoddi",
+    "name": "Kaloor Thimmandoddi",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "6297"
+  },
+  {
+    "id": "maldakal",
+    "name": "Maldakal",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "4604"
+  },
+  {
+    "id": "manopad",
+    "name": "Manopad",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "4611"
+  },
+  {
+    "id": "rajoli",
+    "name": "Rajoli",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "6296"
+  },
+  {
+    "id": "undavelly",
+    "name": "Undavelly",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "6299"
+  },
+  {
+    "id": "waddepally",
+    "name": "Waddepally",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "4610"
+  },
+  {
+    "id": "yerravalli",
+    "name": "Yerravalli",
+    "districtId": "jogulamba-gadwal",
+    "lgdCode": "7517"
+  },
+  {
+    "id": "ananthagiri",
+    "name": "Ananthagiri",
+    "districtId": "suryapet",
+    "lgdCode": "6302"
+  },
+  {
+    "id": "atmakur-s",
+    "name": "Atmakur (S)",
+    "districtId": "suryapet",
+    "lgdCode": "4622"
+  },
+  {
+    "id": "chilkur",
+    "name": "Chilkur",
+    "districtId": "suryapet",
+    "lgdCode": "4667"
+  },
+  {
+    "id": "chinthalapalem",
+    "name": "Chinthalapalem",
+    "districtId": "suryapet",
+    "lgdCode": "6303"
+  },
+  {
+    "id": "chivemla",
+    "name": "Chivemla",
+    "districtId": "suryapet",
+    "lgdCode": "4639"
+  },
+  {
+    "id": "garidepally",
+    "name": "Garidepally",
+    "districtId": "suryapet",
+    "lgdCode": "4666"
+  },
+  {
+    "id": "huzurnagar",
+    "name": "Huzurnagar",
+    "districtId": "suryapet",
+    "lgdCode": "4669"
+  },
+  {
+    "id": "jajireddygudem",
+    "name": "Jajireddygudem",
+    "districtId": "suryapet",
+    "lgdCode": "4623"
+  },
+  {
+    "id": "kodad",
+    "name": "Kodad",
+    "districtId": "suryapet",
+    "lgdCode": "4668"
+  },
+  {
+    "id": "maddirala",
+    "name": "Maddirala",
+    "districtId": "suryapet",
+    "lgdCode": "6300"
+  },
+  {
+    "id": "mattampally",
+    "name": "Mattampally",
+    "districtId": "suryapet",
+    "lgdCode": "4670"
+  },
+  {
+    "id": "mellachervu",
+    "name": "Mellachervu",
+    "districtId": "suryapet",
+    "lgdCode": "4671"
+  },
+  {
+    "id": "mothey",
+    "name": "Mothey",
+    "districtId": "suryapet",
+    "lgdCode": "4640"
+  },
+  {
+    "id": "munagala",
+    "name": "Munagala",
+    "districtId": "suryapet",
+    "lgdCode": "4642"
+  },
+  {
+    "id": "nadigudem",
+    "name": "Nadigudem",
+    "districtId": "suryapet",
+    "lgdCode": "4641"
+  },
+  {
+    "id": "nagaram",
+    "name": "Nagaram",
+    "districtId": "suryapet",
+    "lgdCode": "6298"
+  },
+  {
+    "id": "nereducherla",
+    "name": "Nereducherla",
+    "districtId": "suryapet",
+    "lgdCode": "4665"
+  },
+  {
+    "id": "nuthanakal",
+    "name": "Nuthanakal",
+    "districtId": "suryapet",
+    "lgdCode": "4621"
+  },
+  {
+    "id": "palakeedu",
+    "name": "Palakeedu",
+    "districtId": "suryapet",
+    "lgdCode": "6301"
+  },
+  {
+    "id": "penpahad",
+    "name": "Penpahad",
+    "districtId": "suryapet",
+    "lgdCode": "4643"
+  },
+  {
+    "id": "suryapet",
+    "name": "Suryapet",
+    "districtId": "suryapet",
+    "lgdCode": "4638"
+  },
+  {
+    "id": "thirumalagiri",
+    "name": "Thirumalagiri",
+    "districtId": "suryapet",
+    "lgdCode": "4619"
+  },
+  {
+    "id": "thungaturthy",
+    "name": "Thungaturthy",
+    "districtId": "suryapet",
+    "lgdCode": "4620"
+  },
+  {
+    "id": "adda-guduru",
+    "name": "Adda Guduru",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "6310"
+  },
+  {
+    "id": "alair",
+    "name": "Alair",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4617"
+  },
+  {
+    "id": "atmakur-m",
+    "name": "Atmakur (M)",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4626"
+  },
+  {
+    "id": "b-pochampally",
+    "name": "B Pochampally",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4630"
+  },
+  {
+    "id": "bhongir",
+    "name": "Bhongir",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4628"
+  },
+  {
+    "id": "bibinagar",
+    "name": "Bibinagar",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4629"
+  },
+  {
+    "id": "bommalaramaram",
+    "name": "Bommalaramaram",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4613"
+  },
+  {
+    "id": "choutuppal",
+    "name": "Choutuppal",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4631"
+  },
+  {
+    "id": "gundala-yadadri-bhuvanagiri",
+    "name": "Gundala",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4618"
+  },
+  {
+    "id": "motakonduru",
+    "name": "Motakonduru",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "6309"
+  },
+  {
+    "id": "mothkur",
+    "name": "Mothkur",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4625"
+  },
+  {
+    "id": "narayanpur",
+    "name": "Narayanpur",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4648"
+  },
+  {
+    "id": "rajapeta",
+    "name": "Rajapeta",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4615"
+  },
+  {
+    "id": "ramannapet",
+    "name": "Ramannapet",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4632"
+  },
+  {
+    "id": "thurkapally",
+    "name": "Thurkapally",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4614"
+  },
+  {
+    "id": "valigonda",
+    "name": "Valigonda",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4627"
+  },
+  {
+    "id": "yadagirigutta",
+    "name": "Yadagirigutta",
+    "districtId": "yadadri-bhuvanagiri",
+    "lgdCode": "4616"
+  },
+  {
+    "id": "bantwaram",
+    "name": "Bantwaram",
+    "districtId": "vikarabad",
+    "lgdCode": "4532"
+  },
+  {
+    "id": "basheerabad",
+    "name": "Basheerabad",
+    "districtId": "vikarabad",
+    "lgdCode": "4535"
+  },
+  {
+    "id": "bomaraspeta",
+    "name": "Bomaraspeta",
+    "districtId": "vikarabad",
+    "lgdCode": "4550"
+  },
+  {
+    "id": "chowdapur",
+    "name": "Chowdapur",
+    "districtId": "vikarabad",
+    "lgdCode": "7186"
+  },
+  {
+    "id": "dharur",
+    "name": "Dharur",
+    "districtId": "vikarabad",
+    "lgdCode": "4531"
+  },
+  {
+    "id": "doma",
+    "name": "Doma",
+    "districtId": "vikarabad",
+    "lgdCode": "4537"
+  },
+  {
+    "id": "doulathabad",
+    "name": "Doulathabad",
+    "districtId": "vikarabad",
+    "lgdCode": "4552"
+  },
+  {
+    "id": "dudyal",
+    "name": "Dudyal",
+    "districtId": "vikarabad",
+    "lgdCode": "7540"
+  },
+  {
+    "id": "kodangal",
+    "name": "Kodangal",
+    "districtId": "vikarabad",
+    "lgdCode": "4549"
+  },
+  {
+    "id": "kotepally",
+    "name": "Kotepally",
+    "districtId": "vikarabad",
+    "lgdCode": "6312"
+  },
+  {
+    "id": "kulkacharla",
+    "name": "Kulkacharla",
+    "districtId": "vikarabad",
+    "lgdCode": "4539"
+  },
+  {
+    "id": "marpalle",
+    "name": "Marpalle",
+    "districtId": "vikarabad",
+    "lgdCode": "4512"
+  },
+  {
+    "id": "mominpet",
+    "name": "Mominpet",
+    "districtId": "vikarabad",
+    "lgdCode": "4513"
+  },
+  {
+    "id": "nawabpet-vikarabad",
+    "name": "Nawabpet",
+    "districtId": "vikarabad",
+    "lgdCode": "4514"
+  },
+  {
+    "id": "pargi",
+    "name": "Pargi",
+    "districtId": "vikarabad",
+    "lgdCode": "4540"
+  },
+  {
+    "id": "peddemul",
+    "name": "Peddemul",
+    "districtId": "vikarabad",
+    "lgdCode": "4533"
+  },
+  {
+    "id": "pudur",
+    "name": "Pudur",
+    "districtId": "vikarabad",
+    "lgdCode": "4541"
+  },
+  {
+    "id": "tandur-vikarabad",
+    "name": "Tandur",
+    "districtId": "vikarabad",
+    "lgdCode": "4534"
+  },
+  {
+    "id": "vikarabad",
+    "name": "Vikarabad",
+    "districtId": "vikarabad",
+    "lgdCode": "4530"
+  },
+  {
+    "id": "yelal",
+    "name": "Yelal",
+    "districtId": "vikarabad",
+    "lgdCode": "4536"
+  },
+  {
+    "id": "asifabad",
+    "name": "Asifabad",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4319"
+  },
+  {
+    "id": "bejjur",
+    "name": "Bejjur",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4317"
+  },
+  {
+    "id": "chintalamanepally",
+    "name": "Chintalamanepally",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "6314"
+  },
+  {
+    "id": "dahegoan",
+    "name": "Dahegoan",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4329"
+  },
+  {
+    "id": "jainoor",
+    "name": "Jainoor",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4320"
+  },
+  {
+    "id": "kagaznagar",
+    "name": "Kagaznagar",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4318"
+  },
+  {
+    "id": "kerameri",
+    "name": "Kerameri",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4313"
+  },
+  {
+    "id": "koutala",
+    "name": "Koutala",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4316"
+  },
+  {
+    "id": "lingapur",
+    "name": "Lingapur",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "6311"
+  },
+  {
+    "id": "penchicalpet",
+    "name": "Penchicalpet",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "6313"
+  },
+  {
+    "id": "rebbena",
+    "name": "Rebbena",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4327"
+  },
+  {
+    "id": "sirpur-t",
+    "name": "Sirpur (T)",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4315"
+  },
+  {
+    "id": "sirpur-u",
+    "name": "Sirpur U",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4326"
+  },
+  {
+    "id": "tiryani",
+    "name": "Tiryani",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4333"
+  },
+  {
+    "id": "wankidi",
+    "name": "Wankidi",
+    "districtId": "kumuram-bheem-asifabad",
+    "lgdCode": "4314"
+  },
+  {
+    "id": "alwal",
+    "name": "Alwal",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "6328"
+  },
+  {
+    "id": "bachupally",
+    "name": "Bachupally",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "6315"
+  },
+  {
+    "id": "balanagar-medchal-malkajgiri",
+    "name": "Balanagar",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "4517"
+  },
+  {
+    "id": "gandimaisamma-dundigal",
+    "name": "Gandimaisamma Dundigal",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "6316"
+  },
+  {
+    "id": "ghatkesar",
+    "name": "Ghatkesar",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "4523"
+  },
+  {
+    "id": "kapra",
+    "name": "Kapra",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "6317"
+  },
+  {
+    "id": "keesara",
+    "name": "Keesara",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "4522"
+  },
+  {
+    "id": "kukatpally",
+    "name": "Kukatpally",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "6327"
+  },
+  {
+    "id": "malkajgiri",
+    "name": "Malkajgiri",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "4521"
+  },
+  {
+    "id": "medchal",
+    "name": "Medchal",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "4519"
+  },
+  {
+    "id": "medipally",
+    "name": "Medipally",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "6318"
+  },
+  {
+    "id": "muduchinthalapally",
+    "name": "Muduchinthalapally",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "6671"
+  },
+  {
+    "id": "qutballapur",
+    "name": "Qutballapur",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "4518"
+  },
+  {
+    "id": "shamirpet",
+    "name": "Shamirpet",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "4520"
+  },
+  {
+    "id": "uppal",
+    "name": "Uppal",
+    "districtId": "medchal-malkajgiri",
+    "lgdCode": "4524"
+  },
+  {
+    "id": "eturunagaram",
+    "name": "Eturunagaram",
+    "districtId": "mulugu",
+    "lgdCode": "4685"
+  },
+  {
+    "id": "govindaraopet",
+    "name": "Govindaraopet",
+    "districtId": "mulugu",
+    "lgdCode": "4688"
+  },
+  {
+    "id": "kannaigudem",
+    "name": "Kannaigudem",
+    "districtId": "mulugu",
+    "lgdCode": "6251"
+  },
+  {
+    "id": "mallampally",
+    "name": "Mallampally",
+    "districtId": "mulugu",
+    "lgdCode": "7536"
+  },
+  {
+    "id": "mangapet",
+    "name": "Mangapet",
+    "districtId": "mulugu",
+    "lgdCode": "4686"
+  },
+  {
+    "id": "mulug-mulugu",
+    "name": "Mulug",
+    "districtId": "mulugu",
+    "lgdCode": "4689"
+  },
+  {
+    "id": "tadvai",
+    "name": "Tadvai",
+    "districtId": "mulugu",
+    "lgdCode": "4687"
+  },
+  {
+    "id": "venkatapur",
+    "name": "Venkatapur",
+    "districtId": "mulugu",
+    "lgdCode": "4684"
+  },
+  {
+    "id": "venkatapuram",
+    "name": "Venkatapuram",
+    "districtId": "mulugu",
+    "lgdCode": "4724"
+  },
+  {
+    "id": "wajedu",
+    "name": "Wajedu",
+    "districtId": "mulugu",
+    "lgdCode": "4723"
+  },
+  {
+    "id": "damargidda",
+    "name": "Damargidda",
+    "districtId": "narayanpet",
+    "lgdCode": "4553"
+  },
+  {
+    "id": "dhanwada",
+    "name": "Dhanwada",
+    "districtId": "narayanpet",
+    "lgdCode": "4572"
+  },
+  {
+    "id": "gundumal",
+    "name": "Gundumal",
+    "districtId": "narayanpet",
+    "lgdCode": "7523"
+  },
+  {
+    "id": "kosgi",
+    "name": "Kosgi",
+    "districtId": "narayanpet",
+    "lgdCode": "4551"
+  },
+  {
+    "id": "kothapally-15",
+    "name": "Kothapally (15)",
+    "districtId": "narayanpet",
+    "lgdCode": "7537"
+  },
+  {
+    "id": "krishna",
+    "name": "Krishna",
+    "districtId": "narayanpet",
+    "lgdCode": "6264"
+  },
+  {
+    "id": "maddur-narayanpet",
+    "name": "Maddur",
+    "districtId": "narayanpet",
+    "lgdCode": "4554"
+  },
+  {
+    "id": "maganoor",
+    "name": "Maganoor",
+    "districtId": "narayanpet",
+    "lgdCode": "4590"
+  },
+  {
+    "id": "makthal",
+    "name": "Makthal",
+    "districtId": "narayanpet",
+    "lgdCode": "4589"
+  },
+  {
+    "id": "marikal",
+    "name": "Marikal",
+    "districtId": "narayanpet",
+    "lgdCode": "6263"
+  },
+  {
+    "id": "narayanpet",
+    "name": "Narayanpet",
+    "districtId": "narayanpet",
+    "lgdCode": "4570"
+  },
+  {
+    "id": "narwa",
+    "name": "Narwa",
+    "districtId": "narayanpet",
+    "lgdCode": "4588"
+  },
+  {
+    "id": "utkoor",
+    "name": "Utkoor",
+    "districtId": "narayanpet",
+    "lgdCode": "4571"
+  }
+]

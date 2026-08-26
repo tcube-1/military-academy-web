@@ -1,0 +1,200 @@
+[
+  {
+    "id": "adilabad",
+    "name": "Adilabad",
+    "stateId": "telangana",
+    "lgdCode": "501"
+  },
+  {
+    "id": "bhadradri-kothagudem",
+    "name": "Bhadradri Kothagudem",
+    "stateId": "telangana",
+    "lgdCode": "690"
+  },
+  {
+    "id": "hanumakonda",
+    "name": "Hanumakonda",
+    "stateId": "telangana",
+    "lgdCode": "686"
+  },
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad",
+    "stateId": "telangana",
+    "lgdCode": "507"
+  },
+  {
+    "id": "jagitial",
+    "name": "Jagitial",
+    "stateId": "telangana",
+    "lgdCode": "681"
+  },
+  {
+    "id": "jangoan",
+    "name": "Jangoan",
+    "stateId": "telangana",
+    "lgdCode": "689"
+  },
+  {
+    "id": "jayashankar-bhupalapally",
+    "name": "Jayashankar Bhupalapally",
+    "stateId": "telangana",
+    "lgdCode": "687"
+  },
+  {
+    "id": "jogulamba-gadwal",
+    "name": "Jogulamba Gadwal",
+    "stateId": "telangana",
+    "lgdCode": "695"
+  },
+  {
+    "id": "kamareddy",
+    "name": "Kamareddy",
+    "stateId": "telangana",
+    "lgdCode": "685"
+  },
+  {
+    "id": "karimnagar",
+    "name": "Karimnagar",
+    "stateId": "telangana",
+    "lgdCode": "508"
+  },
+  {
+    "id": "khammam",
+    "name": "Khammam",
+    "stateId": "telangana",
+    "lgdCode": "509"
+  },
+  {
+    "id": "kumuram-bheem-asifabad",
+    "name": "Kumuram Bheem Asifabad",
+    "stateId": "telangana",
+    "lgdCode": "699"
+  },
+  {
+    "id": "mahabubabad",
+    "name": "Mahabubabad",
+    "stateId": "telangana",
+    "lgdCode": "688"
+  },
+  {
+    "id": "mahabubnagar",
+    "name": "Mahabubnagar",
+    "stateId": "telangana",
+    "lgdCode": "512"
+  },
+  {
+    "id": "mancherial",
+    "name": "Mancherial",
+    "stateId": "telangana",
+    "lgdCode": "684"
+  },
+  {
+    "id": "medak",
+    "name": "Medak",
+    "stateId": "telangana",
+    "lgdCode": "513"
+  },
+  {
+    "id": "medchal-malkajgiri",
+    "name": "Medchal Malkajgiri",
+    "stateId": "telangana",
+    "lgdCode": "700"
+  },
+  {
+    "id": "mulugu",
+    "name": "Mulugu",
+    "stateId": "telangana",
+    "lgdCode": "720"
+  },
+  {
+    "id": "nagarkurnool",
+    "name": "Nagarkurnool",
+    "stateId": "telangana",
+    "lgdCode": "694"
+  },
+  {
+    "id": "nalgonda",
+    "name": "Nalgonda",
+    "stateId": "telangana",
+    "lgdCode": "514"
+  },
+  {
+    "id": "narayanpet",
+    "name": "Narayanpet",
+    "stateId": "telangana",
+    "lgdCode": "721"
+  },
+  {
+    "id": "nirmal",
+    "name": "Nirmal",
+    "stateId": "telangana",
+    "lgdCode": "680"
+  },
+  {
+    "id": "nizamabad",
+    "name": "Nizamabad",
+    "stateId": "telangana",
+    "lgdCode": "516"
+  },
+  {
+    "id": "peddapalli",
+    "name": "Peddapalli",
+    "stateId": "telangana",
+    "lgdCode": "682"
+  },
+  {
+    "id": "rajanna-sircilla",
+    "name": "Rajanna Sircilla",
+    "stateId": "telangana",
+    "lgdCode": "683"
+  },
+  {
+    "id": "ranga-reddy",
+    "name": "Ranga Reddy",
+    "stateId": "telangana",
+    "lgdCode": "518"
+  },
+  {
+    "id": "sangareddy",
+    "name": "Sangareddy",
+    "stateId": "telangana",
+    "lgdCode": "691"
+  },
+  {
+    "id": "siddipet",
+    "name": "Siddipet",
+    "stateId": "telangana",
+    "lgdCode": "692"
+  },
+  {
+    "id": "suryapet",
+    "name": "Suryapet",
+    "stateId": "telangana",
+    "lgdCode": "696"
+  },
+  {
+    "id": "vikarabad",
+    "name": "Vikarabad",
+    "stateId": "telangana",
+    "lgdCode": "698"
+  },
+  {
+    "id": "wanaparthy",
+    "name": "Wanaparthy",
+    "stateId": "telangana",
+    "lgdCode": "693"
+  },
+  {
+    "id": "warangal",
+    "name": "Warangal",
+    "stateId": "telangana",
+    "lgdCode": "522"
+  },
+  {
+    "id": "yadadri-bhuvanagiri",
+    "name": "Yadadri Bhuvanagiri",
+    "stateId": "telangana",
+    "lgdCode": "697"
+  }
+]
