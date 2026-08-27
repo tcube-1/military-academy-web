@@ -10,7 +10,8 @@
     "test": "vitest",
     "db:generate": "drizzle-kit generate",
     "db:push": "drizzle-kit push",
-    "db:seed": "tsx scripts/seed.ts"
+    "db:seed": "tsx scripts/seed-master.ts",
+    "db:seed:roles": "tsx scripts/seed.ts"
   },
   "dependencies": {
     "@auth/core": "^0.34.2",

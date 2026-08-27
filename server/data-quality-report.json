@@ -1,0 +1,5792 @@
+[
+  {
+    "studentCode": "TJC001",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC006",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC008",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC011",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC013",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC014",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC017",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC018",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC021",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC028",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC029",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC031",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC039",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC043",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC045",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC046",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC053",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC054",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC064",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC066",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC067",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC068",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC070",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC071",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC072",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC077",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC078",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC080",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC082",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC084",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC088",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC092",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC093",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC100",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC102",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC104",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC106",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC107",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC108",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC111",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC113",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC116",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC117",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC120",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC122",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC125",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC128",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC131",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC132",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC136",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC140",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC141",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC144",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC149",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC151",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC155",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC157",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC161",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC167",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC170",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC174",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC177",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC178",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC180",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC181",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC183",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC185",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC186",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC188",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC193",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC195",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC196",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC197",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC200",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC201",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC205",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC214",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC215",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC218",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC225",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC226",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC234",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC235",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC236",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC251",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC255",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC257",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC258",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC260",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC261",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC264",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC272",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC275",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC276",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC279",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC281",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC284",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC287",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC291",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC293",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC303",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC304",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC317",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC320",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC321",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC326",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC328",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC330",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC336",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC337",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC338",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC345",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC349",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC350",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC351",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC353",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC354",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC358",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC361",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC367",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC369",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC371",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC373",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC375",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC378",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC382",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC383",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC387",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC391",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC393",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC394",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC401",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC408",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC412",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC415",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC416",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC424",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC430",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC431",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC434",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC437",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC439",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC441",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC445",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC451",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC452",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC455",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC456",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC466",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC467",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC468",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC470",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC472",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC474",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC478",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC483",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC484",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC485",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC486",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC488",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC494",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC500",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC501",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC503",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC505",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC506",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC514",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC519",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC526",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC528",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC529",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC530",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC532",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC536",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC542",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC545",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC546",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC547",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC548",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC549",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC555",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC556",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC567",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC568",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC572",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC580",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC583",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC587",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC590",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC594",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC602",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC608",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC610",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC612",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC613",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC614",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC615",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC619",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC622",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC624",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC625",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC626",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC633",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC634",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC635",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC636",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC637",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC638",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC640",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC646",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC650",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC651",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC653",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC655",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC659",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC660",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC662",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC667",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC669",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC670",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC671",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC680",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC681",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC685",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC688",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC694",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC696",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC700",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC702",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC703",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC705",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC708",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC709",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC711",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC712",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC721",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC722",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC726",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC731",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC744",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC746",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC751",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC752",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC754",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC765",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC770",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC776",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC778",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC780",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC781",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC784",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC787",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC788",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC789",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC791",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC794",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC799",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC806",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC810",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC812",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC816",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC823",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC825",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC827",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC828",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC830",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC834",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC838",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC839",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC840",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC842",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC848",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC851",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC852",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC858",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC860",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC865",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC866",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC869",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC872",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC874",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC881",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC882",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC885",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC887",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC895",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC900",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC901",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC910",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC913",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC921",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC926",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC933",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC934",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC936",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC957",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC960",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC961",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC962",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC965",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC968",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC972",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC974",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC977",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC981",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC982",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC984",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC985",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC990",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC995",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1003",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1004",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1006",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1007",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1009",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1028",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1033",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1035",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1038",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1040",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1041",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1042",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1045",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1048",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1053",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1061",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1062",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1065",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1066",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1071",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1072",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1076",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1077",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1078",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1079",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1082",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1084",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1086",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1091",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1094",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1098",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1099",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1102",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1103",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1105",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1110",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1111",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1112",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1115",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1119",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1126",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1128",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1129",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1130",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1132",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1137",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1143",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1144",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1145",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1149",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1151",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1154",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1160",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1165",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1168",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1180",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1186",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1187",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1189",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1190",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1192",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1194",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1196",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1201",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1206",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1207",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1209",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1211",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1212",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1213",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1216",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1233",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1234",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1237",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1242",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1246",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1247",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1249",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1252",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1256",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1260",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1267",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1268",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1273",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1277",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1278",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1282",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1283",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1286",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1287",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1292",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1294",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1296",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1299",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1302",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1303",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1304",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1306",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1307",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1313",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1318",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1319",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1321",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1323",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1325",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1326",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1327",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1337",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1343",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1344",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1345",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1348",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1364",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1371",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1372",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1376",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1378",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1386",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1391",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1394",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1395",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1397",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1399",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1401",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1403",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1404",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1408",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1410",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1415",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1417",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1421",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1422",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1423",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1424",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1426",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1427",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1434",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1436",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1437",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1441",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1450",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1453",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1460",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1461",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1462",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1464",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1466",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1470",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1474",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1476",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1478",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1479",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1483",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1487",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1489",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1492",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1493",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1494",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1498",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1499",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1500",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1502",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1506",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1507",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1509",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1510",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1511",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1512",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1516",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1524",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1525",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1526",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1527",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1529",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1532",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1534",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1535",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1537",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1538",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1542",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1547",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1548",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1549",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1554",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1560",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1561",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1565",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1566",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1572",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1580",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1582",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1584",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1587",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1593",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1594",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1599",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1606",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1611",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1617",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1618",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1621",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1629",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1637",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1638",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1639",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1640",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1647",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1652",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1653",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1655",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1670",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1673",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1674",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1676",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1678",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1679",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1682",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1689",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1693",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1696",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1699",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1706",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1708",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1710",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1711",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1714",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1716",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1722",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1725",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1728",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1733",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1734",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1737",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1738",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1744",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1746",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1748",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1749",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1752",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1753",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1760",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1761",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1762",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1764",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1768",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1771",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1772",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1773",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1776",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1777",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1780",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1782",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1783",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1784",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1785",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1791",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1800",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1801",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1808",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1810",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1811",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1812",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1815",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1818",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1821",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1827",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1828",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1829",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1837",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1844",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1849",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1852",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1853",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1854",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1857",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1859",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1863",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1865",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1875",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1876",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1878",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1879",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1881",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1882",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1890",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1895",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1896",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1897",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1900",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1903",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1911",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1916",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1917",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1931",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1936",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1940",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1943",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1947",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1949",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1951",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1956",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1957",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1958",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1959",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1960",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1967",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1968",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1969",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1970",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1971",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1973",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1976",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1979",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1982",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1983",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1984",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1986",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1987",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1988",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1994",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1995",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1996",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC1997",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2001",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2006",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2012",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2014",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2018",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2029",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2034",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2037",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2039",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2040",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2041",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2045",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2047",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2053",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2054",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2064",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2065",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2067",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2071",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2075",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2077",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2084",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2092",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2093",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2102",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2106",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2109",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2110",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2114",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2115",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2120",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2121",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2125",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2132",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2137",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2140",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2141",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2143",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2144",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2147",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2148",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2149",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2151",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2155",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2156",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2158",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2162",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2164",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2171",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2173",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2174",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2178",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2179",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2189",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2190",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2193",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2196",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2199",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2201",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2204",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2205",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2208",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2213",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2214",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2215",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2218",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2220",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2222",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2223",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2230",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2231",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2240",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2243",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2245",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2251",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2256",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2259",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2260",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2264",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2265",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2266",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2267",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2275",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2276",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2281",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2283",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2284",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2285",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2286",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2294",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2295",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2297",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2299",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2301",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2303",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2307",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2310",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2315",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2317",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2322",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2324",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2326",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2328",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2331",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2333",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2334",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2336",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2337",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2339",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2343",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2348",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2349",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2351",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2352",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2366",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2372",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2373",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2376",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2377",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2378",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2379",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2380",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2381",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2387",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2389",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2392",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2393",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2394",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2395",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2397",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2398",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2399",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2402",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2405",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2406",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2407",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2410",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2411",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2413",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2417",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2418",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2422",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2423",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2424",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2425",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2428",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2432",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2437",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2443",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2445",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2447",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2448",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2454",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2455",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2456",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2458",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2461",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2465",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2466",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2469",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2472",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2475",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2476",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2478",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2479",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2482",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2489",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2495",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2498",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2499",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2504",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2511",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2513",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2523",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2524",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2525",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2527",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2530",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2531",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2537",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2543",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2545",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2546",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2548",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2552",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2555",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2558",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2559",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2560",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2567",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2569",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2572",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2576",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2577",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2578",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2579",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2581",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2583",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2586",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2588",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2591",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2593",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2596",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2597",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2598",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2605",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2614",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2618",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2621",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2626",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2627",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2632",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2633",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2636",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2637",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2639",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2643",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2644",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2646",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2647",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2648",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2652",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2655",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2657",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2665",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2667",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2673",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2677",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2680",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2685",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2686",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2692",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2693",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2700",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2702",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2703",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2706",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2708",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2709",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2712",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2714",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2719",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2720",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2721",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2723",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2724",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2725",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2729",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2730",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2732",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2738",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2739",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2753",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2760",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2764",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2766",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2770",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2773",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2779",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2781",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2783",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2794",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2795",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2800",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2802",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2803",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2807",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2810",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2812",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2813",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2814",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2816",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2818",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2820",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2823",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2825",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2826",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2830",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2832",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2838",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2843",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2846",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2848",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2850",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2853",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2857",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2858",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2859",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2862",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2867",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2869",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2871",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2875",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2885",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2889",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2898",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2901",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2906",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2907",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2913",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2915",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2918",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2921",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2924",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2930",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2931",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2932",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2934",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2936",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2938",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2947",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2952",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2957",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2959",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2962",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2963",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2966",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2971",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2973",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2974",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2975",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2985",
+    "originalVillageValue": "Dharpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2986",
+    "originalVillageValue": "Narsampet",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2988",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2990",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2991",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2993",
+    "originalVillageValue": "Hasanparthy",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2994",
+    "originalVillageValue": "Madikonda",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2995",
+    "originalVillageValue": "Mamidipalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2996",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC2999",
+    "originalVillageValue": "Dichpally",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  },
+  {
+    "studentCode": "TJC3000",
+    "originalVillageValue": "Devampalli",
+    "resolutionStatus": "FAILED",
+    "reason": "Village ID not found in villages.json"
+  }
+]

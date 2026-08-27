@@ -10,7 +10,7 @@ export class RolesController {
   }
 
   static async getRole(req: Request, res: Response) {
-    const role = await RolesRepository.findRoleById(req.params.id);
+    const role = await RolesRepository.findRoleById(req.params.id as string);
     if (!role) throw new ApiError("Role not found", HTTP_STATUS.NOT_FOUND);
     
     const perms = await RolesRepository.getRolePermissions(role.id);

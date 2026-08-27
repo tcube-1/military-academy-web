@@ -14,7 +14,7 @@ export class UsersController {
   }
 
   static async getUser(req: Request, res: Response) {
-    const user = await UsersRepository.findById(req.params.id);
+    const user = await UsersRepository.findById(req.params.id as string);
     if (!user || user.deletedAt) {
       throw new ApiError("User not found", HTTP_STATUS.NOT_FOUND);
     }
@@ -51,7 +51,7 @@ export class UsersController {
   }
 
   static async updateUser(req: Request, res: Response) {
-    const user = await UsersRepository.update(req.params.id, req.body);
+    const user = await UsersRepository.update(req.params.id as string, req.body);
     if (!user) throw new ApiError("User not found", HTTP_STATUS.NOT_FOUND);
 
     await AuditService.logEvent({
@@ -66,7 +66,7 @@ export class UsersController {
   }
 
   static async deleteUser(req: Request, res: Response) {
-    const user = await UsersRepository.delete(req.params.id);
+    const user = await UsersRepository.delete(req.params.id as string);
     if (!user) throw new ApiError("User not found", HTTP_STATUS.NOT_FOUND);
 
     await AuditService.logEvent({
@@ -81,13 +81,13 @@ export class UsersController {
   }
 
   static async assignRole(req: Request, res: Response) {
-    await UsersRepository.assignRole(req.params.id, req.body.roleId, req.user?.id);
+    await UsersRepository.assignRole(req.params.id as string, req.body.roleId, req.user?.id);
     
     await AuditService.logEvent({
       actorId: req.user?.id || "system",
       action: "ASSIGN_ROLE",
       resourceType: "USER",
-      resourceId: req.params.id,
+      resourceId: req.params.id as string,
       metadata: { roleId: req.body.roleId },
       requestId: req.headers["x-request-id"] as string,
     });
@@ -96,14 +96,14 @@ export class UsersController {
   }
 
   static async removeRole(req: Request, res: Response) {
-    await UsersRepository.removeRole(req.params.id, req.params.roleId);
+    await UsersRepository.removeRole(req.params.id as string, req.params.roleId as string);
     
     await AuditService.logEvent({
       actorId: req.user?.id || "system",
       action: "REMOVE_ROLE",
       resourceType: "USER",
-      resourceId: req.params.id,
-      metadata: { roleId: req.params.roleId },
+      resourceId: req.params.id as string,
+      metadata: { roleId: req.params.roleId as string },
       requestId: req.headers["x-request-id"] as string,
     });
 

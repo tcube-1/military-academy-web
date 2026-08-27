@@ -45,12 +45,12 @@ export const requireAuth = async (req: Request, res: Response, next: NextFunctio
       : (session?.user?.id || session?.user?.email);
 
     // Authenticated User Resolution boundary
-    let user = await UsersRepository.findByAuthId(authId as string);
+    let user: any = await UsersRepository.findByAuthId(authId as string);
     
     if (!user) {
       // Fallback lookup by email if authUserId is not perfectly mapped yet
       const users = await UsersRepository.findAll();
-      user = users.find(u => u.email === session.user?.email) || null;
+      user = users.find(u => u.email === session?.user?.email) || undefined;
     }
 
     if (!user || user.status !== "ACTIVE" || user.deletedAt) {

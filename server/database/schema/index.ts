@@ -3,3 +3,6 @@ export * from "./roles";
 export * from "./permissions";
 export * from "./userRoles";
 export * from "./rolePermissions";
+export * from "./locations";
+export * from "./forces";
+export * from "./students";
