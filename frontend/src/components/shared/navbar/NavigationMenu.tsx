@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 
 import { cn } from '@/lib/utils';
 import ThemeToggle from '@/components/provider/ThemeToggle';
+import Image from 'next/image';
 
 // 1. Array of links based on your app/ folder structure
 const NAV_LINKS = [
@@ -18,80 +19,121 @@ const NAV_LINKS = [
   { name: 'Contact', href: '/contact' },
 ];
 
-export default function NavigationMenu({ children }: { children?: React.ReactNode }) {
+export default function NavigationMenu({
+  children,
+}: {
+  children?: React.ReactNode;
+}) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname(); // Current URL path telusukovadaniki
 
   return (
-    <nav className={cn('fixed inset-x-0 top-8 z-50 container mx-auto')}>
+    <nav className={cn('fixed inset-x-0 z-50 container mx-auto')}>
       {children}
 
       {/*_______________________ NAVBAR MAIN CONTAINER _______________________*/}
-      <section
+      <div
         className={cn(
-          'border-border/50 relative flex h-12 w-full items-center justify-between px-6 shadow-lg shadow-black/5',
-          'bg-background/60 backdrop-blur-md transition-all',
+          'border-border/50 bg-background/60 flex h-26 w-full items-end shadow-black/5 backdrop-blur-md transition-all',
         )}
       >
-        {/*_______________________ LOGO _______________________*/}
-        <div className="flex h-full shrink-0 items-center">
-          <Link
-            href="/"
-            className="bg-primary/10 text-primary hover:bg-primary/20 flex h-full items-center justify-center px-3 text-[clamp(1rem,1vw,3rem)] font-bold tracking-widest transition-colors"
-          >
-            SRU
-          </Link>
-        </div>
+        <section
+          className={cn(
+            'relative flex h-18 w-full items-center justify-between overflow-hidden px-3 shadow-lg',
+          )}
+        >
+          {/*_______________________ LOGO _______________________*/}
+          <div className="flex h-full shrink-0 items-center">
+            <Link
+              href="/"
+              className={cn(
+                'group flex h-full items-center gap-0.5 px-2',
+                'rounded-sm text-red-600',
+                'text-sm font-bold tracking-wider sm:text-base md:text-lg',
+              )}
+            >
+              {/* Logo Wrapper */}
+              <div className="relative flex h-[85%] w-fit shrink-0 items-center justify-center overflow-hidden rounded-sm bg-white">
+                <Image
+                  src="/images/logo.webp"
+                  alt="Tejas Educational Institution Logo"
+                  width={80}
+                  height={80}
+                  priority
+                  className="size-full object-contain transition-transform duration-200 group-hover:scale-105"
+                />
+              </div>
 
-        {/*_______________________ DESKTOP LINKS (MIDDLE) _______________________*/}
-        <div className="hidden h-full flex-1 items-center justify-center gap-8 md:flex">
-          {NAV_LINKS.map((link) => {
-            const isActive = pathname === link.href;
-            return (
-              <Link
-                key={link.href}
-                href={link.href}
+              {/* Brand Text */}
+              <div
                 className={cn(
-                  'flex h-[80%] items-center px-1 text-sm font-medium transition-colors outline-none',
-                  'hover:border-primary/20 hover:text-primary border-transparent hover:border-x',
-
-                  isActive
-                    ? 'text-primary font-semibold'
-                    : 'text-muted-foreground',
+                  'hover:bg-primary/10 flex h-full flex-col items-center justify-center px-2 transition-colors',
                 )}
               >
-                {link.name}
-              </Link>
-            );
-          })}
-        </div>
+                <span className="text-4xl leading-none font-black whitespace-nowrap">
+                  TEJAS
+                </span>
+                <span
+                  className={cn(
+                    'bg-accent text-background p-1 text-[8px] font-semibold',
+                  )}
+                >
+                  INSTITUTIE OF EDUCATION
+                </span>
+              </div>
+            </Link>
+          </div>
 
-        {/*_______________________ END ACTIONS (RIGHT) _______________________*/}
-        <div className="flex shrink-0 items-center gap-4">
-          <Link
-            href="/contact"
-            className="bg-primary text-primary-foreground hover:bg-primary-hover hidden rounded-lg px-4 py-2 text-sm font-semibold shadow-sm transition-all hover:shadow-md md:flex"
-          >
-            Get Started
-          </Link>
+          {/*_______________________ DESKTOP LINKS (MIDDLE) _______________________*/}
+          <div className="hidden h-full flex-1 items-center justify-center gap-8 lg:flex">
+            {NAV_LINKS.map((link) => {
+              const isActive = pathname === link.href;
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={cn(
+                    'flex h-[80%] items-center px-1 text-sm font-medium transition-colors outline-none',
+                    'hover:border-primary/20 hover:text-primary border-transparent hover:border-x',
 
-          {/* DARK/LIGHT MODE */}
-          <ThemeToggle />
+                    isActive
+                      ? 'text-primary font-semibold'
+                      : 'text-muted-foreground',
+                  )}
+                >
+                  {link.name}
+                </Link>
+              );
+            })}
+          </div>
 
-          {/* MOBILE MENU TOGGLE (HAMBURGER) */}
-          <button
-            onClick={() => setMobileOpen(!mobileOpen)}
-            className="text-foreground hover:bg-secondary flex rounded-md p-2 transition-colors md:hidden"
-            aria-label="Toggle Menu"
-          >
-            {mobileOpen ? (
-              <X className="size-5" />
-            ) : (
-              <Menu className="size-5" />
-            )}
-          </button>
-        </div>
-      </section>
+          {/*_______________________ END ACTIONS (RIGHT) _______________________*/}
+          <div className="flex shrink-0 items-center gap-4">
+            <Link
+              href="/contact"
+              className="bg-primary text-primary-foreground hover:bg-primary-hover hidden rounded-lg px-4 py-2 text-sm font-semibold shadow-sm transition-all hover:shadow-md md:flex"
+            >
+              Get Started
+            </Link>
+
+            {/* DARK/LIGHT MODE */}
+            <ThemeToggle />
+
+            {/* MOBILE MENU TOGGLE (HAMBURGER) */}
+            <button
+              onClick={() => setMobileOpen(!mobileOpen)}
+              className="text-foreground hover:bg-secondary flex rounded-md p-2 transition-colors md:hidden"
+              aria-label="Toggle Menu"
+            >
+              {mobileOpen ? (
+                <X className="size-5" />
+              ) : (
+                <Menu className="size-5" />
+              )}
+            </button>
+          </div>
+        </section>
+      </div>
 
       {/*_______________________ MOBILE DROP-DOWN MENU _______________________*/}
       {mobileOpen && (

@@ -1,21 +1,69 @@
+'use client';
+
+import React, { useRef } from 'react';
+import Image from 'next/image';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { defencelogo, DefenceLogos } from '@/lib/assets';
 import { cn } from '@/lib/utils';
-import Image from 'next/image';
-import React from 'react';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from 'radix-ui/tabs';
+import { useRouter, useSearchParams } from 'next/navigation';
 
-const getLogo = (name: string) =>
+interface MilestoneTabItem {
+  id: string;
+  name: string;
+  searchKey: string;
+  tagline: string;
+  description: string;
+}
+
+const MILESTONE_TABS: MilestoneTabItem[] = [
+  {
+    id: 'army',
+    name: 'Indian Army',
+    searchKey: 'Army',
+    tagline: 'Strength • Discipline • Service',
+    description:
+      'Explore our achievements and student success stories connected with the Indian Army.',
+  },
+  {
+    id: 'navy',
+    name: 'Indian Navy',
+    searchKey: 'Navy',
+    tagline: 'Courage • Commitment • Excellence',
+    description:
+      'Explore our achievements and student success stories connected with the Indian Navy.',
+  },
+  {
+    id: 'airforce',
+    name: 'Indian Air Force',
+    searchKey: 'airforce',
+    tagline: 'Valor • Precision • Excellence',
+    description:
+      'Explore our achievements and student success stories connected with the Indian Air Force.',
+  },
+];
+
+const getLogo = (name: string): defencelogo | undefined =>
   DefenceLogos.find(
     (item: defencelogo) => item.name.toLowerCase() === name.toLowerCase(),
   );
 
-function OurMilestones() {
-  const armyLogo = getLogo('Army');
-  const navyLogo = getLogo('Navy');
-  const airforceLogo = getLogo('airforce');
+export default function OurMilestones(): React.JSX.Element {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const sectionRef = useRef<HTMLDivElement | null>(null);
+
+  const activeTab = searchParams.get('tab') ?? 'army';
+
+  const handleTabChange = (val: string) => {
+    router.replace(`?tab=${val}`, { scroll: false });
+    sectionRef.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+    });
+  };
 
   const triggerClass = cn(
-    'group relative flex size-24 items-center justify-center overflow-hidden',
+    'group relative flex flex-col size-28 md:size-30 items-center justify-center overflow-hidden',
     'rounded-xl border border-transparent',
     'transition-all duration-300',
     'text-muted-foreground',
@@ -28,143 +76,96 @@ function OurMilestones() {
 
   const contentClass = cn(
     'rounded-2xl border border-border',
-    'bg-card/80 p-6 text-center shadow-md',
-    'backdrop-blur-md outline-none',
+    'bg-card/80 p-6 md:p-8 text-center shadow-md',
+    'backdrop-blur-md outline-none transition-all duration-300',
   );
 
   return (
     <section
+      ref={sectionRef}
       className={cn(
         'relative flex min-h-fit justify-center',
-        'overflow-hidden px-4 py-5',
-        'bg-background text-foreground',
+        'overflow-hidden px-4 py-12',
+        'text-foreground',
       )}
     >
-      {/* Background accent */}
+      {/* Background radial glow */}
       <div
-        aria-hidden
+        aria-hidden="true"
         className={cn(
           'pointer-events-none absolute inset-0',
-          'bg-[radial-gradient(circle_at_50%_20%,var(--accent),transparent_35%)]',
-          'opacity-[0.06]',
+          'bg-[radial-gradient(circle_at_50%_20%,var(--accent),transparent_50%)]',
+          'opacity-[0.08]',
         )}
       />
 
-      <div className="relative top-2 z-10 w-full max-w-4xl">
-        <Tabs defaultValue="army" className="mt-4 w-full">
-          {/* Heading */}
-          {/* Logo Tabs */}
+      <div className="relative z-10 flex max-w-4xl">
+        <Tabs
+          defaultValue="army"
+          value={activeTab}
+          onValueChange={handleTabChange}
+          className="flex w-full flex-col"
+        >
+          {/* Logo Tabs List */}
           <div className="flex justify-center">
             <TabsList
               className={cn(
-                'inline-flex h-auto items-center gap-3',
+                'inline-flex h-auto items-center gap-1 md:gap-2',
                 'border-border rounded-2xl border',
-                'bg-card p-2 shadow-md',
+                'bg-card/90 p-2 shadow-md backdrop-blur-sm',
               )}
             >
-              {/* Army */}
-              <TabsTrigger
-                value="army"
-                aria-label="Army"
-                className={triggerClass}
-              >
-                <div className="relative size-20">
-                  {armyLogo && (
-                    <Image
-                      src={armyLogo.href}
-                      alt={armyLogo.name}
-                      fill
-                      sizes="80px"
+              {MILESTONE_TABS.map((tab: MilestoneTabItem) => {
+                const logo = getLogo(tab.searchKey);
+
+                return (
+                  <TabsTrigger
+                    key={tab.id}
+                    value={tab.id}
+                    aria-label={tab.name}
+                    className={triggerClass}
+                  >
+                    <div className="relative size-22">
+                      {logo?.href && (
+                        <Image
+                          src={logo.href}
+                          alt={logo.name}
+                          fill
+                          sizes="(max-width: 768px) 56px, 64px"
+                          className={cn(
+                            'object-contain p-1',
+                            'transition-transform duration-300',
+                            'group-hover:scale-105',
+                          )}
+                        />
+                      )}
+                    </div>
+                    {/* Active highlight bar */}
+                    <span
+                      aria-hidden="true"
                       className={cn(
-                        'object-contain',
-                        'transition-transform duration-300',
-                        'group-hover:scale-105',
+                        'absolute bottom-0 left-1/2 h-1.5 w-4/5',
+                        '-translate-x-1/2 rounded-full',
+                        'via-primary bg-linear-to-r from-transparent to-transparent',
+                        'opacity-0 transition-opacity duration-300',
+                        'group-data-[state=active]:opacity-100',
                       )}
                     />
-                  )}
-                </div>
-
-                {/* Active indicator */}
-                <span
-                  className={cn(
-                    'absolute bottom-0 left-1/2 h-2 w-full',
-                    '-translate-x-1/2 rounded-full',
-                    'from-primary/40 via-primary/15 bg-linear-0 to-transparent',
-                    'opacity-0 transition-opacity duration-300',
-                    'group-data-[state=active]:opacity-100',
-                  )}
-                />
-              </TabsTrigger>
-
-              {/* Navy */}
-              <TabsTrigger
-                value="navy"
-                aria-label="Navy"
-                className={triggerClass}
-              >
-                <div className="relative size-20">
-                  {navyLogo && (
-                    <Image
-                      src={navyLogo.href}
-                      alt={navyLogo.name}
-                      fill
-                      sizes="80px"
+                    <span
                       className={cn(
-                        'object-contain',
-                        'transition-transform duration-300',
-                        'group-hover:scale-105',
+                        'pb-2 text-[10px] leading-2.5 text-wrap uppercase',
                       )}
-                    />
-                  )}
-                </div>
-
-                <span
-                  className={cn(
-                    'absolute bottom-0 left-1/2 h-2 w-full',
-                    '-translate-x-1/2 rounded-full',
-                    'from-primary/40 via-primary/15 bg-linear-0 to-transparent',
-                    'opacity-0 transition-opacity duration-300',
-                    'group-data-[state=active]:opacity-100',
-                  )}
-                />
-              </TabsTrigger>
-
-              {/* Air Force */}
-              <TabsTrigger
-                value="airforce"
-                aria-label="Air Force"
-                className={triggerClass}
-              >
-                <div className="relative size-20">
-                  {airforceLogo && (
-                    <Image
-                      src={airforceLogo.href}
-                      alt={airforceLogo.name}
-                      fill
-                      sizes="80px"
-                      className={cn(
-                        'object-contain',
-                        'transition-transform duration-300',
-                        'group-hover:scale-105',
-                      )}
-                    />
-                  )}
-                </div>
-
-                <span
-                  className={cn(
-                    'absolute bottom-0 left-1/2 h-2 w-full',
-                    '-translate-x-1/2 rounded-full',
-                    'from-primary/40 via-primary/15 bg-linear-0 to-transparent',
-                    'opacity-0 transition-opacity duration-300',
-                    'group-data-[state=active]:opacity-100',
-                  )}
-                />
-              </TabsTrigger>
+                    >
+                      {tab.name}
+                    </span>
+                  </TabsTrigger>
+                );
+              })}
             </TabsList>
           </div>
 
-          <div className="mx-auto my-10 max-w-2xl text-center">
+          {/* Heading */}
+          <div className="mx-auto my-8 max-w-2xl text-center">
             <h2
               className={cn(
                 'text-3xl font-bold tracking-tight',
@@ -176,7 +177,7 @@ function OurMilestones() {
 
             <p
               className={cn(
-                'mt-4 text-sm leading-6',
+                'mt-3 text-sm leading-6',
                 'text-muted-foreground sm:text-base',
               )}
             >
@@ -184,10 +185,12 @@ function OurMilestones() {
               prestigious defence forces.
             </p>
           </div>
-          <div className={cn('flex items-center justify-center')}>
+
+          {/* Badge */}
+          <div className="flex items-center justify-center">
             <span
               className={cn(
-                'mb-4 inline-flex items-center rounded-full',
+                'mb-6 inline-flex items-center rounded-full',
                 'border-accent/30 bg-accent/10 border',
                 'px-4 py-1.5 text-xs font-semibold tracking-wide',
                 'text-accent',
@@ -196,57 +199,27 @@ function OurMilestones() {
               OUR MILESTONES
             </span>
           </div>
-          {/* Content */}
-          <div className="mx-auto mt-8 max-w-2xl">
-            <TabsContent value="army" className={contentClass}>
-              <p className="text-primary text-sm font-semibold tracking-wider uppercase">
-                Indian Army
-              </p>
 
-              <h3 className="mt-2 text-2xl font-bold">
-                Strength • Discipline • Service
-              </h3>
+          {/* Dynamic Content Sections */}
+          <div className="mx-auto max-w-2xl">
+            {MILESTONE_TABS.map((tab: MilestoneTabItem) => (
+              <TabsContent key={tab.id} value={tab.id} className={contentClass}>
+                <p className="text-primary text-xs font-semibold tracking-widest uppercase md:text-sm">
+                  {tab.name}
+                </p>
 
-              <p className="text-muted-foreground mt-3 text-sm leading-6">
-                Explore our achievements and student success stories connected
-                with the Indian Army.
-              </p>
-            </TabsContent>
+                <h3 className="mt-2 text-xl font-bold tracking-tight md:text-2xl">
+                  {tab.tagline}
+                </h3>
 
-            <TabsContent value="navy" className={contentClass}>
-              <p className="text-primary text-sm font-semibold tracking-wider uppercase">
-                Indian Navy
-              </p>
-
-              <h3 className="mt-2 text-2xl font-bold">
-                Courage • Commitment • Excellence
-              </h3>
-
-              <p className="text-muted-foreground mt-3 text-sm leading-6">
-                Explore our achievements and student success stories connected
-                with the Indian Navy.
-              </p>
-            </TabsContent>
-
-            <TabsContent value="airforce" className={contentClass}>
-              <p className="text-primary text-sm font-semibold tracking-wider uppercase">
-                Indian Air Force
-              </p>
-
-              <h3 className="mt-2 text-2xl font-bold">
-                Valor • Precision • Excellence
-              </h3>
-
-              <p className="text-muted-foreground mt-3 text-sm leading-6">
-                Explore our achievements and student success stories connected
-                with the Indian Air Force.
-              </p>
-            </TabsContent>
+                <p className="text-muted-foreground mt-3 text-sm leading-relaxed">
+                  {tab.description}
+                </p>
+              </TabsContent>
+            ))}
           </div>
         </Tabs>
       </div>
     </section>
   );
 }
-
-export default OurMilestones;

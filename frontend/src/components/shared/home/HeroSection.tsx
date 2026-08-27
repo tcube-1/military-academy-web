@@ -2,127 +2,140 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { ArrowRight, Award, ChevronsRight } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
 import { StatusDot } from '@/components/ui/StatusDot';
-import { imageAssets } from '@/lib/assets';
 import StudentTestimonials from '../achievements/StudentTestimonials';
-import { ArrowRight, Award } from 'lucide-react';
 
-export default function HeroSection() {
+export default function HeroSection(): React.JSX.Element {
   return (
-    <section className="bg-background relative overflow-hidden">
-      {/*_______________________ HERO CONTAINER _______________________*/}
+    /* 
+      1. Main Wrapper:
+      - Fixed `h-screen` valla mobile lo overflow cut avthundi, so `min-h-[calc(100vh-4rem)]` or `min-h-screen` vaduthunnam.
+      - Smooth background gradient & padding handle chestundi.
+    */
+    <section className="bg-background relative flex w-full justify-center px-2 pt-20 pb-12 sm:pt-28 sm:pb-16 lg:px-10">
+      {/* Background Ambient Glow */}
       <div
-        className={cn(
-          'relative z-0 mx-auto flex w-full max-w-7xl flex-col gap-10 pt-20 md:pt-20',
-          'xl:grid xl:grid-cols-2 xl:items-center xl:gap-12',
-        )}
-      >
-        {/* ================================================================
-            LEFT CONTENT
-        ================================================================= */}
-        <div className="relative inset-x-0 flex justify-center rounded-sm xl:bg-transparent">
-          <div className="flex w-fit max-w-full flex-col">
-            {/* Badge */}
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_10%,var(--accent),transparent_60%)] opacity-10"
+      />
+
+      {/* 
+        2. Hero Container:
+        - Max-width constraint to maintain clean margins on ultrawide screens.
+      */}
+      <div className="relative top-10 z-10 mx-auto w-full max-w-7xl 2xl:top-0">
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-12 xl:gap-16">
+          {/* ================================================================
+              LEFT: TEXT CONTENT & ACTIONS
+          ================================================================= */}
+          <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+            {/* Top Badge: Floating Pill */}
             <div
               className={cn(
-                'mb-6 flex w-fit items-center gap-2 rounded-full',
-                'border px-3 py-1 shadow-xl backdrop-blur-md',
-                'border-accent/20 bg-accent/90 text-background',
-                'text-[clamp(0.75rem,1vw,1.25rem)] font-semibold',
-                'dark:border-accent/20 dark:bg-accent/10 dark:text-accent',
-                '',
+                'mb-4 inline-flex items-center gap-2 rounded-full border px-3 py-1.5 transition-all duration-300',
+                'border-border/60 bg-accent text-foreground',
+                'text-xs font-semibold sm:text-sm',
               )}
             >
               <StatusDot />
-              <Award className="size-4 shrink-0" />
+              <Award className="text-primary size-4 shrink-0" />
               <span>No.1 Institute in Telangana</span>
             </div>
 
-            {/* Heading + description */}
-            <div>
+            {/* Main Headline */}
+            <div className={cn('relative w-full max-w-2xl')}>
               <h1
                 className={cn(
-                  'font-heading text-foreground mb-6',
-                  'text-5xl leading-[0.88] tracking-tight',
-                  'sm:text-6xl',
-                  'lg:text-[clamp(4rem,6vw,6rem)]',
+                  'font-heading text-foreground font-extrabold tracking-tight',
+                  // Fluid scaling across Mobile, Tablet, and Desktop without breaking
+                  'text-[clamp(3rem,10vw,8rem)] leading-[clamp(2.5rem,8vw,7rem)]',
                 )}
               >
-                SHAPE YOUR
-                <br />
-                <span className="text-primary">FUTURE</span> TODAY.
+                <span className={cn('block')}>SHAPE YOUR </span>
+                <span className={cn('block')}>
+                  <span
+                    className={cn(
+                      'inline-block',
+                      'from-primary via-primary/90 to-primary/60 bg-linear-to-r bg-clip-text text-transparent',
+                    )}
+                  >
+                    FUTURE
+                  </span>{' '}
+                  TODAY.
+                </span>
               </h1>
-
-              <p
-                className={cn(
-                  'xl:text-muted-foreground mb-2 max-w-lg',
-                  'text-base leading-relaxed',
-                  'sm:text-lg md:text-xl',
-                )}
-              >
-                Join the premier academy for IIT, NEET, and Defence coaching.
-                Experience expert guidance, top-tier study materials, and a
-                proven track record.
-              </p>
             </div>
-            {/* Actions */}
-            <div className={cn('flex h-20 w-fit shrink-0 items-center')}>
+
+            {/* Subheading / Description */}
+            <p
+              className={cn(
+                'text-muted-foreground mt-4 max-w-xl',
+                'text-sm leading-relaxed sm:text-base md:text-lg',
+              )}
+            >
+              Join the premier academy for IIT, NEET, and Defence coaching.
+              Experience expert guidance, top-tier study materials, and a proven
+              track record.
+            </p>
+
+            {/* Social Proof / Student Avatars */}
+            <div className="mt-6 flex w-full items-center justify-center lg:justify-start">
+              <ChevronsRight className={cn('animate-pulse')} />
               <StudentTestimonials />
             </div>
-            <div className="flex flex-wrap items-center gap-4">
+
+            {/* CTA Buttons: Full width on tiny screens, inline on tablet/desktop */}
+            <div className="mt-5 flex w-full justify-center gap-3.5 sm:w-auto sm:flex-row sm:items-center">
               <button
+                type="button"
                 className={cn(
-                  'flex items-center justify-center gap-2 rounded-xl',
-                  'bg-primary text-primary-foreground px-3 py-2 text-xs font-medium',
-                  'shadow-primary/30 shadow-lg',
-                  'transition-transform duration-200',
-                  'hover:bg-primary-hover hover:scale-105',
-                  'md:px-4 md:py-3 md:text-base md:font-bold',
+                  'group flex items-center justify-center gap-2 rounded-xl px-6 py-3.5',
+                  'bg-primary text-primary-foreground text-sm font-semibold sm:text-base',
+                  'shadow-primary/25 shadow-lg transition-all duration-200',
+                  'hover:bg-primary/90 hover:shadow-primary/30 hover:-translate-y-0.5 hover:shadow-xl active:translate-y-0',
                 )}
               >
-                Enroll Now
-                <ArrowRight className="size-5" />
+                <span>Enroll Now</span>
+                <ArrowRight className="size-4.5 transition-transform duration-200 group-hover:translate-x-1" />
               </button>
 
               <button
+                type="button"
                 className={cn(
-                  'flex items-center justify-center gap-2 rounded-xl border',
-                  'border-border/50 bg-secondary px-3 py-2 text-xs',
-                  'text-secondary-foreground font-medium',
-                  'transition-colors duration-200',
-                  'hover:border-primary/40 hover:bg-secondary-hover',
-                  'md:px-4 md:py-3 md:text-base md:font-bold',
+                  'border-border/80 flex items-center justify-center rounded-xl border px-6 py-3.5',
+                  'bg-secondary/60 text-secondary-foreground text-sm font-semibold backdrop-blur-sm sm:text-base',
+                  'hover:bg-secondary hover:border-primary/40 transition-all duration-200 active:scale-[0.98]',
                 )}
               >
                 View Courses
               </button>
             </div>
           </div>
-        </div>
-
-        {/* ================================================================
-            RIGHT IMAGE
-        ================================================================= */}
-        <div className="hidden justify-center xl:flex">
+          {/* ================================================================
+              RIGHT: HERO IMAGE CONTAINER
+          ================================================================= */}
           <div
             className={cn(
-              'relative aspect-square w-full max-w-xl overflow-hidden',
-              'rounded-4xl',
+              'relative mx-auto flex w-full max-w-md items-center justify-center sm:max-w-lg lg:max-w-none',
             )}
           >
-            <Image
-              src={imageAssets.Img_09.href}
-              alt="Students succeeding"
-              fill
-              priority
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-cover"
-            />
-
-            {/* Bottom gradient */}
-            <div className="from-background/80 absolute inset-0 bg-linear-to-t via-transparent to-transparent" />
+            <div
+              className={cn(
+                'border-border/40 relative aspect-4/3 w-full overflow-hidden rounded-3xl border shadow-2xl md:aspect-video lg:aspect-square',
+                'bg-card/40 backdrop-blur-sm',
+              )}
+            >
+              <Image
+                src={'/images/Img-50.avif'}
+                alt={'collage photo'}
+                fill
+                sizes="100"
+                className={cn('')}
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import { cn } from '@/lib/utils';
 
-import Ribbon from '@/components/shared/ribbon/Ribbon';
 import NavigationMenu from '@/components/shared/navbar/NavigationMenu';
 
 import HeroSection from '@/components/shared/home/HeroSection';
@@ -12,7 +11,7 @@ import FeaturedAchievers from '@/components/shared/home/FeaturedAchievers';
 import WhyChooseUs from '@/components/shared/home/WhyChooseUs';
 import CampusSection from '@/components/shared/home/CampusSection';
 import FinalCTA from '@/components/shared/home/FinalCTA';
-
+import Ribbon from '@/components/section/ribbon/Ribbon';
 
 // import AboutSection from '@/components/shared/home/AboutSection';
 // import SuccessStats from '@/components/shared/home/SuccessStats';
@@ -45,29 +44,29 @@ export default function Home() {
       />
       <Ribbon />
       <NavigationMenu />
-      <main className="relative mx-auto w-full max-w-7xl px-1">
+      <header className={cn('relative container mx-auto w-full border-2')}>
         {/* <StudentsPage></StudentsPage> */}
         {/* Section 1 — Hero */}
         <HeroSection />
         {/* Section 2 — Academy Journey / Milestones */}
-        <OurMilestones /> OurMilestones
+        <OurMilestones />
         {/* Section 3 — Defence Forces */}
         {/* <ForcesSection /> DefenceForces */}
-        {/* Section 4 — Featured Achievers */}
-        <FeaturedAchievers /> FeaturedAchievers
-        {/* Section 5 — About Academy */}
-        <AboutSection /> AboutSection
-        {/* Section 3 — Success Statistics */}
-        <SuccessStats /> SuccessStats
-        {/* Section 6 — Explore Achievers */}
-        {/* <ExploreAchievers /> ExploreAchievers */}
-        {/* Section 8 — Why Choose Us */}
-        <WhyChooseUs /> WhyChooseUs
-        {/* Section 9 — Campus / Academy Life */}
-        <CampusSection /> CampusSection
+        FeaturedAchievers{/* Section 4 — Featured Achievers */}
+        <FeaturedAchievers />
+        AboutSection{/* Section 5 — About Academy */}
+        <AboutSection />
+        SuccessStats{/* Section 3 — Success Statistics */}
+        <SuccessStats />
+        ExploreAchievers{/* Section 6 — Explore Achievers */}
+        {/* <ExploreAchievers />  */}
+        WhyChooseUs{/* Section 8 — Why Choose Us */}
+        <WhyChooseUs />
+        CampusSection{/* Section 9 — Campus / Academy Life */}
+        <CampusSection />
         {/* Section 10 — Final CTA */}
         <FinalCTA /> FinalCTA
-      </main>
+      </header>
     </div>
   );
 }
