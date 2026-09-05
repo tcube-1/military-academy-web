@@ -209,17 +209,58 @@ export const imageAssets = Array.from(
   {} as Record<ImageKey, ImageAssetItem>,
 );
 
-export const ribbonMessages = [
-  'Admissions Open for NDA 2026 Batch – Secure Your Seat Today and Begin Your Journey Towards Serving the Nation with Confidence.',
-  'Over 1,000+ Cadets Successfully Trained with Outstanding Results in NDA, CDS, AFCAT, and SSB Selection Processes.',
-  'Learn from Experienced Defence Officers and Expert Faculty with Comprehensive Classroom Training and SSB Interview Mentorship.',
-  'Book Your Free Defence Career Counseling Session and Get Personalized Guidance to Choose the Right Entry Path into the Armed Forces.',
-  "Join India's Premier Defence Academy with World-Class Training, Modern Infrastructure, and a Proven Track Record of Success.",
-  'Complete Preparation for NDA, CDS, AFCAT, CAPF, Agniveer, and SSB Interviews Under One Trusted Defence Training Institute.',
-  'Build Leadership, Discipline, Confidence, and Physical Excellence Through Structured Defence-Oriented Training Programs.',
-  'Daily Mock Tests, Physical Fitness Sessions, Personality Development, and One-to-One Performance Analysis for Every Aspirant.',
-  "Your Dream of Wearing the Uniform Begins Here – Train with India's Most Trusted Defence Mentors and Achieve Your Goal.",
-  'Limited Seats Available for the Upcoming NDA 2026 Foundation & Target Batch – Register Now Before Admissions Close.',
+// Define the interface for the ribbon message objects
+export interface RibbonMessage {
+  message: string;
+  link: string;
+  className?: string;
+}
+
+// Array containing ONLY defence-related notifications
+export const RibbonMessages: RibbonMessage[] = [
+  {
+    message: 'UPSC NDA 2 Admit Card 2026 Out – Download your hall ticket.',
+    link: 'https://www.freejobalert.com/articles/upsc-nda-2-admit-card-2026-3066177',
+  },
+  {
+    message: 'UPSC CDS 2 Admit Card 2026 Out – Check your exam center.',
+    link: 'https://www.freejobalert.com/articles/upsc-cds-2-admit-card-2026-3066127',
+  },
+  {
+    message:
+      'DRDO CVRDE ITI Apprentice Trainees Walkin 2026 – Apply for Defense Research.',
+    link: 'https://www.freejobalert.com/articles/drdo-cvrde-iti-apprentice-trainees-recruitment-2026-walk-in-for-93-posts-3065949',
+  },
+  {
+    message: 'DRDO NPOL Junior Research Fellow Walkin 2026',
+    link: 'https://www.freejobalert.com/articles/drdo-npol-junior-research-fellow-recruitment-2026-walk-in-3065748',
+  },
+  {
+    message:
+      'BEL (Bharat Electronics Limited) Deputy Engineer Online Form 2026',
+    link: 'https://www.freejobalert.com/articles/bel-deputy-engineer-recruitment-2026-apply-online-for-14-posts-3065890',
+  },
+  {
+    message: 'BEL Apprentice Walkin 2026',
+    link: 'https://www.freejobalert.com/articles/bel-apprentice-recruitment-2026-3066146',
+  },
+  {
+    message: 'CISF ASI Paramedical Staff PST/DV Admit Card 2026',
+    link: 'https://www.freejobalert.com/articles/cisf-asi-paramedical-staff-pst-and-dv-admit-card-2026-3065692',
+  },
+  {
+    message:
+      'GSL (Goa Shipyard Limited) Trainee Project Executive Online Form 2026',
+    link: 'https://www.freejobalert.com/articles/gsl-trainee-project-executive-recruitment-2026-apply-online-for-31-posts-3066096',
+  },
+  {
+    message: 'BEML 1346 Apprentice Online Form 2026 (Defence & Aerospace)',
+    link: 'url?id=263',
+  },
+  {
+    message: 'Click here for all Police & Defence Jobs Updates',
+    link: 'url?id=7',
+  },
 ];
 
 export const contactInfo = [

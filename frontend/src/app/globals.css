@@ -64,7 +64,7 @@
   --chart-1: #1e3a8a;
   --chart-2: #d4a017;
   --chart-3: #047857;
-  --chart-4: #0f766e;
+  --chart-4: #e11d48;
   --chart-5: #475569;
 
   /* Sidebar */
@@ -169,10 +169,11 @@
   --chart-1: #3b82f6;
   --chart-2: #f4c542;
   --chart-3: #10b981;
-  --chart-4: #14b8a6;
+  --chart-4: #e11d48; /* Red-Rose */
   --chart-5: #94a3b8;
 
   /* Sidebar */
+
   --sidebar: #020617;
   --sidebar-foreground: #f8fafc;
 
@@ -295,5 +296,18 @@
 
   to {
     transform: translateX(-100%);
+  }
+}
+
+/* keyframe or animations */
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

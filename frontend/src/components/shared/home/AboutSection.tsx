@@ -67,11 +67,12 @@ export default function AboutSection({ className }: { className?: string }) {
           <div className="border-border relative mx-auto aspect-square w-full max-w-xl overflow-hidden rounded-2xl border shadow-lg md:aspect-video lg:ml-auto lg:aspect-square">
             {/* Using the reference image precisely as requested */}
             <Image
-              src={imageAssets.Img_03.href}
+              src={'images/img/Img_20.png'}
               alt="Defence Academy Cadets in Training"
               fill
               className="object-cover transition-transform duration-700 hover:scale-105"
               priority
+              unoptimized
             />
 
             {/* Gradient Overlay for better contrast */}

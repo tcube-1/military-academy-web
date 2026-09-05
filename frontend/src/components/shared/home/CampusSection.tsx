@@ -20,7 +20,7 @@ const facilitiesData: Facility[] = [
     description:
       'Our 10-acre expansive ground features complete obstacle courses designed exactly to SSB testing standards.',
     icon: Dumbbell,
-    imageUrl: '/placeholder-campus-1.jpg', // Replace with real image
+    imageUrl: '/images/img/Img_15.png', // Replace with real image
     // Make the first item larger on large screens for the bento effect
     className: 'lg:col-span-2 lg:row-span-2 min-h-[300px] lg:min-h-[500px]',
   },
@@ -30,7 +30,7 @@ const facilitiesData: Facility[] = [
     description:
       '24/7 access to defence journals, previous papers, and reference materials.',
     icon: BookOpen,
-    imageUrl: '/placeholder-campus-2.jpg',
+    imageUrl: '/images/img/Img_37.png',
     className: 'min-h-[250px]',
   },
   {
@@ -39,7 +39,7 @@ const facilitiesData: Facility[] = [
     description:
       'Disciplined, secure, and hygienic living quarters ensuring a proper routine.',
     icon: Home,
-    imageUrl: '/placeholder-campus-3.jpg',
+    imageUrl: '/images/img/Img_34.png',
     className: 'min-h-[250px]',
   },
   {
@@ -48,7 +48,7 @@ const facilitiesData: Facility[] = [
     description:
       'Dietician-planned meals to build stamina and maintain optimal physical fitness.',
     icon: Utensils,
-    imageUrl: '/placeholder-campus-4.jpg',
+    imageUrl: '/images/img/Img_43.png',
     className: 'lg:col-span-3 min-h-[250px]', // Spans full width on bottom row
   },
 ];

@@ -1,0 +1,16 @@
+{
+  "name": "defence-academy-proto",
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -k -n FRONTEND,BACKEND \"npm --prefix frontend run dev\" \"npm --prefix server run dev\"",
+    "start:live": "concurrently -k -n FRONTEND,BACKEND,CLOUDFLARE \"npm --prefix frontend run dev:live\" \"npm --prefix server run dev:live\" \"npm --prefix server run live\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}

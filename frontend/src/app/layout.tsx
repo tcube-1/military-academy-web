@@ -5,6 +5,9 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import { BreakpointIndicator } from '@/components/provider/BreakPoints';
 import AppTheme from '@/components/provider/AppTheme';
+import Ribbon from '@/components/section/ribbon/Ribbon';
+import NavigationMenu from '@/components/shared/navbar/NavigationMenu';
+import QueryProvider from '@/components/provider/QueryProvider';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -32,6 +35,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
+
       className={cn(
         'h-full',
         'antialiased',
@@ -41,8 +45,14 @@ export default function RootLayout({
       )}
     >
       <body className="relative flex min-h-full flex-col">
-        <AppTheme>{children}</AppTheme>
-        <BreakpointIndicator />
+        <QueryProvider>
+          <AppTheme>
+            <Ribbon />
+            <NavigationMenu />
+            <BreakpointIndicator />
+            <main className={cn('relative mt-26')}>{children}</main>
+          </AppTheme>
+        </QueryProvider>
       </body>
     </html>
   );

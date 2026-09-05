@@ -10,7 +10,7 @@ import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures';
 import { cn } from '@/lib/utils';
 import useEmblaCarousel from 'embla-carousel-react';
 
-interface RibbonScrollWrapperProps extends EmblaOptionsType {
+export interface ScrollWrapperProps extends EmblaOptionsType {
   children?: React.ReactNode;
   className?: string;
   scrollSpeed?: number;
@@ -21,18 +21,22 @@ function RibbonScrollWrapper({
   className,
   scrollSpeed = 1,
   ...options
-}: RibbonScrollWrapperProps) {
+}: ScrollWrapperProps) {
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       dragFree: true,
       align: 'start',
       duration: 3000,
+      loop: true,
       ...options,
     },
     [
       AutoScroll({
         speed: scrollSpeed,
-        stopOnInteraction: true,
+        startDelay: 500, // Load ayina 500ms ki start avuthundi
+        stopOnInteraction: false, // User drag chesinappudu automatic ga handle avvadaniki
+        stopOnFocusIn: true,
+        stopOnMouseEnter: true,
       }),
       WheelGesturesPlugin(),
     ],

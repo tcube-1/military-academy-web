@@ -1,5 +1,6 @@
 import { cn } from '@/lib/utils';
 import { ArrowRight, Phone, Shield } from 'lucide-react';
+import Link from 'next/link';
 
 export default function FinalCTA({ className }: { className?: string }) {
   return (
@@ -15,7 +16,7 @@ export default function FinalCTA({ className }: { className?: string }) {
         <div className="bg-primary border-primary-hover relative overflow-hidden rounded-3xl border px-6 py-12 text-center shadow-xl md:px-12 md:py-16 lg:p-20">
           {/* Subtle Background Glow / Graphic Effect */}
           <div
-            className="bg-accent/10 pointer-events-none absolute top-0 left-1/2 h-[400px] w-[800px] -translate-x-1/2 rounded-full blur-[100px]"
+            className="bg-accent/10 pointer-events-none absolute top-0 left-1/2 h-100 w-200 -translate-x-1/2 rounded-full blur-[100px]"
             aria-hidden="true"
           />
 
@@ -47,16 +48,20 @@ export default function FinalCTA({ className }: { className?: string }) {
             {/* Action Buttons */}
             <div className="flex w-full flex-col items-center justify-center gap-4 sm:w-auto sm:flex-row">
               {/* Primary Button (Gold) */}
-              <button className="bg-accent text-accent-foreground hover:bg-accent-hover inline-flex w-full items-center justify-center gap-2 rounded-xl px-8 py-4 text-lg font-bold shadow-md transition-all duration-300 hover:scale-105 sm:w-auto">
-                Enroll Now
-                <ArrowRight className="h-5 w-5" aria-hidden="true" />
-              </button>
+              <Link href={`auth/signin`}>
+                <button className="bg-accent text-accent-foreground hover:bg-accent-hover inline-flex w-full items-center justify-center gap-2 rounded-xl px-8 py-4 text-lg font-bold shadow-md transition-all duration-300 hover:scale-105 sm:w-auto">
+                  Enroll Now
+                  <ArrowRight className="h-5 w-5" aria-hidden="true" />
+                </button>
+              </Link>
 
               {/* Secondary Button (Outline) */}
-              <button className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 inline-flex w-full items-center justify-center gap-2 rounded-xl border-2 bg-transparent px-8 py-4 text-lg font-semibold transition-colors duration-300 sm:w-auto">
-                <Phone className="h-5 w-5" aria-hidden="true" />
-                Request a Callback
-              </button>
+              <Link href={`contact`}>
+                <button className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 inline-flex w-full items-center justify-center gap-2 rounded-xl border-2 bg-transparent px-8 py-4 text-lg font-semibold transition-colors duration-300 sm:w-auto">
+                  <Phone className="h-5 w-5" aria-hidden="true" />
+                  Request a Callback
+                </button>
+              </Link>
             </div>
 
             {/* Trust Indicator / Disclaimer */}

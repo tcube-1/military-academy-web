@@ -27,7 +27,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 'f2',
-    title: 'SSB Interview Mastery',
+    title: 'Defence Ground Mastery',
     description:
       'Specialized training modules focused on psychological tests, GTO tasks, and personal interviews for SSB.',
     icon: Target,

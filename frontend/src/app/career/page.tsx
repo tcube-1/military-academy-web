@@ -1,7 +1,12 @@
+import { ProjectAcceptedCard } from '@/components/section/ProjectAccpectCard';
 import React from 'react';
 
 function page() {
-  return <div>page</div>;
+  return (
+    <div>
+      <ProjectAcceptedCard />
+    </div>
+  );
 }
 
 export default page;

@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1787751232828,
+      "tag": "0000_silly_mach_iv",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1787752794422,
+      "tag": "0001_chemical_shen",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1787752865503,
+      "tag": "0002_regular_silhouette",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1787753976816,
+      "tag": "0003_careless_hellion",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788517562653,
+      "tag": "0004_careful_the_liberteens",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788595251396,
+      "tag": "0005_normal_mariko_yashida",
+      "breakpoints": true
+    }
+  ]
+}

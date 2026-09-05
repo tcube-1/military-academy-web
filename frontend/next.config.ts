@@ -28,6 +28,11 @@ const nextConfig: NextConfig = {
         hostname: 'cdn.jsdelivr.net',
         pathname: '/**', // JSDelivr CDN images allow chestundi
       },
+      {
+        protocol: 'https',
+        hostname: 'i.pravatar.cc',
+        pathname: '/**', // JSDelivr CDN images allow chestundi
+      },
     ],
   },
 };
