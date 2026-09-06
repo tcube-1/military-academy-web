@@ -97,9 +97,9 @@ export default function ZoomWrapper({
         <Image
           src={src}
           alt={alt}
+          priority={true}
           fill
-          priority
-          sizes="(max-width: 1024px) 100vw, 500px"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
           className="pointer-events-none object-cover"
         />
 
@@ -144,8 +144,9 @@ export default function ZoomWrapper({
             <Image
               src={src}
               alt={`${alt} zoomed preview`}
+              priority={true}
               fill
-              sizes="900px"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
               className="object-cover"
             />
           </div>

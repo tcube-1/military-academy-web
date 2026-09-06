@@ -44,8 +44,9 @@ export default function SocialIconsMoblie() {
               <Image
                 src={social.href}
                 alt={social.name}
-                width={24}
-                height={24}
+                priority={true}
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
                 className="size-7 rounded-full bg-white p-0.5 shadow-sm"
               />
             </a>

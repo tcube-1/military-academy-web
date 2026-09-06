@@ -41,8 +41,9 @@ export const AchieverCard = ({ student }: AchieverCardProps) => {
                 <Image
                   src={student.force.logoUrl}
                   alt={student.force.name}
-                  width={600}
-                  height={600}
+                  priority={true}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
                   className="size-full object-contain"
                 />
               </div>
@@ -107,9 +108,9 @@ export const AchieverCard = ({ student }: AchieverCardProps) => {
                 <Image
                   src={student.avatarUrl}
                   alt={student.fullName}
-                  width={600}
-                  height={600}
-                  sizes="128px"
+                  priority={true}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
                   className="size-full object-cover"
                 />
               </div>

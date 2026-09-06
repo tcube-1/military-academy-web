@@ -1,11 +1,9 @@
 import { ProjectAcceptedCard } from '@/components/section/ProjectAccpectCard';
-
-import { cn } from '@/lib/utils';
 import React from 'react';
 
 function page() {
   return (
-    <div className={cn('')}>
+    <div>
       <ProjectAcceptedCard />
     </div>
   );

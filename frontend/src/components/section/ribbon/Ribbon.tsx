@@ -5,8 +5,10 @@ import { cn } from '@/lib/utils';
 import { ChevronRight } from 'lucide-react';
 import RibbonWrapper from './RibbonWrapper';
 import Link from 'next/link';
-
-export default function Ribbon({ className }: RibbonMessage) {
+interface RibbonProps {
+  className?: string;
+}
+export default function Ribbon({ className }: RibbonProps) {
   return (
     <header
       className={cn(

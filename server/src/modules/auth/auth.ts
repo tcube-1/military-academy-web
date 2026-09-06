@@ -39,7 +39,7 @@ export const auth = betterAuth({
     },
   }),
 
-  baseURL: process.env.BETTER_AUTH_URL || 'http://localhost:5000',
+  baseURL: process.env.BETTER_AUTH_URL || 'https://api.sphereline.in',
   basePath: '/api/auth',
   secret: process.env.BETTER_AUTH_SECRET!,
 
@@ -59,7 +59,11 @@ export const auth = betterAuth({
     cookiePrefix: 'defence_proto',
   },
     account: {
-    storeStateStrategy: 'database',
+      storeStateStrategy: 'cookie',
+    accountLinking: {
+      enabled: true,
+      trustedProviders: ['google'], // Google nundi vachina account ni auto-link cheyataniki allow chesthundi
+    },
   },
 
   emailAndPassword: {
@@ -69,11 +73,26 @@ export const auth = betterAuth({
   emailVerification: {
     autoSignInAfterVerification: true,
   },
-
+  databaseHooks: {
+      user: {
+        create: {
+          before: async (user) => {
+            // Google provider nundi vachina emails ni auto-verify chesthundhi
+            return {
+              data: {
+                ...user,
+                emailVerified: true,
+              },
+            };
+          },
+        },
+      },
+    },
   socialProviders: {
     google: {
       clientId: process.env.GOOGLE_CLIENT_ID!,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+      disableIdToken: false,
     },
   },
 });

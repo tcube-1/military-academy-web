@@ -68,12 +68,14 @@ const FacilityCard = ({ facility }: { facility: Facility }) => {
       <Image
         src={facility.imageUrl}
         alt={facility.title}
+        priority={true}
         fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
         className="object-cover transition-transform duration-700 group-hover:scale-105"
       />
 
-      {/* Gradient overlay - ensures text is readable regardless of image brightness */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent transition-opacity duration-300 group-hover:from-black/90" />
+      {/* linear overlay - ensures text is readable regardless of image brightness */}
+      <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-transparent transition-opacity duration-300 group-hover:from-black/90" />
 
       {/* Content positioning */}
       <div className="relative z-10 flex translate-y-4 transform flex-col gap-3 p-6 transition-transform duration-300 group-hover:translate-y-0 md:p-8">

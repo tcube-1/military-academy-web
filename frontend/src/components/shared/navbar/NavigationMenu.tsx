@@ -17,6 +17,7 @@ interface NavLinkItem {
 }
 
 const NAV_LINKS: readonly NavLinkItem[] = [
+  { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
   { name: 'Courses', href: '/courses' },
   { name: 'Gallery', href: '/gallery' },

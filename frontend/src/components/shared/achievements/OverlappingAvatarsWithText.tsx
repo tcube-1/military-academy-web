@@ -192,9 +192,10 @@ export default function OverlappingAvatarsWithText() {
                 <Image
                   src={student.image}
                   alt={student.name}
-                  loading="eager"
+                  priority={true}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
                   placeholder="blur"
-                  sizes="56px"
                   draggable={false}
                   className="pointer-events-none size-full object-cover"
                 />

@@ -17,6 +17,7 @@ const nextConfig: NextConfig = {
     'dev.sphereline.in',
   ],
   images: {
+    minimumCacheTTL: 60 * 60 * 24 * 30,
     remotePatterns: [
       {
         protocol: 'https',

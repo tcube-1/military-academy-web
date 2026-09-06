@@ -2,7 +2,6 @@ import { cn } from '@/lib/utils';
 import { studentDataType } from '@/utils/types';
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState } from 'react';
 
 interface WebAchieverCardProps {
   student: studentDataType;
@@ -62,7 +61,9 @@ export default function WebAchieverCard({
               <Image
                 src={'images/dda-logo-1.png'}
                 alt={student.force.name}
+                priority={true}
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
                 unoptimized
                 className="object-contain"
               />
@@ -86,8 +87,9 @@ export default function WebAchieverCard({
               <Image
                 src={student.force.logoUrl}
                 alt={student.force.name}
+                priority={true}
                 fill
-                unoptimized
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
                 className="object-contain"
               />
             </div>
@@ -103,8 +105,9 @@ export default function WebAchieverCard({
               <Image
                 src={student.avatarUrl}
                 alt={student.fullName}
+                priority={true}
                 fill
-                unoptimized
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
                 className="object-cover grayscale transition-all duration-500 group-hover:grayscale-0"
               />
             </div>

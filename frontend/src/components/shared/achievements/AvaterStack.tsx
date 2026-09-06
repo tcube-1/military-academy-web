@@ -2,11 +2,11 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
-
+import studentsData from '../../../../data/Defence_Academy_1000_Student_Objects.json';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { cn } from '@/lib/utils';
 import { ChevronsRight } from 'lucide-react';
-import { featuredStudents } from '../home/FeatureCard';
+import { studentDataType } from '@/utils/types';
 
 // Dummy interface, adjust according to your project
 interface Student {
@@ -14,7 +14,9 @@ interface Student {
   fullName: string;
   avatarUrl: string;
 }
+const allStudents = studentsData as studentDataType[];
 
+export const featuredStudents = allStudents.slice(6, 50);
 const UP_MOVE_THRESHOLD = 25; // Minimum px to move UP for navigation
 
 export default function AvatarStack() {

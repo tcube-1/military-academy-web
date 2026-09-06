@@ -24,9 +24,9 @@ export const ProjectAcceptedCard: React.FC<ProjectStatusBadgeProps> = ({
   return (
     <Link
       href={targetUrl}
-      className="group relative flex h-screen items-center justify-between gap-4 overflow-hidden border border-emerald-500/30 bg-emerald-950/20 p-4 shadow-lg backdrop-blur-md transition-all duration-300 hover:border-emerald-400 hover:bg-emerald-900/30 hover:shadow-emerald-900/20"
+      className="group relative flex h-screen items-center justify-between gap-4 overflow-hidden rounded-2xl border border-emerald-500/30 bg-emerald-950/20 p-4 shadow-lg backdrop-blur-md transition-all duration-300 hover:border-emerald-400 hover:bg-emerald-900/30 hover:shadow-emerald-900/20"
     >
-      <div className="bg-muted relative -top-12 mx-auto h-[60%] w-full max-w-4xl overflow-hidden p-5 shadow-2xl transition-all duration-500">
+      <div className="bg-muted relative -top-12 mx-auto h-[60%] w-full max-w-4xl overflow-hidden rounded-3xl p-5 shadow-2xl transition-all duration-500">
         {/* 1. Outer Linear Gradient Border */}
         <div className="absolute inset-0 rounded-3xl bg-linear-to-b from-emerald-400/40 via-slate-700/20 to-teal-500/30" />
 
@@ -44,7 +44,7 @@ export const ProjectAcceptedCard: React.FC<ProjectStatusBadgeProps> = ({
 
             <div className="inline-flex items-center gap-1.5 text-xs font-medium text-slate-400">
               <Sparkles className="h-3.5 w-3.5 text-emerald-400" />
-              <span>Full Development Ready</span>
+              <span>ProtoType is Ready</span>
             </div>
           </div>
 

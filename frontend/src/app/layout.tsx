@@ -8,6 +8,7 @@ import AppTheme from '@/components/provider/AppTheme';
 import Ribbon from '@/components/section/ribbon/Ribbon';
 import NavigationMenu from '@/components/shared/navbar/NavigationMenu';
 import QueryProvider from '@/components/provider/QueryProvider';
+import { RibbonMessages } from '@/lib/assets';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -47,7 +48,7 @@ export default function RootLayout({
       <body className="relative flex min-h-full flex-col">
         <QueryProvider>
           <AppTheme>
-            <Ribbon />
+            <Ribbon  />
             <NavigationMenu />
             <BreakpointIndicator />
             <main className={cn('relative mt-26')}>{children}</main>

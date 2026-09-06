@@ -69,9 +69,10 @@ export default function AboutSection({ className }: { className?: string }) {
             <Image
               src={'images/img/Img_20.png'}
               alt="Defence Academy Cadets in Training"
+              priority={true}
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
               className="object-cover transition-transform duration-700 hover:scale-105"
-              priority
               unoptimized
             />
 
