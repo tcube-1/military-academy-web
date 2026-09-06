@@ -1,10 +1,13 @@
 import * as React from 'react';
-import { RibbonMessage, RibbonMessages } from '@/lib/assets';
 
 import { cn } from '@/lib/utils';
 import { ChevronRight } from 'lucide-react';
 import RibbonWrapper from './RibbonWrapper';
 import Link from 'next/link';
+import {
+  RibbonMessage,
+  RibbonMessages,
+} from '@/components/shared/notification/JobNotification';
 interface RibbonProps {
   className?: string;
 }
@@ -35,7 +38,7 @@ export default function Ribbon({ className }: RibbonProps) {
                 />
                 <span>{item.message}</span>
                 <Link
-                  href={item.link}
+                  href={`/notifications?id=${item.id}`}
                   className="ml-3 text-green-400 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"

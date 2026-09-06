@@ -216,53 +216,6 @@ export interface RibbonMessage {
   className?: string;
 }
 
-// Array containing ONLY defence-related notifications
-export const RibbonMessages: RibbonMessage[] = [
-  {
-    message: 'UPSC NDA 2 Admit Card 2026 Out – Download your hall ticket.',
-    link: 'https://www.freejobalert.com/articles/upsc-nda-2-admit-card-2026-3066177',
-  },
-  {
-    message: 'UPSC CDS 2 Admit Card 2026 Out – Check your exam center.',
-    link: 'https://www.freejobalert.com/articles/upsc-cds-2-admit-card-2026-3066127',
-  },
-  {
-    message:
-      'DRDO CVRDE ITI Apprentice Trainees Walkin 2026 – Apply for Defense Research.',
-    link: 'https://www.freejobalert.com/articles/drdo-cvrde-iti-apprentice-trainees-recruitment-2026-walk-in-for-93-posts-3065949',
-  },
-  {
-    message: 'DRDO NPOL Junior Research Fellow Walkin 2026',
-    link: 'https://www.freejobalert.com/articles/drdo-npol-junior-research-fellow-recruitment-2026-walk-in-3065748',
-  },
-  {
-    message:
-      'BEL (Bharat Electronics Limited) Deputy Engineer Online Form 2026',
-    link: 'https://www.freejobalert.com/articles/bel-deputy-engineer-recruitment-2026-apply-online-for-14-posts-3065890',
-  },
-  {
-    message: 'BEL Apprentice Walkin 2026',
-    link: 'https://www.freejobalert.com/articles/bel-apprentice-recruitment-2026-3066146',
-  },
-  {
-    message: 'CISF ASI Paramedical Staff PST/DV Admit Card 2026',
-    link: 'https://www.freejobalert.com/articles/cisf-asi-paramedical-staff-pst-and-dv-admit-card-2026-3065692',
-  },
-  {
-    message:
-      'GSL (Goa Shipyard Limited) Trainee Project Executive Online Form 2026',
-    link: 'https://www.freejobalert.com/articles/gsl-trainee-project-executive-recruitment-2026-apply-online-for-31-posts-3066096',
-  },
-  {
-    message: 'BEML 1346 Apprentice Online Form 2026 (Defence & Aerospace)',
-    link: 'url?id=263',
-  },
-  {
-    message: 'Click here for all Police & Defence Jobs Updates',
-    link: 'url?id=7',
-  },
-];
-
 export const contactInfo = [
   {
     label: 'Phone',

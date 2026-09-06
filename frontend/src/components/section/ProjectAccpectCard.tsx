@@ -51,7 +51,7 @@ export const ProjectAcceptedCard: React.FC<ProjectStatusBadgeProps> = ({
           {/* Heading & Pitch */}
           <div className="mt-6 space-y-3">
             <h2 className="text-muted-foreground text-2xl font-extrabold tracking-tight sm:text-3xl">
-              Project Accepted &rarr;{' '}
+              After Project Accepted &rarr;{' '}
               <span className="bg-linear-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
                 Full-Scale Architecture
               </span>

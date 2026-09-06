@@ -27,7 +27,7 @@ const forcesData = [
     logoUrl: '/logos/army-logo.png',
     description: 'Serving with courage, discipline and dedication',
     totalStudents: '1,040+',
-    jobLink: '/jobs/army', // Example Link
+    jobLink: '/auth/signup', // Example Link
     categories: [
       { name: 'GD', count: '780+' },
       { name: 'NURSING', count: '260+' },
@@ -39,7 +39,7 @@ const forcesData = [
     logoUrl: '/logos/navy-logo.png',
     description: 'Building careers with courage and commitment',
     totalStudents: '610+',
-    jobLink: '/jobs/navy', // Example Link
+    jobLink: '/auth/signup', // Example Link
     categories: [
       { name: 'MR', count: '320+' },
       { name: 'SSR', count: '290+' },
@@ -51,7 +51,7 @@ const forcesData = [
     logoUrl: '/logos/airforce-logo.png',
     description: 'Preparing aspirants to rise above the ordinary',
     totalStudents: '350+',
-    jobLink: '/jobs/airforce', // Example Link
+    jobLink: '/auth/signup', // Example Link
     categories: [
       { name: 'GD', count: '180+' },
       { name: 'AIRMEN', count: '170+' },
@@ -190,7 +190,7 @@ export default function OurMilestones(): React.JSX.Element {
           </p> */}
         </div>
         {/* 3 Cards Grid Layout */}
-        <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-3 lg:gap-8">
+        <div className="grid w-full grid-cols-1 place-items-center gap-6 md:grid-cols-3 md:items-stretch lg:gap-8">
           {forcesData.map((force) => {
             const isActive = activeTab === force.id;
             return (
@@ -204,6 +204,7 @@ export default function OurMilestones(): React.JSX.Element {
                 )}
               >
                 <DefenceForceCard
+                  id={force.id}
                   forceName={force.forceName}
                   logoUrl={force.logoUrl}
                   description={force.description}

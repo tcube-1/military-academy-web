@@ -3,8 +3,7 @@
 import React from 'react';
 import { EmblaOptionsType } from 'embla-carousel';
 import AutoScroll from 'embla-carousel-auto-scroll';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+
 import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures';
 
 import { cn } from '@/lib/utils';

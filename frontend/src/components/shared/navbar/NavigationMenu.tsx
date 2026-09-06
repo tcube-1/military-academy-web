@@ -17,13 +17,13 @@ interface NavLinkItem {
 }
 
 const NAV_LINKS: readonly NavLinkItem[] = [
-  { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
   { name: 'Courses', href: '/courses' },
   { name: 'Gallery', href: '/gallery' },
   { name: 'Notifications', href: '/notifications' },
   { name: 'Career', href: '/career' },
   { name: 'Contact', href: '/contact' },
+  { name: 'Profile', href: '/profile' },
 ];
 
 export default function NavigationMenu({
@@ -84,8 +84,8 @@ export default function NavigationMenu({
             >
               <div className="relative flex h-[85%] w-fit shrink-0 items-center justify-center overflow-hidden rounded-sm bg-white">
                 <Image
-                  src="/images/logo.png"
-                  alt="Tejas Educational Institution Logo"
+                  src="/images/dda-logo-1.png"
+                  alt="Delhi Educational Institution Logo"
                   width={80}
                   height={80}
                   priority

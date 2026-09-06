@@ -8,7 +8,6 @@ import AppTheme from '@/components/provider/AppTheme';
 import Ribbon from '@/components/section/ribbon/Ribbon';
 import NavigationMenu from '@/components/shared/navbar/NavigationMenu';
 import QueryProvider from '@/components/provider/QueryProvider';
-import { RibbonMessages } from '@/lib/assets';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -24,7 +23,7 @@ const bebasNeue = Bebas_Neue({
 
 export const metadata: Metadata = {
   title: 'SphereLine',
-  description: 'Devloped by sphereline solutions',
+  description: 'Devloped by sphereline',
 };
 
 export default function RootLayout({
@@ -48,9 +47,9 @@ export default function RootLayout({
       <body className="relative flex min-h-full flex-col">
         <QueryProvider>
           <AppTheme>
-            <Ribbon  />
+            <Ribbon />
             <NavigationMenu />
-            <BreakpointIndicator />
+            {/* <BreakpointIndicator /> */}
             <main className={cn('relative mt-26')}>{children}</main>
           </AppTheme>
         </QueryProvider>
